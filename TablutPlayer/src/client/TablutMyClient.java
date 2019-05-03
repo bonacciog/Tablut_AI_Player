@@ -53,12 +53,7 @@ public class TablutMyClient extends TablutClient {
 			System.out.println("Current state:");
 			state = this.getCurrentState();
 			System.out.println(state.toString());
-			
-					// CODICE COPIATO DAL CLIENTE DEI PROF, PERCHE' DORME UN MINUTO? COL CAZZO
-			/* try { 
-				Thread.sleep(1000);
-			} catch (InterruptedException e) {
-			} */
+
 			
 			if (this.getPlayer().equals(Turn.WHITE)) {
 					// Sono WHITE ed è il mio turno
