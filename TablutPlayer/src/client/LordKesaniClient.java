@@ -61,7 +61,7 @@ public class LordKesaniClient extends TablutClient {
 
 				if (this.getCurrentState().getTurn().equals(StateTablut.Turn.WHITE)) {
 					if (this.getCurrentState().getTurn().equals(StateTablut.Turn.WHITE)) {
-						// Raccolgo le posizioni delle mie pedine in pawns e le posizioni vuote in empty
+						/*// Raccolgo le posizioni delle mie pedine in pawns e le posizioni vuote in empty
 
 						int[] buf;
 						for (int i = 0; i < state.getBoard().length; i++) {
@@ -80,7 +80,7 @@ public class LordKesaniClient extends TablutClient {
 								}
 							}
 						}
-						
+						*/
 						Action a = null;
 						/*int[] selected = null;
 
@@ -149,7 +149,7 @@ public class LordKesaniClient extends TablutClient {
 
 				if (this.getCurrentState().getTurn().equals(StateTablut.Turn.BLACK)) {
 					// Raccolgo le posizioni delle mie pedine in pawns e le posizioni vuote in empty
-
+					/*
 					int[] buf;
 					for (int i = 0; i < state.getBoard().length; i++) {
 						for (int j = 0; j < state.getBoard().length; j++) {
@@ -166,6 +166,7 @@ public class LordKesaniClient extends TablutClient {
 							}
 						}
 					}
+					*/
 					
 					Action a = null;
 					/*int[] selected = null;
