@@ -13,9 +13,9 @@ import domain.State;
 import domain.State.Turn;
 import domain.StateTablut;
 
-public class TablutAIClient extends TablutClient {
+public class LordKesaniClient extends TablutClient {
 
-	public TablutAIClient(String player, String name) throws UnknownHostException, IOException {
+	public LordKesaniClient(String player, String name) throws UnknownHostException, IOException {
 		super(player, name);
 		// TODO Auto-generated constructor stub
 	}
