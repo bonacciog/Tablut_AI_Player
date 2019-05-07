@@ -3,6 +3,11 @@ package domain;
 
 import java.io.Serializable;
 
+import aima.core.agent.Action;
+import aima.core.search.framework.evalfunc.HeuristicFunction;
+import aima.core.search.framework.problem.GoalTest;
+import aima.core.search.framework.problem.StepCostFunction;
+
 
 /**
  * This class represents a state of a match of Tablut (classical or second
@@ -11,7 +16,7 @@ import java.io.Serializable;
  * @author A.Piretti
  * 
  */
-public class StateTablut extends State implements Serializable {
+public class StateTablut extends State implements Serializable, GoalTest, StepCostFunction, HeuristicFunction  {
 
 	private static final long serialVersionUID = 1L;
 
@@ -104,6 +109,24 @@ public class StateTablut extends State implements Serializable {
 		if (this.turn != other.turn)
 			return false;
 		return true;
+	}
+
+	@Override
+	public double h(Object arg0) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public double c(Object arg0, Action arg1, Object arg2) {
+		// Ogni mossa ha lo stesso costo (PER ORA)
+		return 1.0;
+	}
+
+	@Override
+	public boolean isGoalState(Object arg0) {
+		// TODO Auto-generated method stub
+		return false;
 	}
 
 }

@@ -5,6 +5,10 @@ package domain;
 import java.lang.reflect.Constructor;
 import java.lang.reflect.InvocationTargetException;
 
+import aima.core.search.framework.evalfunc.HeuristicFunction;
+import aima.core.search.framework.problem.GoalTest;
+import aima.core.search.framework.problem.StepCostFunction;
+
 
 /**
  * Abstract class for a State of a game We have a representation of the board
@@ -13,7 +17,7 @@ import java.lang.reflect.InvocationTargetException;
  * @author Andrea Piretti
  *
  */
-public abstract class State {
+public abstract class State{
 
 	/**
 	 * Turn represent the player that has to move or the end of the game(A win
