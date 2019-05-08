@@ -3,10 +3,13 @@ package domain;
 
 import java.io.Serializable;
 
+import ai.HeuristicEvaluator;
+import ai.HeuristicEvaluatorFactory;
 import aima.core.agent.Action;
 import aima.core.search.framework.evalfunc.HeuristicFunction;
 import aima.core.search.framework.problem.GoalTest;
 import aima.core.search.framework.problem.StepCostFunction;
+
 
 
 /**
@@ -16,7 +19,7 @@ import aima.core.search.framework.problem.StepCostFunction;
  * @author A.Piretti
  * 
  */
-public class StateTablut extends State implements Serializable, GoalTest, StepCostFunction, HeuristicFunction  {
+public class StateTablut extends State implements Serializable,GoalTest,StepCostFunction,HeuristicFunction {
 
 	private static final long serialVersionUID = 1L;
 
@@ -63,7 +66,7 @@ public class StateTablut extends State implements Serializable, GoalTest, StepCo
 		this.board[4][7] = Pawn.BLACK;
 
 	}
-
+	
 	public StateTablut clone() {
 		StateTablut result = new StateTablut();
 
@@ -81,7 +84,6 @@ public class StateTablut extends State implements Serializable, GoalTest, StepCo
 		return result;
 	}
 	
-
 	@Override
 	public boolean equals(Object obj) {
 		if (this == obj)
@@ -112,21 +114,23 @@ public class StateTablut extends State implements Serializable, GoalTest, StepCo
 	}
 
 	@Override
-	public double h(Object arg0) {
-		// TODO Auto-generated method stub
-		return 0;
-	}
-
-	@Override
-	public double c(Object arg0, Action arg1, Object arg2) {
-		// Ogni mossa ha lo stesso costo (PER ORA)
-		return 1.0;
-	}
-
-	@Override
 	public boolean isGoalState(Object arg0) {
 		// TODO Auto-generated method stub
 		return false;
 	}
 
+	@Override
+	public double h(Object arg0) {
+		if(!(arg0 instanceof State))
+			throw new IllegalArgumentException();
+		State state = (State) arg0;
+		HeuristicEvaluator herEval = HeuristicEvaluatorFactory.getHeuristicEvaluator(state.getTurn());
+		return herEval.getEvaluation(state);
+	}
+
+	@Override
+	public double c(Object arg0, Action arg1, Object arg2) {
+		// TODO Auto-generated method stub
+		return 1.0;
+	}
 }
