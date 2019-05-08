@@ -5,10 +5,6 @@ package domain;
 import java.lang.reflect.Constructor;
 import java.lang.reflect.InvocationTargetException;
 
-import aima.core.search.framework.evalfunc.HeuristicFunction;
-import aima.core.search.framework.problem.GoalTest;
-import aima.core.search.framework.problem.StepCostFunction;
-
 
 /**
  * Abstract class for a State of a game We have a representation of the board

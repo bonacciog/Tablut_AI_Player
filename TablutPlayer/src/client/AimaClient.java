@@ -3,17 +3,40 @@ package client;
 
 import java.io.IOException;
 import java.net.UnknownHostException;
+
+import aima.core.search.adversarial.AlphaBetaSearch;
+import domain.Action;
+import domain.AimaGameAshtonTablut;
 import domain.State;
 import domain.State.Turn;
 import domain.StateTablut;
 
-public class LKClient extends TablutClient {
+public class AimaClient extends TablutClient {
 
-	public LKClient(String player, String name) throws UnknownHostException, IOException {
+	public AimaClient(String player, String name) throws UnknownHostException, IOException {
 		super(player, name);
 		// TODO Auto-generated constructor stub
 	}
+	public static void main(String[] args) throws UnknownHostException, IOException, ClassNotFoundException {
+		String role = "";
+		String name = "Aima";
+		
+		if (args.length < 1) {
+			System.out.println("You must specify which player you are (WHITE or BLACK)");
+			System.exit(-1);
+		} else {
+			System.out.println(args[0]);
+			role = (args[0]);
+		}
+		if (args.length == 2) {
+			name = args[2];
+		}
+		System.out.println("Selected client: " + args[0]);
 
+		AimaClient client = new AimaClient(role, name);
+		client.run();
+	}
+	
 	@Override
 	public void run() {
 
@@ -49,7 +72,7 @@ public class LKClient extends TablutClient {
 			if (this.getPlayer().equals(Turn.WHITE)) {
 				// è il mio turno
 				if (this.getCurrentState().getTurn().equals(StateTablut.Turn.WHITE)) {
-					
+					this.makeDecisionAndSend(state);
 				}
 				// è il turno dell'avversario
 				else if (state.getTurn().equals(StateTablut.Turn.BLACK)) {
@@ -75,8 +98,7 @@ public class LKClient extends TablutClient {
 
 				// è il mio turno
 				if (this.getCurrentState().getTurn().equals(StateTablut.Turn.BLACK)) {
-					
-
+					this.makeDecisionAndSend(state);
 				}
 
 				else if (state.getTurn().equals(StateTablut.Turn.WHITE)) {
@@ -95,6 +117,18 @@ public class LKClient extends TablutClient {
 			}
 
 
+		}
+	}
+	private void makeDecisionAndSend(State state) {
+		AlphaBetaSearch<State, Action, State.Turn> abS = new AlphaBetaSearch<State, Action, State.Turn>(new AimaGameAshtonTablut(99, 0, "garbage", "fake", "fake"));
+		try {
+			this.write(abS.makeDecision(state));
+		} catch (ClassNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
 		}
 	}
 }

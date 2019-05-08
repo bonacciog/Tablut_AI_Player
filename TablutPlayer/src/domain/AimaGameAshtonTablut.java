@@ -1,6 +1,7 @@
 package domain;
 
 import java.io.File;
+import java.io.IOException;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.ArrayList;
@@ -11,6 +12,10 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 import java.util.logging.SimpleFormatter;
 
+import ai.HeuristicEvaluator;
+import ai.HeuristicEvaluatorFactory;
+import domain.State.Pawn;
+import domain.State.Turn;
 import exceptions.*;
 
 /**
@@ -21,7 +26,7 @@ import exceptions.*;
  * @author A. Piretti, Andrea Galassi
  *
  */
-public class GameAshtonTablut implements Game {
+public class AimaGameAshtonTablut implements Game, aima.core.search.adversarial.Game<State, Action, State.Turn> {
 
 	/**
 	 * Number of repeated states that can occur before a draw
@@ -46,12 +51,12 @@ public class GameAshtonTablut implements Game {
 
 	// TODO: Draw conditions are not working
 
-	public GameAshtonTablut(int repeated_moves_allowed, int cache_size, String logs_folder, String whiteName,
+	public AimaGameAshtonTablut(int repeated_moves_allowed, int cache_size, String logs_folder, String whiteName,
 			String blackName) {
 		this(new StateTablut(), repeated_moves_allowed, cache_size, logs_folder, whiteName, blackName);
 	}
 
-	public GameAshtonTablut(State state, int repeated_moves_allowed, int cache_size, String logs_folder,
+	public AimaGameAshtonTablut(State state, int repeated_moves_allowed, int cache_size, String logs_folder,
 			String whiteName, String blackName) {
 		super();
 		this.repeated_moves_allowed = repeated_moves_allowed;
@@ -1058,4 +1063,149 @@ public class GameAshtonTablut implements Game {
 		drawConditions.clear();
 	}
 
+	@Override
+	public List<Action> getActions(State arg0) {
+		StateTablut currentState = null;
+		List<Action> result = new ArrayList<Action>();
+		if(!(arg0 instanceof StateTablut))
+			throw new IllegalArgumentException();
+		currentState = (StateTablut) arg0;
+		Pawn[][] board = currentState.getBoard();
+		for(int i=0 ; i<9; i++) {
+			for(int j=0; j<9; j++) {
+				// WHITE TURN
+				if(currentState.getTurn().equals(Turn.WHITE)) {
+					if(board[i][j].equals(Pawn.KING) || board[i][j].equals(Pawn.WHITE)) {
+						result.addAll(this.selectAllActionsForThisPawn(currentState, i, j));
+					}
+				}
+				else if(currentState.getTurn().equals(Turn.BLACK))// BLACK TURN - ALTRI TURNI NON VERRANNO MAI CHIAMATI -> GUARDA CLIENT
+				{
+					if(board[i][j].equals(Pawn.BLACK)) {
+						result.addAll(this.selectAllActionsForThisPawn(currentState, i, j));
+					}
+				}
+				else
+					throw new IllegalArgumentException();
+			}
+		}
+		return result;
+	}
+
+	@Override
+	public State getInitialState() {
+		State initialState = new StateTablut();
+		return initialState;
+	}
+
+	@Override
+	public Turn getPlayer(State arg0) {
+		return arg0.getTurn();
+	}
+
+	@Override
+	public Turn[] getPlayers() {
+		Turn[] result = {Turn.BLACK, Turn.WHITE}; 
+		return result;
+	}
+
+	@Override
+	public State getResult(State arg0, Action arg1) {
+		State newState = null;
+		try {
+			newState = checkMove(arg0, arg1);
+		} catch (Exception e) {
+			return newState;
+		} 
+		return newState;
+	}
+
+	@Override
+	public double getUtility(State arg0, Turn arg1) {
+		HeuristicEvaluator herEval = HeuristicEvaluatorFactory.getHeuristicEvaluator(arg1);
+		return herEval.getEvaluation(arg0);
+	}
+
+	@Override
+	public boolean isTerminal(State arg0) {
+		// TODO Auto-generated method stub
+		return !(arg0.toString().contains("K"));
+	}
+
+	private List<Action> selectAllActionsForThisPawn(State currentState, int row, int column) {
+		List<Action> result = new ArrayList<Action>();	
+		for(int currentRow=row+1; currentRow<9; currentRow++) {
+			String from=currentState.getBox(row, column);
+			String to=currentState.getBox(currentRow, column);
+			Action a = null;
+			try {
+				a = new Action(from, to, currentState.getTurn());
+			} catch (IOException e1) {
+				// TODO Auto-generated catch block
+				continue;
+			}
+			try {
+				checkMove(currentState, a);
+			} catch (Exception e) {
+				// TODO Auto-generated catch block
+				continue;
+			} 
+			result.add(a);	
+		}
+		for(int currentRow=row-1; currentRow>=0; currentRow--) {
+			String from=currentState.getBox(row, column);
+			String to=currentState.getBox(currentRow, column);
+			Action a = null;
+			try {
+				a = new Action(from, to, currentState.getTurn());
+			} catch (IOException e1) {
+				// TODO Auto-generated catch block
+				continue;
+			}
+			try {
+				checkMove(currentState, a);
+			} catch (Exception e) {
+				// TODO Auto-generated catch block
+				continue;
+			} 
+			result.add(a);	
+		}
+		for(int currentColumn=column+1; currentColumn<9; currentColumn++) {
+			String from=currentState.getBox(row, column);
+			String to=currentState.getBox(row, currentColumn);
+			Action a = null;
+			try {
+				a = new Action(from, to, currentState.getTurn());
+			} catch (IOException e1) {
+				// TODO Auto-generated catch block
+				continue;
+			}
+			try {
+				checkMove(currentState, a);
+			} catch (Exception e) {
+				// TODO Auto-generated catch block
+				continue;
+			} 
+			result.add(a);	
+		}
+		for(int currentColumn=column-1; currentColumn>=0; currentColumn--) {
+			String from=currentState.getBox(row, column);
+			String to=currentState.getBox(row, currentColumn);
+			Action a = null;
+			try {
+				a = new Action(from, to, currentState.getTurn());
+			} catch (IOException e1) {
+				// TODO Auto-generated catch block
+				continue;
+			}
+			try {
+				checkMove(currentState, a);
+			} catch (Exception e) {
+				// TODO Auto-generated catch block
+				continue;
+			} 
+			result.add(a);	
+		}
+		return result;
+	}
 }

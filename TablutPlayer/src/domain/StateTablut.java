@@ -3,13 +3,6 @@ package domain;
 
 import java.io.Serializable;
 
-import ai.HeuristicEvaluator;
-import ai.HeuristicEvaluatorFactory;
-import aima.core.agent.Action;
-import aima.core.search.framework.evalfunc.HeuristicFunction;
-import aima.core.search.framework.problem.GoalTest;
-import aima.core.search.framework.problem.StepCostFunction;
-
 
 
 /**
@@ -19,7 +12,7 @@ import aima.core.search.framework.problem.StepCostFunction;
  * @author A.Piretti
  * 
  */
-public class StateTablut extends State implements Serializable,GoalTest,StepCostFunction,HeuristicFunction {
+public class StateTablut extends State implements Serializable {
 
 	private static final long serialVersionUID = 1L;
 
@@ -111,26 +104,5 @@ public class StateTablut extends State implements Serializable,GoalTest,StepCost
 		if (this.turn != other.turn)
 			return false;
 		return true;
-	}
-
-	@Override
-	public boolean isGoalState(Object arg0) {
-		// TODO Auto-generated method stub
-		return false;
-	}
-
-	@Override
-	public double h(Object arg0) {
-		if(!(arg0 instanceof State))
-			throw new IllegalArgumentException();
-		State state = (State) arg0;
-		HeuristicEvaluator herEval = HeuristicEvaluatorFactory.getHeuristicEvaluator(state.getTurn());
-		return herEval.getEvaluation(state);
-	}
-
-	@Override
-	public double c(Object arg0, Action arg1, Object arg2) {
-		// TODO Auto-generated method stub
-		return 1.0;
 	}
 }
