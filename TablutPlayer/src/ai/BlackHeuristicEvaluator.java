@@ -1,13 +1,14 @@
 package ai;
 
+import java.util.Random;
+
 import domain.State;
 
 public class BlackHeuristicEvaluator implements HeuristicEvaluator{
 
 	@Override
 	public int getEvaluation(State state) {
-		// TODO Auto-generated method stub
-		return 0;
+		return new Random().nextInt(100);
 	}
 
 }

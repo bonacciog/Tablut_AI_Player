@@ -1129,7 +1129,7 @@ public class AimaGameAshtonTablut implements Game, aima.core.search.adversarial.
 	@Override
 	public boolean isTerminal(State arg0) {
 		// TODO Auto-generated method stub
-		return !(arg0.toString().contains("K"));
+		return false; // DA RIVEDERE!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 	}
 
 	private List<Action> selectAllActionsForThisPawn(State currentState, int row, int column) {
@@ -1145,13 +1145,43 @@ public class AimaGameAshtonTablut implements Game, aima.core.search.adversarial.
 				continue;
 			}
 			try {
-				
 				if(AimaClient.IsAnOldStates(checkMove(currentState, a)))
-					throw new OldStateException(currentState);
-			} catch (Exception e) {
+						throw new OldStateException(currentState);
+			} catch (BoardException e) {
 				// TODO Auto-generated catch block
 				continue;
-			} 
+			} catch (ActionException e) {
+				// TODO Auto-generated catch block
+				continue;
+			} catch (StopException e) {
+				// TODO Auto-generated catch block
+				continue;
+			} catch (PawnException e) {
+				// TODO Auto-generated catch block
+				continue;
+			} catch (DiagonalException e) {
+				// TODO Auto-generated catch block
+				continue;
+			} catch (ClimbingException e) {
+				// TODO Auto-generated catch block
+				continue;
+			} catch (ThroneException e) {
+				// TODO Auto-generated catch block
+				continue;
+			} catch (OccupitedException e) {
+				// TODO Auto-generated catch block
+				continue;
+			} catch (ClimbingCitadelException e) {
+				// TODO Auto-generated catch block
+				continue;
+			} catch (CitadelException e) {
+				// TODO Auto-generated catch block
+				continue;
+			} catch (OldStateException e) {
+				// TODO Auto-generated catch block
+				continue;
+			}
+			
 			result.add(a);	
 		}
 		for(int currentRow=row-1; currentRow>=0; currentRow--) {
@@ -1166,11 +1196,41 @@ public class AimaGameAshtonTablut implements Game, aima.core.search.adversarial.
 			}
 			try {
 				if(AimaClient.IsAnOldStates(checkMove(currentState, a)))
-					throw new OldStateException(currentState);
-			} catch (Exception e) {
+						throw new OldStateException(currentState);
+			} catch (BoardException e) {
 				// TODO Auto-generated catch block
 				continue;
-			} 
+			} catch (ActionException e) {
+				// TODO Auto-generated catch block
+				continue;
+			} catch (StopException e) {
+				// TODO Auto-generated catch block
+				continue;
+			} catch (PawnException e) {
+				// TODO Auto-generated catch block
+				continue;
+			} catch (DiagonalException e) {
+				// TODO Auto-generated catch block
+				continue;
+			} catch (ClimbingException e) {
+				// TODO Auto-generated catch block
+				continue;
+			} catch (ThroneException e) {
+				// TODO Auto-generated catch block
+				continue;
+			} catch (OccupitedException e) {
+				// TODO Auto-generated catch block
+				continue;
+			} catch (ClimbingCitadelException e) {
+				// TODO Auto-generated catch block
+				continue;
+			} catch (CitadelException e) {
+				// TODO Auto-generated catch block
+				continue;
+			} catch (OldStateException e) {
+				// TODO Auto-generated catch block
+				continue;
+			}
 			result.add(a);	
 		}
 		for(int currentColumn=column+1; currentColumn<9; currentColumn++) {
@@ -1185,8 +1245,38 @@ public class AimaGameAshtonTablut implements Game, aima.core.search.adversarial.
 			}
 			try {
 				if(AimaClient.IsAnOldStates(checkMove(currentState, a)))
-					throw new OldStateException(currentState);
-			} catch (Exception e) {
+						throw new OldStateException(currentState);
+			} catch (BoardException e) {
+				// TODO Auto-generated catch block
+				continue;
+			} catch (ActionException e) {
+				// TODO Auto-generated catch block
+				continue;
+			} catch (StopException e) {
+				// TODO Auto-generated catch block
+				continue;
+			} catch (PawnException e) {
+				// TODO Auto-generated catch block
+				continue;
+			} catch (DiagonalException e) {
+				// TODO Auto-generated catch block
+				continue;
+			} catch (ClimbingException e) {
+				// TODO Auto-generated catch block
+				continue;
+			} catch (ThroneException e) {
+				// TODO Auto-generated catch block
+				continue;
+			} catch (OccupitedException e) {
+				// TODO Auto-generated catch block
+				continue;
+			} catch (ClimbingCitadelException e) {
+				// TODO Auto-generated catch block
+				continue;
+			} catch (CitadelException e) {
+				// TODO Auto-generated catch block
+				continue;
+			} catch (OldStateException e) {
 				// TODO Auto-generated catch block
 				continue;
 			} 
@@ -1204,8 +1294,38 @@ public class AimaGameAshtonTablut implements Game, aima.core.search.adversarial.
 			}
 			try {
 				if(AimaClient.IsAnOldStates(checkMove(currentState, a)))
-					throw new OldStateException(currentState);
-			} catch (Exception e) {
+						throw new OldStateException(currentState);
+			} catch (BoardException e) {
+				// TODO Auto-generated catch block
+				continue;
+			} catch (ActionException e) {
+				// TODO Auto-generated catch block
+				continue;
+			} catch (StopException e) {
+				// TODO Auto-generated catch block
+				continue;
+			} catch (PawnException e) {
+				// TODO Auto-generated catch block
+				continue;
+			} catch (DiagonalException e) {
+				// TODO Auto-generated catch block
+				continue;
+			} catch (ClimbingException e) {
+				// TODO Auto-generated catch block
+				continue;
+			} catch (ThroneException e) {
+				// TODO Auto-generated catch block
+				continue;
+			} catch (OccupitedException e) {
+				// TODO Auto-generated catch block
+				continue;
+			} catch (ClimbingCitadelException e) {
+				// TODO Auto-generated catch block
+				continue;
+			} catch (CitadelException e) {
+				// TODO Auto-generated catch block
+				continue;
+			} catch (OldStateException e) {
 				// TODO Auto-generated catch block
 				continue;
 			} 

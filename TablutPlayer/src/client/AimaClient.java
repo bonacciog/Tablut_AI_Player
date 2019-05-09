@@ -13,6 +13,16 @@ import domain.AimaGameAshtonTablut;
 import domain.State;
 import domain.State.Turn;
 import domain.StateTablut;
+import exceptions.ActionException;
+import exceptions.BoardException;
+import exceptions.CitadelException;
+import exceptions.ClimbingCitadelException;
+import exceptions.ClimbingException;
+import exceptions.DiagonalException;
+import exceptions.OccupitedException;
+import exceptions.PawnException;
+import exceptions.StopException;
+import exceptions.ThroneException;
 /**
  * Client per il gioco Tablut che utilizza libreria Aima
  * 
@@ -68,7 +78,7 @@ public class AimaClient extends TablutClient {
 		State state = new StateTablut();
 		state.setTurn(State.Turn.WHITE);
 		System.out.println("Ashton Tablut game");
-
+		oldStates.add(state);
 
 		System.out.println("You are player " + this.getPlayer().toString() + "!");
 
@@ -83,7 +93,7 @@ public class AimaClient extends TablutClient {
 			System.out.println("Current state:");
 			state = this.getCurrentState();
 			System.out.println(state.toString());
-			oldStates.add(state);
+			
 			
 			if (this.getPlayer().equals(Turn.WHITE)) {
 				// è il mio turno
@@ -131,18 +141,54 @@ public class AimaClient extends TablutClient {
 				}
 
 			}
-			oldStates.add(state);
 
 		}
 	}
 	private void makeDecisionAndSend(State state) {
-		AlphaBetaSearch<State, Action, State.Turn> abS = new AlphaBetaSearch<State, Action, State.Turn>(new AimaGameAshtonTablut(99, 0, "garbage", "fake", "fake"));
+		AimaGameAshtonTablut rules = new AimaGameAshtonTablut(99, 0, "garbage", "fake", "fake");
+		AlphaBetaSearch<State, Action, State.Turn> abS = new AlphaBetaSearch<State, Action, State.Turn>(rules);
+		Action a=null;
 		try {
-			this.write(abS.makeDecision(state));
+			a = abS.makeDecision(state);
+			this.write(a);
+			
 		} catch (ClassNotFoundException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		try {
+			oldStates.add(rules.checkMove(state, a));
+		} catch (BoardException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (ActionException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (StopException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (PawnException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (DiagonalException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (ClimbingException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (ThroneException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (OccupitedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (ClimbingCitadelException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (CitadelException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
