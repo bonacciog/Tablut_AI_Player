@@ -14,6 +14,7 @@ import java.util.logging.SimpleFormatter;
 
 import ai.HeuristicEvaluator;
 import ai.HeuristicEvaluatorFactory;
+import client.AimaClient;
 import domain.State.Pawn;
 import domain.State.Turn;
 import exceptions.*;
@@ -1144,7 +1145,9 @@ public class AimaGameAshtonTablut implements Game, aima.core.search.adversarial.
 				continue;
 			}
 			try {
-				checkMove(currentState, a);
+				
+				if(AimaClient.IsAnOldStates(checkMove(currentState, a)))
+					throw new OldStateException(currentState);
 			} catch (Exception e) {
 				// TODO Auto-generated catch block
 				continue;
@@ -1162,7 +1165,8 @@ public class AimaGameAshtonTablut implements Game, aima.core.search.adversarial.
 				continue;
 			}
 			try {
-				checkMove(currentState, a);
+				if(AimaClient.IsAnOldStates(checkMove(currentState, a)))
+					throw new OldStateException(currentState);
 			} catch (Exception e) {
 				// TODO Auto-generated catch block
 				continue;
@@ -1180,7 +1184,8 @@ public class AimaGameAshtonTablut implements Game, aima.core.search.adversarial.
 				continue;
 			}
 			try {
-				checkMove(currentState, a);
+				if(AimaClient.IsAnOldStates(checkMove(currentState, a)))
+					throw new OldStateException(currentState);
 			} catch (Exception e) {
 				// TODO Auto-generated catch block
 				continue;
@@ -1198,7 +1203,8 @@ public class AimaGameAshtonTablut implements Game, aima.core.search.adversarial.
 				continue;
 			}
 			try {
-				checkMove(currentState, a);
+				if(AimaClient.IsAnOldStates(checkMove(currentState, a)))
+					throw new OldStateException(currentState);
 			} catch (Exception e) {
 				// TODO Auto-generated catch block
 				continue;

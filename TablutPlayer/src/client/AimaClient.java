@@ -1,8 +1,11 @@
 package client;
 
 
+
 import java.io.IOException;
 import java.net.UnknownHostException;
+import java.util.ArrayList;
+import java.util.List;
 
 import aima.core.search.adversarial.AlphaBetaSearch;
 import domain.Action;
@@ -18,10 +21,17 @@ import domain.StateTablut;
  */
 public class AimaClient extends TablutClient {
 
+	private static List<State> oldStates;
+	
 	public AimaClient(String player, String name) throws UnknownHostException, IOException {
 		super(player, name);
-		// TODO Auto-generated constructor stub
+		oldStates = new ArrayList<State>();
 	}
+	
+	public static boolean IsAnOldStates(State state) {
+		return oldStates.contains(state);
+	}
+	
 	public static void main(String[] args) throws UnknownHostException, IOException, ClassNotFoundException {
 		String role = "";
 		String name = "Aima";
@@ -73,7 +83,8 @@ public class AimaClient extends TablutClient {
 			System.out.println("Current state:");
 			state = this.getCurrentState();
 			System.out.println(state.toString());
-
+			oldStates.add(state);
+			
 			if (this.getPlayer().equals(Turn.WHITE)) {
 				// è il mio turno
 				if (this.getCurrentState().getTurn().equals(StateTablut.Turn.WHITE)) {
@@ -120,7 +131,7 @@ public class AimaClient extends TablutClient {
 				}
 
 			}
-
+			oldStates.add(state);
 
 		}
 	}
