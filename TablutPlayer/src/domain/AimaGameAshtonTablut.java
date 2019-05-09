@@ -23,7 +23,7 @@ import exceptions.*;
  * Game engine inspired by the Ashton Rules of Tablut
  * 
  * 
- * @author A. Piretti, Andrea Galassi
+ * @author A. Piretti, Andrea Galassi, Giovanni Bonaccio
  *
  */
 public class AimaGameAshtonTablut implements Game, aima.core.search.adversarial.Game<State, Action, State.Turn> {
@@ -1094,8 +1094,7 @@ public class AimaGameAshtonTablut implements Game, aima.core.search.adversarial.
 
 	@Override
 	public State getInitialState() {
-		State initialState = new StateTablut();
-		return initialState;
+		return new StateTablut();
 	}
 
 	@Override

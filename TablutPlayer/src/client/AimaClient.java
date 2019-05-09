@@ -10,7 +10,12 @@ import domain.AimaGameAshtonTablut;
 import domain.State;
 import domain.State.Turn;
 import domain.StateTablut;
-
+/**
+ * Client per il gioco Tablut che utilizza libreria Aima
+ * 
+ * @author Giovanni Bonaccio
+ *
+ */
 public class AimaClient extends TablutClient {
 
 	public AimaClient(String player, String name) throws UnknownHostException, IOException {
