@@ -1,0 +1,42 @@
+mag 10, 2019 5:25:04 PM domain.AimaGameAshtonTablut <init>
+BUONO: Players:	White:	fake	vs	fake
+mag 10, 2019 5:25:04 PM domain.AimaGameAshtonTablut <init>
+BUONO: Repeated moves allowed:	99	Cache:	0
+mag 10, 2019 5:25:04 PM domain.AimaGameAshtonTablut <init>
+BUONO: Inizio partita
+mag 10, 2019 5:25:04 PM domain.AimaGameAshtonTablut <init>
+BUONO: Stato:
+OOOBBBOOO
+OOOOBOOOO
+OOOOWOOOO
+BOOOWOOOB
+BBWWKWWBB
+BOOOWOOOB
+OOOOWOOOO
+OOOOBOOOO
+OOOBBBOOO
+-
+B
+mag 10, 2019 5:25:12 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: B Pawn from d1 to d2
+mag 10, 2019 5:25:12 PM domain.AimaGameAshtonTablut movePawn
+BUONO: Movimento pedina
+mag 10, 2019 5:25:12 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Current draw cache size: 1
+mag 10, 2019 5:25:12 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Stato:
+OOWOBBOOO
+OOOBBOOOO
+OOOOWOOOO
+BOOOWOOOB
+BBOWKWWBB
+BOOOWOOOB
+OOOOWOOOO
+OOOOBOOOO
+OOOBBBOOO
+-
+W
+mag 10, 2019 5:26:29 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from d1 to d3
+mag 10, 2019 5:26:29 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Giocatore W cerca di muovere una pedina avversaria

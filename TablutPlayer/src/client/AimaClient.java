@@ -4,8 +4,6 @@ package client;
 
 import java.io.IOException;
 import java.net.UnknownHostException;
-import java.util.ArrayList;
-import java.util.List;
 
 import aima.core.search.adversarial.AlphaBetaSearch;
 import domain.Action;
@@ -21,16 +19,12 @@ import domain.StateTablut;
  */
 public class AimaClient extends TablutClient {
 
-	private static List<State> oldStates;
 	
 	public AimaClient(String player, String name) throws UnknownHostException, IOException {
 		super(player, name);
-		oldStates = new ArrayList<State>();
 	}
 	
-	public static boolean IsAnOldStates(State state) {
-		return oldStates.contains(state);
-	}
+
 	
 	public static void main(String[] args) throws UnknownHostException, IOException, ClassNotFoundException {
 		String role = "";
@@ -69,7 +63,6 @@ public class AimaClient extends TablutClient {
 		state.setTurn(State.Turn.WHITE);
 		System.out.println("Ashton Tablut game");
 
-
 		System.out.println("You are player " + this.getPlayer().toString() + "!");
 
 		while (true) {
@@ -83,7 +76,12 @@ public class AimaClient extends TablutClient {
 			System.out.println("Current state:");
 			state = this.getCurrentState();
 			System.out.println(state.toString());
-			oldStates.add(state);
+			try { // DA RIVEDERE!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+				Thread.sleep(1000);
+			} catch (InterruptedException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
 			
 			if (this.getPlayer().equals(Turn.WHITE)) {
 				// è il mio turno
@@ -131,14 +129,15 @@ public class AimaClient extends TablutClient {
 				}
 
 			}
-			oldStates.add(state);
 
 		}
 	}
 	private void makeDecisionAndSend(State state) {
-		AlphaBetaSearch<State, Action, State.Turn> abS = new AlphaBetaSearch<State, Action, State.Turn>(new AimaGameAshtonTablut(99, 0, "garbage", "fake", "fake"));
+		AimaGameAshtonTablut rules = new AimaGameAshtonTablut(99, 0, "garbage", "fake", "fake");
+		AlphaBetaSearch<State, Action, State.Turn> abS = new AlphaBetaSearch<State, Action, State.Turn>(rules);
 		try {
 			this.write(abS.makeDecision(state));
+			
 		} catch (ClassNotFoundException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
