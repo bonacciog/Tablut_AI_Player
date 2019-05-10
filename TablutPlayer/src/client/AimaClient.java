@@ -4,8 +4,6 @@ package client;
 
 import java.io.IOException;
 import java.net.UnknownHostException;
-import java.util.ArrayList;
-import java.util.List;
 
 import aima.core.search.adversarial.AlphaBetaSearch;
 import domain.Action;
@@ -13,16 +11,6 @@ import domain.AimaGameAshtonTablut;
 import domain.State;
 import domain.State.Turn;
 import domain.StateTablut;
-import exceptions.ActionException;
-import exceptions.BoardException;
-import exceptions.CitadelException;
-import exceptions.ClimbingCitadelException;
-import exceptions.ClimbingException;
-import exceptions.DiagonalException;
-import exceptions.OccupitedException;
-import exceptions.PawnException;
-import exceptions.StopException;
-import exceptions.ThroneException;
 /**
  * Client per il gioco Tablut che utilizza libreria Aima
  * 
@@ -31,16 +19,12 @@ import exceptions.ThroneException;
  */
 public class AimaClient extends TablutClient {
 
-	private static List<State> oldStates;
 	
 	public AimaClient(String player, String name) throws UnknownHostException, IOException {
 		super(player, name);
-		oldStates = new ArrayList<State>();
 	}
 	
-	public static boolean IsAnOldStates(State state) {
-		return oldStates.contains(state);
-	}
+
 	
 	public static void main(String[] args) throws UnknownHostException, IOException, ClassNotFoundException {
 		String role = "";
@@ -78,7 +62,6 @@ public class AimaClient extends TablutClient {
 		State state = new StateTablut();
 		state.setTurn(State.Turn.WHITE);
 		System.out.println("Ashton Tablut game");
-		oldStates.add(state);
 
 		System.out.println("You are player " + this.getPlayer().toString() + "!");
 
@@ -93,7 +76,12 @@ public class AimaClient extends TablutClient {
 			System.out.println("Current state:");
 			state = this.getCurrentState();
 			System.out.println(state.toString());
-			
+			try { // DA RIVEDERE!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+				Thread.sleep(1000);
+			} catch (InterruptedException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
 			
 			if (this.getPlayer().equals(Turn.WHITE)) {
 				// è il mio turno
@@ -147,48 +135,13 @@ public class AimaClient extends TablutClient {
 	private void makeDecisionAndSend(State state) {
 		AimaGameAshtonTablut rules = new AimaGameAshtonTablut(99, 0, "garbage", "fake", "fake");
 		AlphaBetaSearch<State, Action, State.Turn> abS = new AlphaBetaSearch<State, Action, State.Turn>(rules);
-		Action a=null;
 		try {
-			a = abS.makeDecision(state);
-			this.write(a);
+			this.write(abS.makeDecision(state));
 			
 		} catch (ClassNotFoundException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		} catch (IOException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
-		try {
-			oldStates.add(rules.checkMove(state, a));
-		} catch (BoardException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		} catch (ActionException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		} catch (StopException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		} catch (PawnException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		} catch (DiagonalException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		} catch (ClimbingException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		} catch (ThroneException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		} catch (OccupitedException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		} catch (ClimbingCitadelException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		} catch (CitadelException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
