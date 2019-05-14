@@ -3,7 +3,7 @@ package client;
 import java.io.IOException;
 import java.net.UnknownHostException;
 /**
- * Client per il gioco Tablut che utilizza libreria Aima di tipo BLACK
+ * Tablut Client Black Player which uses Aima library
  * 
  * @author Giovanni Bonaccio
  *

@@ -5,7 +5,12 @@ import java.util.HashMap;
 import java.util.Map;
 
 import domain.State;
-
+/**
+ * Factory class for HeuristicEvaluator
+ * 
+ * @author Alessandro Fossa
+ *
+ */
 public class HeuristicEvaluatorFactory {
 	
 	private static Map<State.Turn, HeuristicEvaluator> heuristicEvaluator = 

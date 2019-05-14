@@ -12,7 +12,7 @@ import domain.State;
 import domain.State.Turn;
 import domain.StateTablut;
 /**
- * Client per il gioco Tablut che utilizza libreria Aima
+ * Tablut Client Player which uses Aima library
  * 
  * @author Giovanni Bonaccio
  *

@@ -1,7 +1,12 @@
 package ai;
 
 import domain.State;
-
+/**
+ * This class implements a function which return a black heuristic evaluation
+ * 
+ * @author Paolo Caligiana
+ *
+ */
 public abstract class HeuristicEvaluator {
 	protected static final int TOTWHITE=8;
 	protected static final int TOTBLACK=12;

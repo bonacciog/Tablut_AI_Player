@@ -2,7 +2,12 @@ package ai;
 
 import domain.State;
 
-
+/**
+ * This class implements a function which return a white heuristic evaluation
+ * 
+ * @author Paolo Caligiana
+ *
+ */
 
 public class WhiteHeuristicEvaluator extends HeuristicEvaluator{
 	//considerazioni generali sulla WhiteHeuristic:

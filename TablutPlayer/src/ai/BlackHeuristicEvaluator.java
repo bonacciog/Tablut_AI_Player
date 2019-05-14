@@ -1,7 +1,12 @@
 package ai;
 
 import domain.State;
-
+/**
+ * This class implements a function which return a black heuristic evaluation
+ * 
+ * @author Paolo Caligiana, Alessandro Fossa
+ *
+ */
 public class BlackHeuristicEvaluator extends HeuristicEvaluator{
 
 	
