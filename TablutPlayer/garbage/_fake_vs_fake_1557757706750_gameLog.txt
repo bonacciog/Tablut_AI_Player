@@ -1,0 +1,3773 @@
+mag 13, 2019 4:28:26 PM domain.AimaGameAshtonTablut <init>
+BUONO: Players:	White:	fake	vs	fake
+mag 13, 2019 4:28:26 PM domain.AimaGameAshtonTablut <init>
+BUONO: Repeated moves allowed:	99	Cache:	0
+mag 13, 2019 4:28:26 PM domain.AimaGameAshtonTablut <init>
+BUONO: Inizio partita
+mag 13, 2019 4:28:26 PM domain.AimaGameAshtonTablut <init>
+BUONO: Stato:
+OOOBBBOOO
+OOOOBOOOO
+OOOOWOOOO
+BOOOWOOOB
+BBWWKWWBB
+BOOOWOOOB
+OOOOWOOOO
+OOOOBOOOO
+OOOBBBOOO
+-
+B
+mag 13, 2019 4:28:26 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from c4 to c5
+mag 13, 2019 4:28:26 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa sopra una casella occupata
+mag 13, 2019 4:28:26 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from c4 to c6
+mag 13, 2019 4:28:26 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa che scavalca una pedina
+mag 13, 2019 4:28:26 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from c4 to c7
+mag 13, 2019 4:28:26 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa che scavalca una pedina
+mag 13, 2019 4:28:26 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from c4 to c8
+mag 13, 2019 4:28:26 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa che scavalca una pedina
+mag 13, 2019 4:28:26 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from c4 to c9
+mag 13, 2019 4:28:26 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa che scavalca una pedina
+mag 13, 2019 4:28:26 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from c4 to c3
+mag 13, 2019 4:28:26 PM domain.AimaGameAshtonTablut movePawn
+BUONO: Movimento pedina
+mag 13, 2019 4:28:26 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Current draw cache size: 1
+mag 13, 2019 4:28:26 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Stato:
+OOOOOOBOO
+BOOOOOOBO
+OOWOOBOOB
+BOOOKWOOB
+BOWWTWOOO
+OOOOWOWOO
+OOOOWOBOO
+BOOOBOOOO
+BOOBOBOOO
+-
+B
+mag 13, 2019 4:28:26 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from c4 to c2
+mag 13, 2019 4:28:26 PM domain.AimaGameAshtonTablut movePawn
+BUONO: Movimento pedina
+mag 13, 2019 4:28:26 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Current draw cache size: 1
+mag 13, 2019 4:28:26 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Stato:
+OOOOOOBOO
+BOWOOOOBO
+OOOOOBOOB
+BOOOKWOOB
+BOWWTWOOO
+OOOOWOWOO
+OOOOWOBOO
+BOOOBOOOO
+BOOBOBOOO
+-
+B
+mag 13, 2019 4:28:26 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from c4 to c1
+mag 13, 2019 4:28:26 PM domain.AimaGameAshtonTablut movePawn
+BUONO: Movimento pedina
+mag 13, 2019 4:28:26 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Current draw cache size: 1
+mag 13, 2019 4:28:26 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Stato:
+OOWOOOBOO
+BOOOOOOBO
+OOOOOBOOB
+BOOOKWOOB
+BOWWTWOOO
+OOOOWOWOO
+OOOOWOBOO
+BOOOBOOOO
+BOOBOBOOO
+-
+B
+mag 13, 2019 4:28:26 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from c4 to d4
+mag 13, 2019 4:28:26 PM domain.AimaGameAshtonTablut movePawn
+BUONO: Movimento pedina
+mag 13, 2019 4:28:26 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Current draw cache size: 1
+mag 13, 2019 4:28:26 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Stato:
+OOOOOOBOO
+BOOOOOOBO
+OOOOOBOOB
+BOOWKWOOB
+BOWWTWOOO
+OOOOWOWOO
+OOOOWOBOO
+BOOOBOOOO
+BOOBOBOOO
+-
+B
+mag 13, 2019 4:28:26 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from c4 to e4
+mag 13, 2019 4:28:26 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa sopra una casella occupata
+mag 13, 2019 4:28:26 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from c4 to f4
+mag 13, 2019 4:28:26 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa sopra una casella occupata
+mag 13, 2019 4:28:26 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from c4 to g4
+mag 13, 2019 4:28:26 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa che scavalca una pedina
+mag 13, 2019 4:28:26 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from c4 to h4
+mag 13, 2019 4:28:26 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa che scavalca una pedina
+mag 13, 2019 4:28:26 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from c4 to i4
+mag 13, 2019 4:28:26 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa sopra una casella occupata
+mag 13, 2019 4:28:26 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from c4 to b4
+mag 13, 2019 4:28:26 PM domain.AimaGameAshtonTablut movePawn
+BUONO: Movimento pedina
+mag 13, 2019 4:28:26 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Current draw cache size: 1
+mag 13, 2019 4:28:26 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Stato:
+OOOOOOBOO
+BOOOOOOBO
+OOOOOBOOB
+BWOOKWOOB
+BOWWTWOOO
+OOOOWOWOO
+OOOOWOBOO
+BOOOBOOOO
+BOOBOBOOO
+-
+B
+mag 13, 2019 4:28:26 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from c4 to a4
+mag 13, 2019 4:28:26 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa sopra una casella occupata
+mag 13, 2019 4:28:26 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from e4 to e5
+mag 13, 2019 4:28:26 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa sul trono
+mag 13, 2019 4:28:26 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from e4 to e6
+mag 13, 2019 4:28:26 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa sopra una casella occupata
+mag 13, 2019 4:28:26 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from e4 to e7
+mag 13, 2019 4:28:26 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa sopra una casella occupata
+mag 13, 2019 4:28:26 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from e4 to e8
+mag 13, 2019 4:28:26 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa sopra una casella occupata
+mag 13, 2019 4:28:26 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from e4 to e9
+mag 13, 2019 4:28:26 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa che arriva sopra una citadel
+mag 13, 2019 4:28:26 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from e4 to e3
+mag 13, 2019 4:28:26 PM domain.AimaGameAshtonTablut movePawn
+BUONO: Movimento pedina
+mag 13, 2019 4:28:26 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Current draw cache size: 1
+mag 13, 2019 4:28:26 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Stato:
+OOOOOOBOO
+BOOOOOOBO
+OOOOKBOOB
+BOWOOWOOB
+BOWWTWOOO
+OOOOWOWOO
+OOOOWOBOO
+BOOOBOOOO
+BOOBOBOOO
+-
+B
+mag 13, 2019 4:28:26 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from e4 to e2
+mag 13, 2019 4:28:26 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa che arriva sopra una citadel
+mag 13, 2019 4:28:26 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from e4 to e1
+mag 13, 2019 4:28:26 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa che arriva sopra una citadel
+mag 13, 2019 4:28:26 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from e4 to f4
+mag 13, 2019 4:28:26 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa sopra una casella occupata
+mag 13, 2019 4:28:26 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from e4 to g4
+mag 13, 2019 4:28:26 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa che scavalca una pedina
+mag 13, 2019 4:28:26 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from e4 to h4
+mag 13, 2019 4:28:26 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa che scavalca una pedina
+mag 13, 2019 4:28:26 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from e4 to i4
+mag 13, 2019 4:28:26 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa sopra una casella occupata
+mag 13, 2019 4:28:26 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from e4 to d4
+mag 13, 2019 4:28:26 PM domain.AimaGameAshtonTablut movePawn
+BUONO: Movimento pedina
+mag 13, 2019 4:28:26 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Current draw cache size: 1
+mag 13, 2019 4:28:26 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Stato:
+OOOOOOBOO
+BOOOOOOBO
+OOOOOBOOB
+BOWKOWOOB
+BOWWTWOOO
+OOOOWOWOO
+OOOOWOBOO
+BOOOBOOOO
+BOOBOBOOO
+-
+B
+mag 13, 2019 4:28:26 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from e4 to c4
+mag 13, 2019 4:28:26 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa sopra una casella occupata
+mag 13, 2019 4:28:26 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from e4 to b4
+mag 13, 2019 4:28:26 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa che scavalca una pedina
+mag 13, 2019 4:28:26 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from e4 to a4
+mag 13, 2019 4:28:26 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa sopra una casella occupata
+mag 13, 2019 4:28:26 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from f4 to f5
+mag 13, 2019 4:28:26 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa sopra una casella occupata
+mag 13, 2019 4:28:26 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from f4 to f6
+mag 13, 2019 4:28:26 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa che scavalca una pedina
+mag 13, 2019 4:28:26 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from f4 to f7
+mag 13, 2019 4:28:26 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa che scavalca una pedina
+mag 13, 2019 4:28:26 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from f4 to f8
+mag 13, 2019 4:28:26 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa che scavalca una pedina
+mag 13, 2019 4:28:26 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from f4 to f9
+mag 13, 2019 4:28:26 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa sopra una casella occupata
+mag 13, 2019 4:28:26 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from f4 to f3
+mag 13, 2019 4:28:26 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa sopra una casella occupata
+mag 13, 2019 4:28:26 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from f4 to f2
+mag 13, 2019 4:28:26 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa che scavalca una pedina
+mag 13, 2019 4:28:26 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from f4 to f1
+mag 13, 2019 4:28:26 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa che arriva sopra una citadel
+mag 13, 2019 4:28:26 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from f4 to g4
+mag 13, 2019 4:28:26 PM domain.AimaGameAshtonTablut movePawn
+BUONO: Movimento pedina
+mag 13, 2019 4:28:26 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Current draw cache size: 1
+mag 13, 2019 4:28:26 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Stato:
+OOOOOOBOO
+BOOOOOOBO
+OOOOOBOOB
+BOWOKOWOB
+BOWWTWOOO
+OOOOWOWOO
+OOOOWOBOO
+BOOOBOOOO
+BOOBOBOOO
+-
+B
+mag 13, 2019 4:28:26 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from f4 to h4
+mag 13, 2019 4:28:26 PM domain.AimaGameAshtonTablut movePawn
+BUONO: Movimento pedina
+mag 13, 2019 4:28:26 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Current draw cache size: 1
+mag 13, 2019 4:28:26 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Stato:
+OOOOOOBOO
+BOOOOOOBO
+OOOOOBOOB
+BOWOKOOWB
+BOWWTWOOO
+OOOOWOWOO
+OOOOWOBOO
+BOOOBOOOO
+BOOBOBOOO
+-
+B
+mag 13, 2019 4:28:26 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from f4 to i4
+mag 13, 2019 4:28:26 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa sopra una casella occupata
+mag 13, 2019 4:28:26 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from f4 to e4
+mag 13, 2019 4:28:26 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa sopra una casella occupata
+mag 13, 2019 4:28:26 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from f4 to d4
+mag 13, 2019 4:28:26 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa che scavalca una pedina
+mag 13, 2019 4:28:26 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from f4 to c4
+mag 13, 2019 4:28:26 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa sopra una casella occupata
+mag 13, 2019 4:28:26 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from f4 to b4
+mag 13, 2019 4:28:26 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa che scavalca una pedina
+mag 13, 2019 4:28:26 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from f4 to a4
+mag 13, 2019 4:28:26 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa sopra una casella occupata
+mag 13, 2019 4:28:26 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from c5 to c6
+mag 13, 2019 4:28:26 PM domain.AimaGameAshtonTablut movePawn
+BUONO: Movimento pedina
+mag 13, 2019 4:28:26 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Current draw cache size: 1
+mag 13, 2019 4:28:26 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Stato:
+OOOOOOBOO
+BOOOOOOBO
+OOOOOBOOB
+BOWOKWOOB
+BOOWTWOOO
+OOWOWOWOO
+OOOOWOBOO
+BOOOBOOOO
+BOOBOBOOO
+-
+B
+mag 13, 2019 4:28:26 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from c5 to c7
+mag 13, 2019 4:28:26 PM domain.AimaGameAshtonTablut movePawn
+BUONO: Movimento pedina
+mag 13, 2019 4:28:26 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Current draw cache size: 1
+mag 13, 2019 4:28:26 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Stato:
+OOOOOOBOO
+BOOOOOOBO
+OOOOOBOOB
+BOWOKWOOB
+BOOWTWOOO
+OOOOWOWOO
+OOWOWOBOO
+BOOOBOOOO
+BOOBOBOOO
+-
+B
+mag 13, 2019 4:28:26 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from c5 to c8
+mag 13, 2019 4:28:26 PM domain.AimaGameAshtonTablut movePawn
+BUONO: Movimento pedina
+mag 13, 2019 4:28:26 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Current draw cache size: 1
+mag 13, 2019 4:28:26 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Stato:
+OOOOOOBOO
+BOOOOOOBO
+OOOOOBOOB
+BOWOKWOOB
+BOOWTWOOO
+OOOOWOWOO
+OOOOWOBOO
+BOWOBOOOO
+BOOBOBOOO
+-
+B
+mag 13, 2019 4:28:26 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from c5 to c9
+mag 13, 2019 4:28:26 PM domain.AimaGameAshtonTablut movePawn
+BUONO: Movimento pedina
+mag 13, 2019 4:28:26 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Current draw cache size: 1
+mag 13, 2019 4:28:26 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Stato:
+OOOOOOBOO
+BOOOOOOBO
+OOOOOBOOB
+BOWOKWOOB
+BOOWTWOOO
+OOOOWOWOO
+OOOOWOBOO
+BOOOBOOOO
+BOWBOBOOO
+-
+B
+mag 13, 2019 4:28:26 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from c5 to c4
+mag 13, 2019 4:28:26 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa sopra una casella occupata
+mag 13, 2019 4:28:26 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from c5 to c3
+mag 13, 2019 4:28:26 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa che scavalca una pedina
+mag 13, 2019 4:28:26 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from c5 to c2
+mag 13, 2019 4:28:26 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa che scavalca una pedina
+mag 13, 2019 4:28:26 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from c5 to c1
+mag 13, 2019 4:28:26 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa che scavalca una pedina
+mag 13, 2019 4:28:26 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from c5 to d5
+mag 13, 2019 4:28:26 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa sopra una casella occupata
+mag 13, 2019 4:28:26 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from c5 to e5
+mag 13, 2019 4:28:26 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa sul trono
+mag 13, 2019 4:28:26 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from c5 to f5
+mag 13, 2019 4:28:26 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa sopra una casella occupata
+mag 13, 2019 4:28:26 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from c5 to g5
+mag 13, 2019 4:28:26 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa che scavalca una pedina
+mag 13, 2019 4:28:26 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from c5 to h5
+mag 13, 2019 4:28:26 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa che arriva sopra una citadel
+mag 13, 2019 4:28:26 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from c5 to i5
+mag 13, 2019 4:28:26 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa che arriva sopra una citadel
+mag 13, 2019 4:28:26 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from c5 to b5
+mag 13, 2019 4:28:26 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa che arriva sopra una citadel
+mag 13, 2019 4:28:26 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from c5 to a5
+mag 13, 2019 4:28:26 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa sopra una casella occupata
+mag 13, 2019 4:28:26 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from d5 to d6
+mag 13, 2019 4:28:26 PM domain.AimaGameAshtonTablut movePawn
+BUONO: Movimento pedina
+mag 13, 2019 4:28:26 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Current draw cache size: 1
+mag 13, 2019 4:28:26 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Stato:
+OOOOOOBOO
+BOOOOOOBO
+OOOOOBOOB
+BOWOKWOOB
+BOWOTWOOO
+OOOWWOWOO
+OOOOWOBOO
+BOOOBOOOO
+BOOBOBOOO
+-
+B
+mag 13, 2019 4:28:26 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from d5 to d7
+mag 13, 2019 4:28:26 PM domain.AimaGameAshtonTablut movePawn
+BUONO: Movimento pedina
+mag 13, 2019 4:28:26 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Current draw cache size: 1
+mag 13, 2019 4:28:26 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Stato:
+OOOOOOBOO
+BOOOOOOBO
+OOOOOBOOB
+BOWOKWOOB
+BOWOTWOOO
+OOOOWOWOO
+OOOWWOBOO
+BOOOBOOOO
+BOOBOBOOO
+-
+B
+mag 13, 2019 4:28:26 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from d5 to d8
+mag 13, 2019 4:28:26 PM domain.AimaGameAshtonTablut movePawn
+BUONO: Movimento pedina
+mag 13, 2019 4:28:26 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Current draw cache size: 1
+mag 13, 2019 4:28:26 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Stato:
+OOOOOOBOO
+BOOOOOOBO
+OOOOOBOOB
+BOWOKWOOB
+BOWOTWOOO
+OOOOWOWOO
+OOOOWOBOO
+BOOWBOOOO
+BOOBOBOOO
+-
+B
+mag 13, 2019 4:28:26 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from d5 to d9
+mag 13, 2019 4:28:26 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa sopra una casella occupata
+mag 13, 2019 4:28:26 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from d5 to d4
+mag 13, 2019 4:28:26 PM domain.AimaGameAshtonTablut movePawn
+BUONO: Movimento pedina
+mag 13, 2019 4:28:26 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Current draw cache size: 1
+mag 13, 2019 4:28:26 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Stato:
+OOOOOOBOO
+BOOOOOOBO
+OOOOOBOOB
+BOWWKWOOB
+BOWOTWOOO
+OOOOWOWOO
+OOOOWOBOO
+BOOOBOOOO
+BOOBOBOOO
+-
+B
+mag 13, 2019 4:28:26 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from d5 to d3
+mag 13, 2019 4:28:26 PM domain.AimaGameAshtonTablut movePawn
+BUONO: Movimento pedina
+mag 13, 2019 4:28:26 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Current draw cache size: 1
+mag 13, 2019 4:28:26 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Stato:
+OOOOOOBOO
+BOOOOOOBO
+OOOWOBOOB
+BOWOKWOOB
+BOWOTWOOO
+OOOOWOWOO
+OOOOWOBOO
+BOOOBOOOO
+BOOBOBOOO
+-
+B
+mag 13, 2019 4:28:26 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from d5 to d2
+mag 13, 2019 4:28:26 PM domain.AimaGameAshtonTablut movePawn
+BUONO: Movimento pedina
+mag 13, 2019 4:28:26 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Current draw cache size: 1
+mag 13, 2019 4:28:26 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Stato:
+OOOOOOBOO
+BOOWOOOBO
+OOOOOBOOB
+BOWOKWOOB
+BOWOTWOOO
+OOOOWOWOO
+OOOOWOBOO
+BOOOBOOOO
+BOOBOBOOO
+-
+B
+mag 13, 2019 4:28:26 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from d5 to d1
+mag 13, 2019 4:28:26 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa che arriva sopra una citadel
+mag 13, 2019 4:28:26 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from d5 to e5
+mag 13, 2019 4:28:26 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa sul trono
+mag 13, 2019 4:28:26 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from d5 to f5
+mag 13, 2019 4:28:26 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa sopra una casella occupata
+mag 13, 2019 4:28:26 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from d5 to g5
+mag 13, 2019 4:28:26 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa che scavalca il trono
+mag 13, 2019 4:28:26 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from d5 to h5
+mag 13, 2019 4:28:26 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa che arriva sopra una citadel
+mag 13, 2019 4:28:26 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from d5 to i5
+mag 13, 2019 4:28:26 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa che arriva sopra una citadel
+mag 13, 2019 4:28:26 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from d5 to c5
+mag 13, 2019 4:28:26 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa sopra una casella occupata
+mag 13, 2019 4:28:26 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from d5 to b5
+mag 13, 2019 4:28:26 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa che arriva sopra una citadel
+mag 13, 2019 4:28:26 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from d5 to a5
+mag 13, 2019 4:28:26 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa sopra una casella occupata
+mag 13, 2019 4:28:26 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from f5 to f6
+mag 13, 2019 4:28:26 PM domain.AimaGameAshtonTablut movePawn
+BUONO: Movimento pedina
+mag 13, 2019 4:28:26 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Current draw cache size: 1
+mag 13, 2019 4:28:26 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Stato:
+OOOOOOBOO
+BOOOOOOBO
+OOOOOBOOB
+BOWOKWOOB
+BOWWTOOOO
+OOOOWWWOO
+OOOOWOBOO
+BOOOBOOOO
+BOOBOBOOO
+-
+B
+mag 13, 2019 4:28:26 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from f5 to f7
+mag 13, 2019 4:28:26 PM domain.AimaGameAshtonTablut movePawn
+BUONO: Movimento pedina
+mag 13, 2019 4:28:26 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Current draw cache size: 1
+mag 13, 2019 4:28:26 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Stato:
+OOOOOOBOO
+BOOOOOOBO
+OOOOOBOOB
+BOWOKWOOB
+BOWWTOOOO
+OOOOWOWOO
+OOOOWWBOO
+BOOOBOOOO
+BOOBOBOOO
+-
+B
+mag 13, 2019 4:28:26 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from f5 to f8
+mag 13, 2019 4:28:26 PM domain.AimaGameAshtonTablut movePawn
+BUONO: Movimento pedina
+mag 13, 2019 4:28:26 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Current draw cache size: 1
+mag 13, 2019 4:28:26 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Stato:
+OOOOOOBOO
+BOOOOOOBO
+OOOOOBOOB
+BOWOKWOOB
+BOWWTOOOO
+OOOOWOWOO
+OOOOWOBOO
+BOOOBWOOO
+BOOBOBOOO
+-
+B
+mag 13, 2019 4:28:26 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from f5 to f9
+mag 13, 2019 4:28:26 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa sopra una casella occupata
+mag 13, 2019 4:28:26 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from f5 to f4
+mag 13, 2019 4:28:26 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa sopra una casella occupata
+mag 13, 2019 4:28:26 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from f5 to f3
+mag 13, 2019 4:28:26 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa sopra una casella occupata
+mag 13, 2019 4:28:26 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from f5 to f2
+mag 13, 2019 4:28:27 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa che scavalca una pedina
+mag 13, 2019 4:28:27 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from f5 to f1
+mag 13, 2019 4:28:27 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa che arriva sopra una citadel
+mag 13, 2019 4:28:27 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from f5 to g5
+mag 13, 2019 4:28:27 PM domain.AimaGameAshtonTablut movePawn
+BUONO: Movimento pedina
+mag 13, 2019 4:28:27 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Current draw cache size: 1
+mag 13, 2019 4:28:27 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Stato:
+OOOOOOBOO
+BOOOOOOBO
+OOOOOBOOB
+BOWOKWOOB
+BOWWTOWOO
+OOOOWOWOO
+OOOOWOBOO
+BOOOBOOOO
+BOOBOBOOO
+-
+B
+mag 13, 2019 4:28:27 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from f5 to h5
+mag 13, 2019 4:28:27 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa che arriva sopra una citadel
+mag 13, 2019 4:28:27 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from f5 to i5
+mag 13, 2019 4:28:27 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa che arriva sopra una citadel
+mag 13, 2019 4:28:27 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from f5 to e5
+mag 13, 2019 4:28:27 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa sul trono
+mag 13, 2019 4:28:27 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from f5 to d5
+mag 13, 2019 4:28:27 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa sopra una casella occupata
+mag 13, 2019 4:28:27 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from f5 to c5
+mag 13, 2019 4:28:27 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa sopra una casella occupata
+mag 13, 2019 4:28:27 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from f5 to b5
+mag 13, 2019 4:28:27 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa che arriva sopra una citadel
+mag 13, 2019 4:28:27 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from f5 to a5
+mag 13, 2019 4:28:27 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa sopra una casella occupata
+mag 13, 2019 4:28:27 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from e6 to e7
+mag 13, 2019 4:28:27 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa sopra una casella occupata
+mag 13, 2019 4:28:27 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from e6 to e8
+mag 13, 2019 4:28:27 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa sopra una casella occupata
+mag 13, 2019 4:28:27 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from e6 to e9
+mag 13, 2019 4:28:27 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa che arriva sopra una citadel
+mag 13, 2019 4:28:27 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from e6 to e5
+mag 13, 2019 4:28:27 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa sul trono
+mag 13, 2019 4:28:27 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from e6 to e4
+mag 13, 2019 4:28:27 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa sopra una casella occupata
+mag 13, 2019 4:28:27 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from e6 to e3
+mag 13, 2019 4:28:27 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa che scavalca una pedina
+mag 13, 2019 4:28:27 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from e6 to e2
+mag 13, 2019 4:28:27 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa che arriva sopra una citadel
+mag 13, 2019 4:28:27 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from e6 to e1
+mag 13, 2019 4:28:27 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa che arriva sopra una citadel
+mag 13, 2019 4:28:27 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from e6 to f6
+mag 13, 2019 4:28:27 PM domain.AimaGameAshtonTablut movePawn
+BUONO: Movimento pedina
+mag 13, 2019 4:28:27 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Current draw cache size: 1
+mag 13, 2019 4:28:27 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Stato:
+OOOOOOBOO
+BOOOOOOBO
+OOOOOBOOB
+BOWOKWOOB
+BOWWTWOOO
+OOOOOWWOO
+OOOOWOBOO
+BOOOBOOOO
+BOOBOBOOO
+-
+B
+mag 13, 2019 4:28:27 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from e6 to g6
+mag 13, 2019 4:28:27 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa sopra una casella occupata
+mag 13, 2019 4:28:27 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from e6 to h6
+mag 13, 2019 4:28:27 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa che scavalca una pedina
+mag 13, 2019 4:28:27 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from e6 to i6
+mag 13, 2019 4:28:27 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa che arriva sopra una citadel
+mag 13, 2019 4:28:27 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from e6 to d6
+mag 13, 2019 4:28:27 PM domain.AimaGameAshtonTablut movePawn
+BUONO: Movimento pedina
+mag 13, 2019 4:28:27 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Current draw cache size: 1
+mag 13, 2019 4:28:27 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Stato:
+OOOOOOBOO
+BOOOOOOBO
+OOOOOBOOB
+BOWOKWOOB
+BOWWTWOOO
+OOOWOOWOO
+OOOOWOBOO
+BOOOBOOOO
+BOOBOBOOO
+-
+B
+mag 13, 2019 4:28:27 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from e6 to c6
+mag 13, 2019 4:28:27 PM domain.AimaGameAshtonTablut movePawn
+BUONO: Movimento pedina
+mag 13, 2019 4:28:27 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Current draw cache size: 1
+mag 13, 2019 4:28:27 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Stato:
+OOOOOOBOO
+BOOOOOOBO
+OOOOOBOOB
+BOWOKWOOB
+BOWWTWOOO
+OOWOOOWOO
+OOOOWOBOO
+BOOOBOOOO
+BOOBOBOOO
+-
+B
+mag 13, 2019 4:28:27 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from e6 to b6
+mag 13, 2019 4:28:27 PM domain.AimaGameAshtonTablut movePawn
+BUONO: Movimento pedina
+mag 13, 2019 4:28:27 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Current draw cache size: 1
+mag 13, 2019 4:28:27 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Stato:
+OOOOOOBOO
+BOOOOOOBO
+OOOOOBOOB
+BOWOKWOOB
+BOWWTWOOO
+OWOOOOWOO
+OOOOWOBOO
+BOOOBOOOO
+BOOBOBOOO
+-
+B
+mag 13, 2019 4:28:27 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from e6 to a6
+mag 13, 2019 4:28:27 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa che arriva sopra una citadel
+mag 13, 2019 4:28:27 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from g6 to g7
+mag 13, 2019 4:28:27 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa sopra una casella occupata
+mag 13, 2019 4:28:27 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from g6 to g8
+mag 13, 2019 4:28:27 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa che scavalca una pedina
+mag 13, 2019 4:28:27 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from g6 to g9
+mag 13, 2019 4:28:27 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa che scavalca una pedina
+mag 13, 2019 4:28:27 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from g6 to g5
+mag 13, 2019 4:28:27 PM domain.AimaGameAshtonTablut movePawn
+BUONO: Movimento pedina
+mag 13, 2019 4:28:27 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Current draw cache size: 1
+mag 13, 2019 4:28:27 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Stato:
+OOOOOOBOO
+BOOOOOOBO
+OOOOOBOOB
+BOWOKWOOB
+BOWWTWWOO
+OOOOWOOOO
+OOOOWOBOO
+BOOOBOOOO
+BOOBOBOOO
+-
+B
+mag 13, 2019 4:28:27 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from g6 to g4
+mag 13, 2019 4:28:27 PM domain.AimaGameAshtonTablut movePawn
+BUONO: Movimento pedina
+mag 13, 2019 4:28:27 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Current draw cache size: 1
+mag 13, 2019 4:28:27 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Stato:
+OOOOOOBOO
+BOOOOOOBO
+OOOOOBOOB
+BOWOKWWOB
+BOWWTWOOO
+OOOOWOOOO
+OOOOWOBOO
+BOOOBOOOO
+BOOBOBOOO
+-
+B
+mag 13, 2019 4:28:27 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from g6 to g3
+mag 13, 2019 4:28:27 PM domain.AimaGameAshtonTablut movePawn
+BUONO: Movimento pedina
+mag 13, 2019 4:28:27 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Current draw cache size: 1
+mag 13, 2019 4:28:27 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Stato:
+OOOOOOBOO
+BOOOOOOBO
+OOOOOBWOB
+BOWOKWOOB
+BOWWTWOOO
+OOOOWOOOO
+OOOOWOBOO
+BOOOBOOOO
+BOOBOBOOO
+-
+B
+mag 13, 2019 4:28:27 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from g6 to g2
+mag 13, 2019 4:28:27 PM domain.AimaGameAshtonTablut movePawn
+BUONO: Movimento pedina
+mag 13, 2019 4:28:27 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Current draw cache size: 1
+mag 13, 2019 4:28:27 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Stato:
+OOOOOOBOO
+BOOOOOWBO
+OOOOOBOOB
+BOWOKWOOB
+BOWWTWOOO
+OOOOWOOOO
+OOOOWOBOO
+BOOOBOOOO
+BOOBOBOOO
+-
+B
+mag 13, 2019 4:28:27 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from g6 to g1
+mag 13, 2019 4:28:27 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa sopra una casella occupata
+mag 13, 2019 4:28:27 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from g6 to h6
+mag 13, 2019 4:28:27 PM domain.AimaGameAshtonTablut movePawn
+BUONO: Movimento pedina
+mag 13, 2019 4:28:27 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Current draw cache size: 1
+mag 13, 2019 4:28:27 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Stato:
+OOOOOOBOO
+BOOOOOOBO
+OOOOOBOOB
+BOWOKWOOB
+BOWWTWOOO
+OOOOWOOWO
+OOOOWOBOO
+BOOOBOOOO
+BOOBOBOOO
+-
+B
+mag 13, 2019 4:28:27 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from g6 to i6
+mag 13, 2019 4:28:27 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa che arriva sopra una citadel
+mag 13, 2019 4:28:27 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from g6 to f6
+mag 13, 2019 4:28:27 PM domain.AimaGameAshtonTablut movePawn
+BUONO: Movimento pedina
+mag 13, 2019 4:28:27 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Current draw cache size: 1
+mag 13, 2019 4:28:27 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Stato:
+OOOOOOBOO
+BOOOOOOBO
+OOOOOBOOB
+BOWOKWOOB
+BOWWTWOOO
+OOOOWWOOO
+OOOOWOBOO
+BOOOBOOOO
+BOOBOBOOO
+-
+B
+mag 13, 2019 4:28:27 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from g6 to e6
+mag 13, 2019 4:28:27 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa sopra una casella occupata
+mag 13, 2019 4:28:27 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from g6 to d6
+mag 13, 2019 4:28:27 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa che scavalca una pedina
+mag 13, 2019 4:28:27 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from g6 to c6
+mag 13, 2019 4:28:27 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa che scavalca una pedina
+mag 13, 2019 4:28:27 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from g6 to b6
+mag 13, 2019 4:28:27 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa che scavalca una pedina
+mag 13, 2019 4:28:27 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from g6 to a6
+mag 13, 2019 4:28:27 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa che arriva sopra una citadel
+mag 13, 2019 4:28:27 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from e7 to e8
+mag 13, 2019 4:28:27 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa sopra una casella occupata
+mag 13, 2019 4:28:27 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from e7 to e9
+mag 13, 2019 4:28:27 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa che arriva sopra una citadel
+mag 13, 2019 4:28:27 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from e7 to e6
+mag 13, 2019 4:28:27 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa sopra una casella occupata
+mag 13, 2019 4:28:27 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from e7 to e5
+mag 13, 2019 4:28:27 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa sul trono
+mag 13, 2019 4:28:27 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from e7 to e4
+mag 13, 2019 4:28:27 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa sopra una casella occupata
+mag 13, 2019 4:28:27 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from e7 to e3
+mag 13, 2019 4:28:27 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa che scavalca una pedina
+mag 13, 2019 4:28:27 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from e7 to e2
+mag 13, 2019 4:28:27 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa che arriva sopra una citadel
+mag 13, 2019 4:28:27 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from e7 to e1
+mag 13, 2019 4:28:27 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa che arriva sopra una citadel
+mag 13, 2019 4:28:27 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from e7 to f7
+mag 13, 2019 4:28:27 PM domain.AimaGameAshtonTablut movePawn
+BUONO: Movimento pedina
+mag 13, 2019 4:28:27 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Current draw cache size: 1
+mag 13, 2019 4:28:27 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Stato:
+OOOOOOBOO
+BOOOOOOBO
+OOOOOBOOB
+BOWOKWOOB
+BOWWTWOOO
+OOOOWOWOO
+OOOOOWBOO
+BOOOBOOOO
+BOOBOBOOO
+-
+B
+mag 13, 2019 4:28:27 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from e7 to g7
+mag 13, 2019 4:28:27 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa sopra una casella occupata
+mag 13, 2019 4:28:27 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from e7 to h7
+mag 13, 2019 4:28:27 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa che scavalca una pedina
+mag 13, 2019 4:28:27 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from e7 to i7
+mag 13, 2019 4:28:27 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa che scavalca una pedina
+mag 13, 2019 4:28:27 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from e7 to d7
+mag 13, 2019 4:28:27 PM domain.AimaGameAshtonTablut movePawn
+BUONO: Movimento pedina
+mag 13, 2019 4:28:27 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Current draw cache size: 1
+mag 13, 2019 4:28:27 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Stato:
+OOOOOOBOO
+BOOOOOOBO
+OOOOOBOOB
+BOWOKWOOB
+BOWWTWOOO
+OOOOWOWOO
+OOOWOOBOO
+BOOOBOOOO
+BOOBOBOOO
+-
+B
+mag 13, 2019 4:28:27 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from e7 to c7
+mag 13, 2019 4:28:27 PM domain.AimaGameAshtonTablut movePawn
+BUONO: Movimento pedina
+mag 13, 2019 4:28:27 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Current draw cache size: 1
+mag 13, 2019 4:28:27 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Stato:
+OOOOOOBOO
+BOOOOOOBO
+OOOOOBOOB
+BOWOKWOOB
+BOWWTWOOO
+OOOOWOWOO
+OOWOOOBOO
+BOOOBOOOO
+BOOBOBOOO
+-
+B
+mag 13, 2019 4:28:27 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from e7 to b7
+mag 13, 2019 4:28:27 PM domain.AimaGameAshtonTablut movePawn
+BUONO: Movimento pedina
+mag 13, 2019 4:28:27 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Current draw cache size: 1
+mag 13, 2019 4:28:27 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Stato:
+OOOOOOBOO
+BOOOOOOBO
+OOOOOBOOB
+BOWOKWOOB
+BOWWTWOOO
+OOOOWOWOO
+OWOOOOBOO
+BOOOBOOOO
+BOOBOBOOO
+-
+B
+mag 13, 2019 4:28:27 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from e7 to a7
+mag 13, 2019 4:28:27 PM domain.AimaGameAshtonTablut movePawn
+BUONO: Movimento pedina
+mag 13, 2019 4:28:27 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Current draw cache size: 1
+mag 13, 2019 4:28:27 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Stato:
+OOOOOOBOO
+BOOOOOOBO
+OOOOOBOOB
+BOWOKWOOB
+BOWWTWOOO
+OOOOWOWOO
+WOOOOOBOO
+BOOOBOOOO
+BOOBOBOOO
+-
+B
+mag 13, 2019 4:28:27 PM domain.AimaGameAshtonTablut movePawn
+BUONO: Movimento pedina
+mag 13, 2019 4:28:27 PM domain.AimaGameAshtonTablut movePawn
+BUONO: Movimento pedina
+mag 13, 2019 4:28:27 PM domain.AimaGameAshtonTablut movePawn
+BUONO: Movimento pedina
+mag 13, 2019 4:28:27 PM domain.AimaGameAshtonTablut movePawn
+BUONO: Movimento pedina
+mag 13, 2019 4:28:27 PM domain.AimaGameAshtonTablut movePawn
+BUONO: Movimento pedina
+mag 13, 2019 4:28:27 PM domain.AimaGameAshtonTablut movePawn
+BUONO: Movimento pedina
+mag 13, 2019 4:28:27 PM domain.AimaGameAshtonTablut movePawn
+BUONO: Movimento pedina
+mag 13, 2019 4:28:27 PM domain.AimaGameAshtonTablut movePawn
+BUONO: Movimento pedina
+mag 13, 2019 4:28:27 PM domain.AimaGameAshtonTablut movePawn
+BUONO: Movimento pedina
+mag 13, 2019 4:28:27 PM domain.AimaGameAshtonTablut movePawn
+BUONO: Movimento pedina
+mag 13, 2019 4:28:27 PM domain.AimaGameAshtonTablut movePawn
+BUONO: Movimento pedina
+mag 13, 2019 4:28:27 PM domain.AimaGameAshtonTablut movePawn
+BUONO: Movimento pedina
+mag 13, 2019 4:28:27 PM domain.AimaGameAshtonTablut movePawn
+BUONO: Movimento pedina
+mag 13, 2019 4:28:27 PM domain.AimaGameAshtonTablut movePawn
+BUONO: Movimento pedina
+mag 13, 2019 4:28:27 PM domain.AimaGameAshtonTablut movePawn
+BUONO: Movimento pedina
+mag 13, 2019 4:28:27 PM domain.AimaGameAshtonTablut movePawn
+BUONO: Movimento pedina
+mag 13, 2019 4:28:27 PM domain.AimaGameAshtonTablut movePawn
+BUONO: Movimento pedina
+mag 13, 2019 4:28:27 PM domain.AimaGameAshtonTablut movePawn
+BUONO: Movimento pedina
+mag 13, 2019 4:28:27 PM domain.AimaGameAshtonTablut checkCaptureBlackKingRight
+BUONO: Nero vince con re catturato in: e3
+mag 13, 2019 4:28:27 PM domain.AimaGameAshtonTablut movePawn
+BUONO: Movimento pedina
+mag 13, 2019 4:28:27 PM domain.AimaGameAshtonTablut movePawn
+BUONO: Movimento pedina
+mag 13, 2019 4:28:27 PM domain.AimaGameAshtonTablut movePawn
+BUONO: Movimento pedina
+mag 13, 2019 4:28:27 PM domain.AimaGameAshtonTablut movePawn
+BUONO: Movimento pedina
+mag 13, 2019 4:28:27 PM domain.AimaGameAshtonTablut movePawn
+BUONO: Movimento pedina
+mag 13, 2019 4:28:27 PM domain.AimaGameAshtonTablut checkCaptureBlackPawnDown
+BUONO: Pedina bianca rimossa in: g6
+mag 13, 2019 4:28:27 PM domain.AimaGameAshtonTablut movePawn
+BUONO: Movimento pedina
+mag 13, 2019 4:28:27 PM domain.AimaGameAshtonTablut movePawn
+BUONO: Movimento pedina
+mag 13, 2019 4:28:27 PM domain.AimaGameAshtonTablut movePawn
+BUONO: Movimento pedina
+mag 13, 2019 4:28:27 PM domain.AimaGameAshtonTablut movePawn
+BUONO: Movimento pedina
+mag 13, 2019 4:28:27 PM domain.AimaGameAshtonTablut movePawn
+BUONO: Movimento pedina
+mag 13, 2019 4:28:27 PM domain.AimaGameAshtonTablut movePawn
+BUONO: Movimento pedina
+mag 13, 2019 4:28:27 PM domain.AimaGameAshtonTablut movePawn
+BUONO: Movimento pedina
+mag 13, 2019 4:28:27 PM domain.AimaGameAshtonTablut checkCaptureWhite
+BUONO: Pedina nera rimossa in: f3
+mag 13, 2019 4:28:27 PM domain.AimaGameAshtonTablut movePawn
+BUONO: Movimento pedina
+mag 13, 2019 4:28:27 PM domain.AimaGameAshtonTablut movePawn
+BUONO: Movimento pedina
+mag 13, 2019 4:28:27 PM domain.AimaGameAshtonTablut movePawn
+BUONO: Movimento pedina
+mag 13, 2019 4:28:27 PM domain.AimaGameAshtonTablut movePawn
+BUONO: Movimento pedina
+mag 13, 2019 4:28:27 PM domain.AimaGameAshtonTablut movePawn
+BUONO: Movimento pedina
+mag 13, 2019 4:28:27 PM domain.AimaGameAshtonTablut movePawn
+BUONO: Movimento pedina
+mag 13, 2019 4:28:27 PM domain.AimaGameAshtonTablut movePawn
+BUONO: Movimento pedina
+mag 13, 2019 4:28:27 PM domain.AimaGameAshtonTablut movePawn
+BUONO: Movimento pedina
+mag 13, 2019 4:28:30 PM domain.AimaGameAshtonTablut <init>
+BUONO: Players:	White:	fake	vs	fake
+mag 13, 2019 4:28:30 PM domain.AimaGameAshtonTablut <init>
+BUONO: Repeated moves allowed:	99	Cache:	0
+mag 13, 2019 4:28:30 PM domain.AimaGameAshtonTablut <init>
+BUONO: Inizio partita
+mag 13, 2019 4:28:30 PM domain.AimaGameAshtonTablut <init>
+BUONO: Stato:
+OOOBBBOOO
+OOOOBOOOO
+OOOOWOOOO
+BOOOWOOOB
+BBWWKWWBB
+BOOOWOOOB
+OOOOWOOOO
+OOOOBOOOO
+OOOBBBOOO
+-
+B
+mag 13, 2019 4:28:30 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from e3 to e4
+mag 13, 2019 4:28:30 PM domain.AimaGameAshtonTablut movePawn
+BUONO: Movimento pedina
+mag 13, 2019 4:28:30 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Current draw cache size: 1
+mag 13, 2019 4:28:30 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Stato:
+OOOOOOBOO
+BOOOOOOBO
+OOOOOBBOO
+BOWOKWOOB
+BOWWTWOOO
+OOOOWOWOO
+OOOOWOBOO
+BOOOBOOOO
+BOOBOBOOO
+-
+B
+mag 13, 2019 4:28:30 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from e3 to e5
+mag 13, 2019 4:28:30 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa sul trono
+mag 13, 2019 4:28:30 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from e3 to e6
+mag 13, 2019 4:28:30 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa sopra una casella occupata
+mag 13, 2019 4:28:30 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from e3 to e7
+mag 13, 2019 4:28:30 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa sopra una casella occupata
+mag 13, 2019 4:28:30 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from e3 to e8
+mag 13, 2019 4:28:30 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa sopra una casella occupata
+mag 13, 2019 4:28:30 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from e3 to e9
+mag 13, 2019 4:28:30 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa che arriva sopra una citadel
+mag 13, 2019 4:28:30 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from e3 to e2
+mag 13, 2019 4:28:30 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa che arriva sopra una citadel
+mag 13, 2019 4:28:30 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from e3 to e1
+mag 13, 2019 4:28:30 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa che arriva sopra una citadel
+mag 13, 2019 4:28:30 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from e3 to f3
+mag 13, 2019 4:28:30 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa sopra una casella occupata
+mag 13, 2019 4:28:30 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from e3 to g3
+mag 13, 2019 4:28:30 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa sopra una casella occupata
+mag 13, 2019 4:28:30 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from e3 to h3
+mag 13, 2019 4:28:30 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa che scavalca una pedina
+mag 13, 2019 4:28:30 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from e3 to i3
+mag 13, 2019 4:28:30 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa che scavalca una pedina
+mag 13, 2019 4:28:30 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from e3 to d3
+mag 13, 2019 4:28:30 PM domain.AimaGameAshtonTablut movePawn
+BUONO: Movimento pedina
+mag 13, 2019 4:28:30 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Current draw cache size: 1
+mag 13, 2019 4:28:30 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Stato:
+OOOOOOBOO
+BOOOOOOBO
+OOOKOBBOO
+BOWOOWOOB
+BOWWTWOOO
+OOOOWOWOO
+OOOOWOBOO
+BOOOBOOOO
+BOOBOBOOO
+-
+B
+mag 13, 2019 4:28:30 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from e3 to c3
+mag 13, 2019 4:28:30 PM domain.AimaGameAshtonTablut movePawn
+BUONO: Movimento pedina
+mag 13, 2019 4:28:30 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Current draw cache size: 1
+mag 13, 2019 4:28:30 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Stato:
+OOOOOOBOO
+BOOOOOOBO
+OOKOOBBOO
+BOWOOWOOB
+BOWWTWOOO
+OOOOWOWOO
+OOOOWOBOO
+BOOOBOOOO
+BOOBOBOOO
+-
+B
+mag 13, 2019 4:28:30 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from e3 to b3
+mag 13, 2019 4:28:30 PM domain.AimaGameAshtonTablut movePawn
+BUONO: Movimento pedina
+mag 13, 2019 4:28:30 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Current draw cache size: 1
+mag 13, 2019 4:28:30 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Stato:
+OOOOOOBOO
+BOOOOOOBO
+OKOOOBBOO
+BOWOOWOOB
+BOWWTWOOO
+OOOOWOWOO
+OOOOWOBOO
+BOOOBOOOO
+BOOBOBOOO
+-
+B
+mag 13, 2019 4:28:30 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from e3 to a3
+mag 13, 2019 4:28:30 PM domain.AimaGameAshtonTablut movePawn
+BUONO: Movimento pedina
+mag 13, 2019 4:28:30 PM domain.AimaGameAshtonTablut checkCaptureWhite
+BUONO: Bianco vince con re in a3
+mag 13, 2019 4:28:30 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Current draw cache size: 1
+mag 13, 2019 4:28:30 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Stato:
+OOOOOOBOO
+BOOOOOOBO
+KOOOOBBOO
+BOWOOWOOB
+BOWWTWOOO
+OOOOWOWOO
+OOOOWOBOO
+BOOOBOOOO
+BOOBOBOOO
+-
+WW
+mag 13, 2019 4:28:30 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from c4 to c5
+mag 13, 2019 4:28:30 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa sopra una casella occupata
+mag 13, 2019 4:28:30 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from c4 to c6
+mag 13, 2019 4:28:30 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa che scavalca una pedina
+mag 13, 2019 4:28:30 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from c4 to c7
+mag 13, 2019 4:28:30 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa che scavalca una pedina
+mag 13, 2019 4:28:30 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from c4 to c8
+mag 13, 2019 4:28:30 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa che scavalca una pedina
+mag 13, 2019 4:28:30 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from c4 to c9
+mag 13, 2019 4:28:30 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa che scavalca una pedina
+mag 13, 2019 4:28:30 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from c4 to c3
+mag 13, 2019 4:28:30 PM domain.AimaGameAshtonTablut movePawn
+BUONO: Movimento pedina
+mag 13, 2019 4:28:30 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Current draw cache size: 1
+mag 13, 2019 4:28:30 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Stato:
+OOOOOOBOO
+BOOOOOOBO
+OOWOKBBOO
+BOOOOWOOB
+BOWWTWOOO
+OOOOWOWOO
+OOOOWOBOO
+BOOOBOOOO
+BOOBOBOOO
+-
+B
+mag 13, 2019 4:28:30 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from c4 to c2
+mag 13, 2019 4:28:30 PM domain.AimaGameAshtonTablut movePawn
+BUONO: Movimento pedina
+mag 13, 2019 4:28:30 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Current draw cache size: 1
+mag 13, 2019 4:28:30 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Stato:
+OOOOOOBOO
+BOWOOOOBO
+OOOOKBBOO
+BOOOOWOOB
+BOWWTWOOO
+OOOOWOWOO
+OOOOWOBOO
+BOOOBOOOO
+BOOBOBOOO
+-
+B
+mag 13, 2019 4:28:30 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from c4 to c1
+mag 13, 2019 4:28:30 PM domain.AimaGameAshtonTablut movePawn
+BUONO: Movimento pedina
+mag 13, 2019 4:28:30 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Current draw cache size: 1
+mag 13, 2019 4:28:30 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Stato:
+OOWOOOBOO
+BOOOOOOBO
+OOOOKBBOO
+BOOOOWOOB
+BOWWTWOOO
+OOOOWOWOO
+OOOOWOBOO
+BOOOBOOOO
+BOOBOBOOO
+-
+B
+mag 13, 2019 4:28:30 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from c4 to d4
+mag 13, 2019 4:28:30 PM domain.AimaGameAshtonTablut movePawn
+BUONO: Movimento pedina
+mag 13, 2019 4:28:30 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Current draw cache size: 1
+mag 13, 2019 4:28:30 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Stato:
+OOOOOOBOO
+BOOOOOOBO
+OOOOKBBOO
+BOOWOWOOB
+BOWWTWOOO
+OOOOWOWOO
+OOOOWOBOO
+BOOOBOOOO
+BOOBOBOOO
+-
+B
+mag 13, 2019 4:28:30 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from c4 to e4
+mag 13, 2019 4:28:30 PM domain.AimaGameAshtonTablut movePawn
+BUONO: Movimento pedina
+mag 13, 2019 4:28:30 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Current draw cache size: 1
+mag 13, 2019 4:28:30 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Stato:
+OOOOOOBOO
+BOOOOOOBO
+OOOOKBBOO
+BOOOWWOOB
+BOWWTWOOO
+OOOOWOWOO
+OOOOWOBOO
+BOOOBOOOO
+BOOBOBOOO
+-
+B
+mag 13, 2019 4:28:30 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from c4 to f4
+mag 13, 2019 4:28:30 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa sopra una casella occupata
+mag 13, 2019 4:28:30 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from c4 to g4
+mag 13, 2019 4:28:30 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa che scavalca una pedina
+mag 13, 2019 4:28:30 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from c4 to h4
+mag 13, 2019 4:28:30 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa che scavalca una pedina
+mag 13, 2019 4:28:30 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from c4 to i4
+mag 13, 2019 4:28:30 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa sopra una casella occupata
+mag 13, 2019 4:28:30 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from c4 to b4
+mag 13, 2019 4:28:30 PM domain.AimaGameAshtonTablut movePawn
+BUONO: Movimento pedina
+mag 13, 2019 4:28:30 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Current draw cache size: 1
+mag 13, 2019 4:28:30 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Stato:
+OOOOOOBOO
+BOOOOOOBO
+OOOOKBBOO
+BWOOOWOOB
+BOWWTWOOO
+OOOOWOWOO
+OOOOWOBOO
+BOOOBOOOO
+BOOBOBOOO
+-
+B
+mag 13, 2019 4:28:30 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from c4 to a4
+mag 13, 2019 4:28:30 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa sopra una casella occupata
+mag 13, 2019 4:28:30 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from f4 to f5
+mag 13, 2019 4:28:30 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa sopra una casella occupata
+mag 13, 2019 4:28:30 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from f4 to f6
+mag 13, 2019 4:28:30 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa che scavalca una pedina
+mag 13, 2019 4:28:30 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from f4 to f7
+mag 13, 2019 4:28:30 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa che scavalca una pedina
+mag 13, 2019 4:28:30 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from f4 to f8
+mag 13, 2019 4:28:30 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa che scavalca una pedina
+mag 13, 2019 4:28:30 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from f4 to f9
+mag 13, 2019 4:28:30 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa sopra una casella occupata
+mag 13, 2019 4:28:30 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from f4 to f3
+mag 13, 2019 4:28:30 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa sopra una casella occupata
+mag 13, 2019 4:28:30 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from f4 to f2
+mag 13, 2019 4:28:30 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa che scavalca una pedina
+mag 13, 2019 4:28:30 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from f4 to f1
+mag 13, 2019 4:28:30 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa che arriva sopra una citadel
+mag 13, 2019 4:28:30 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from f4 to g4
+mag 13, 2019 4:28:30 PM domain.AimaGameAshtonTablut movePawn
+BUONO: Movimento pedina
+mag 13, 2019 4:28:30 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Current draw cache size: 1
+mag 13, 2019 4:28:30 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Stato:
+OOOOOOBOO
+BOOOOOOBO
+OOOOKBBOO
+BOWOOOWOB
+BOWWTWOOO
+OOOOWOWOO
+OOOOWOBOO
+BOOOBOOOO
+BOOBOBOOO
+-
+B
+mag 13, 2019 4:28:30 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from f4 to h4
+mag 13, 2019 4:28:30 PM domain.AimaGameAshtonTablut movePawn
+BUONO: Movimento pedina
+mag 13, 2019 4:28:30 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Current draw cache size: 1
+mag 13, 2019 4:28:30 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Stato:
+OOOOOOBOO
+BOOOOOOBO
+OOOOKBBOO
+BOWOOOOWB
+BOWWTWOOO
+OOOOWOWOO
+OOOOWOBOO
+BOOOBOOOO
+BOOBOBOOO
+-
+B
+mag 13, 2019 4:28:30 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from f4 to i4
+mag 13, 2019 4:28:30 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa sopra una casella occupata
+mag 13, 2019 4:28:30 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from f4 to e4
+mag 13, 2019 4:28:30 PM domain.AimaGameAshtonTablut movePawn
+BUONO: Movimento pedina
+mag 13, 2019 4:28:30 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Current draw cache size: 1
+mag 13, 2019 4:28:30 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Stato:
+OOOOOOBOO
+BOOOOOOBO
+OOOOKBBOO
+BOWOWOOOB
+BOWWTWOOO
+OOOOWOWOO
+OOOOWOBOO
+BOOOBOOOO
+BOOBOBOOO
+-
+B
+mag 13, 2019 4:28:30 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from f4 to d4
+mag 13, 2019 4:28:30 PM domain.AimaGameAshtonTablut movePawn
+BUONO: Movimento pedina
+mag 13, 2019 4:28:30 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Current draw cache size: 1
+mag 13, 2019 4:28:30 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Stato:
+OOOOOOBOO
+BOOOOOOBO
+OOOOKBBOO
+BOWWOOOOB
+BOWWTWOOO
+OOOOWOWOO
+OOOOWOBOO
+BOOOBOOOO
+BOOBOBOOO
+-
+B
+mag 13, 2019 4:28:30 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from f4 to c4
+mag 13, 2019 4:28:30 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa sopra una casella occupata
+mag 13, 2019 4:28:30 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from f4 to b4
+mag 13, 2019 4:28:30 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa che scavalca una pedina
+mag 13, 2019 4:28:30 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from f4 to a4
+mag 13, 2019 4:28:30 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa sopra una casella occupata
+mag 13, 2019 4:28:30 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from c5 to c6
+mag 13, 2019 4:28:30 PM domain.AimaGameAshtonTablut movePawn
+BUONO: Movimento pedina
+mag 13, 2019 4:28:30 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Current draw cache size: 1
+mag 13, 2019 4:28:30 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Stato:
+OOOOOOBOO
+BOOOOOOBO
+OOOOKBBOO
+BOWOOWOOB
+BOOWTWOOO
+OOWOWOWOO
+OOOOWOBOO
+BOOOBOOOO
+BOOBOBOOO
+-
+B
+mag 13, 2019 4:28:30 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from c5 to c7
+mag 13, 2019 4:28:30 PM domain.AimaGameAshtonTablut movePawn
+BUONO: Movimento pedina
+mag 13, 2019 4:28:30 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Current draw cache size: 1
+mag 13, 2019 4:28:30 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Stato:
+OOOOOOBOO
+BOOOOOOBO
+OOOOKBBOO
+BOWOOWOOB
+BOOWTWOOO
+OOOOWOWOO
+OOWOWOBOO
+BOOOBOOOO
+BOOBOBOOO
+-
+B
+mag 13, 2019 4:28:30 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from c5 to c8
+mag 13, 2019 4:28:30 PM domain.AimaGameAshtonTablut movePawn
+BUONO: Movimento pedina
+mag 13, 2019 4:28:30 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Current draw cache size: 1
+mag 13, 2019 4:28:30 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Stato:
+OOOOOOBOO
+BOOOOOOBO
+OOOOKBBOO
+BOWOOWOOB
+BOOWTWOOO
+OOOOWOWOO
+OOOOWOBOO
+BOWOBOOOO
+BOOBOBOOO
+-
+B
+mag 13, 2019 4:28:30 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from c5 to c9
+mag 13, 2019 4:28:30 PM domain.AimaGameAshtonTablut movePawn
+BUONO: Movimento pedina
+mag 13, 2019 4:28:30 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Current draw cache size: 1
+mag 13, 2019 4:28:30 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Stato:
+OOOOOOBOO
+BOOOOOOBO
+OOOOKBBOO
+BOWOOWOOB
+BOOWTWOOO
+OOOOWOWOO
+OOOOWOBOO
+BOOOBOOOO
+BOWBOBOOO
+-
+B
+mag 13, 2019 4:28:30 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from c5 to c4
+mag 13, 2019 4:28:30 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa sopra una casella occupata
+mag 13, 2019 4:28:30 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from c5 to c3
+mag 13, 2019 4:28:30 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa che scavalca una pedina
+mag 13, 2019 4:28:30 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from c5 to c2
+mag 13, 2019 4:28:30 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa che scavalca una pedina
+mag 13, 2019 4:28:30 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from c5 to c1
+mag 13, 2019 4:28:30 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa che scavalca una pedina
+mag 13, 2019 4:28:30 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from c5 to d5
+mag 13, 2019 4:28:30 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa sopra una casella occupata
+mag 13, 2019 4:28:30 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from c5 to e5
+mag 13, 2019 4:28:30 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa sul trono
+mag 13, 2019 4:28:30 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from c5 to f5
+mag 13, 2019 4:28:30 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa sopra una casella occupata
+mag 13, 2019 4:28:30 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from c5 to g5
+mag 13, 2019 4:28:30 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa che scavalca una pedina
+mag 13, 2019 4:28:30 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from c5 to h5
+mag 13, 2019 4:28:30 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa che arriva sopra una citadel
+mag 13, 2019 4:28:30 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from c5 to i5
+mag 13, 2019 4:28:30 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa che arriva sopra una citadel
+mag 13, 2019 4:28:30 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from c5 to b5
+mag 13, 2019 4:28:30 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa che arriva sopra una citadel
+mag 13, 2019 4:28:30 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from c5 to a5
+mag 13, 2019 4:28:30 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa sopra una casella occupata
+mag 13, 2019 4:28:30 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from d5 to d6
+mag 13, 2019 4:28:30 PM domain.AimaGameAshtonTablut movePawn
+BUONO: Movimento pedina
+mag 13, 2019 4:28:30 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Current draw cache size: 1
+mag 13, 2019 4:28:30 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Stato:
+OOOOOOBOO
+BOOOOOOBO
+OOOOKBBOO
+BOWOOWOOB
+BOWOTWOOO
+OOOWWOWOO
+OOOOWOBOO
+BOOOBOOOO
+BOOBOBOOO
+-
+B
+mag 13, 2019 4:28:30 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from d5 to d7
+mag 13, 2019 4:28:30 PM domain.AimaGameAshtonTablut movePawn
+BUONO: Movimento pedina
+mag 13, 2019 4:28:30 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Current draw cache size: 1
+mag 13, 2019 4:28:30 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Stato:
+OOOOOOBOO
+BOOOOOOBO
+OOOOKBBOO
+BOWOOWOOB
+BOWOTWOOO
+OOOOWOWOO
+OOOWWOBOO
+BOOOBOOOO
+BOOBOBOOO
+-
+B
+mag 13, 2019 4:28:30 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from d5 to d8
+mag 13, 2019 4:28:30 PM domain.AimaGameAshtonTablut movePawn
+BUONO: Movimento pedina
+mag 13, 2019 4:28:30 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Current draw cache size: 1
+mag 13, 2019 4:28:30 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Stato:
+OOOOOOBOO
+BOOOOOOBO
+OOOOKBBOO
+BOWOOWOOB
+BOWOTWOOO
+OOOOWOWOO
+OOOOWOBOO
+BOOWBOOOO
+BOOBOBOOO
+-
+B
+mag 13, 2019 4:28:30 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from d5 to d9
+mag 13, 2019 4:28:30 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa sopra una casella occupata
+mag 13, 2019 4:28:30 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from d5 to d4
+mag 13, 2019 4:28:30 PM domain.AimaGameAshtonTablut movePawn
+BUONO: Movimento pedina
+mag 13, 2019 4:28:30 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Current draw cache size: 1
+mag 13, 2019 4:28:30 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Stato:
+OOOOOOBOO
+BOOOOOOBO
+OOOOKBBOO
+BOWWOWOOB
+BOWOTWOOO
+OOOOWOWOO
+OOOOWOBOO
+BOOOBOOOO
+BOOBOBOOO
+-
+B
+mag 13, 2019 4:28:30 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from d5 to d3
+mag 13, 2019 4:28:30 PM domain.AimaGameAshtonTablut movePawn
+BUONO: Movimento pedina
+mag 13, 2019 4:28:30 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Current draw cache size: 1
+mag 13, 2019 4:28:30 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Stato:
+OOOOOOBOO
+BOOOOOOBO
+OOOWKBBOO
+BOWOOWOOB
+BOWOTWOOO
+OOOOWOWOO
+OOOOWOBOO
+BOOOBOOOO
+BOOBOBOOO
+-
+B
+mag 13, 2019 4:28:30 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from d5 to d2
+mag 13, 2019 4:28:30 PM domain.AimaGameAshtonTablut movePawn
+BUONO: Movimento pedina
+mag 13, 2019 4:28:30 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Current draw cache size: 1
+mag 13, 2019 4:28:30 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Stato:
+OOOOOOBOO
+BOOWOOOBO
+OOOOKBBOO
+BOWOOWOOB
+BOWOTWOOO
+OOOOWOWOO
+OOOOWOBOO
+BOOOBOOOO
+BOOBOBOOO
+-
+B
+mag 13, 2019 4:28:30 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from d5 to d1
+mag 13, 2019 4:28:31 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa che arriva sopra una citadel
+mag 13, 2019 4:28:31 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from d5 to e5
+mag 13, 2019 4:28:31 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa sul trono
+mag 13, 2019 4:28:31 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from d5 to f5
+mag 13, 2019 4:28:31 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa sopra una casella occupata
+mag 13, 2019 4:28:31 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from d5 to g5
+mag 13, 2019 4:28:31 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa che scavalca il trono
+mag 13, 2019 4:28:31 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from d5 to h5
+mag 13, 2019 4:28:31 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa che arriva sopra una citadel
+mag 13, 2019 4:28:31 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from d5 to i5
+mag 13, 2019 4:28:31 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa che arriva sopra una citadel
+mag 13, 2019 4:28:31 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from d5 to c5
+mag 13, 2019 4:28:31 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa sopra una casella occupata
+mag 13, 2019 4:28:31 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from d5 to b5
+mag 13, 2019 4:28:31 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa che arriva sopra una citadel
+mag 13, 2019 4:28:31 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from d5 to a5
+mag 13, 2019 4:28:31 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa sopra una casella occupata
+mag 13, 2019 4:28:31 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from f5 to f6
+mag 13, 2019 4:28:31 PM domain.AimaGameAshtonTablut movePawn
+BUONO: Movimento pedina
+mag 13, 2019 4:28:31 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Current draw cache size: 1
+mag 13, 2019 4:28:31 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Stato:
+OOOOOOBOO
+BOOOOOOBO
+OOOOKBBOO
+BOWOOWOOB
+BOWWTOOOO
+OOOOWWWOO
+OOOOWOBOO
+BOOOBOOOO
+BOOBOBOOO
+-
+B
+mag 13, 2019 4:28:31 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from f5 to f7
+mag 13, 2019 4:28:31 PM domain.AimaGameAshtonTablut movePawn
+BUONO: Movimento pedina
+mag 13, 2019 4:28:31 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Current draw cache size: 1
+mag 13, 2019 4:28:31 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Stato:
+OOOOOOBOO
+BOOOOOOBO
+OOOOKBBOO
+BOWOOWOOB
+BOWWTOOOO
+OOOOWOWOO
+OOOOWWBOO
+BOOOBOOOO
+BOOBOBOOO
+-
+B
+mag 13, 2019 4:28:31 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from f5 to f8
+mag 13, 2019 4:28:31 PM domain.AimaGameAshtonTablut movePawn
+BUONO: Movimento pedina
+mag 13, 2019 4:28:31 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Current draw cache size: 1
+mag 13, 2019 4:28:31 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Stato:
+OOOOOOBOO
+BOOOOOOBO
+OOOOKBBOO
+BOWOOWOOB
+BOWWTOOOO
+OOOOWOWOO
+OOOOWOBOO
+BOOOBWOOO
+BOOBOBOOO
+-
+B
+mag 13, 2019 4:28:31 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from f5 to f9
+mag 13, 2019 4:28:31 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa sopra una casella occupata
+mag 13, 2019 4:28:31 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from f5 to f4
+mag 13, 2019 4:28:31 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa sopra una casella occupata
+mag 13, 2019 4:28:31 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from f5 to f3
+mag 13, 2019 4:28:31 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa sopra una casella occupata
+mag 13, 2019 4:28:31 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from f5 to f2
+mag 13, 2019 4:28:31 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa che scavalca una pedina
+mag 13, 2019 4:28:31 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from f5 to f1
+mag 13, 2019 4:28:31 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa che arriva sopra una citadel
+mag 13, 2019 4:28:31 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from f5 to g5
+mag 13, 2019 4:28:31 PM domain.AimaGameAshtonTablut movePawn
+BUONO: Movimento pedina
+mag 13, 2019 4:28:31 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Current draw cache size: 1
+mag 13, 2019 4:28:31 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Stato:
+OOOOOOBOO
+BOOOOOOBO
+OOOOKBBOO
+BOWOOWOOB
+BOWWTOWOO
+OOOOWOWOO
+OOOOWOBOO
+BOOOBOOOO
+BOOBOBOOO
+-
+B
+mag 13, 2019 4:28:31 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from f5 to h5
+mag 13, 2019 4:28:31 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa che arriva sopra una citadel
+mag 13, 2019 4:28:31 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from f5 to i5
+mag 13, 2019 4:28:31 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa che arriva sopra una citadel
+mag 13, 2019 4:28:31 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from f5 to e5
+mag 13, 2019 4:28:31 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa sul trono
+mag 13, 2019 4:28:31 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from f5 to d5
+mag 13, 2019 4:28:31 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa sopra una casella occupata
+mag 13, 2019 4:28:31 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from f5 to c5
+mag 13, 2019 4:28:31 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa sopra una casella occupata
+mag 13, 2019 4:28:31 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from f5 to b5
+mag 13, 2019 4:28:31 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa che arriva sopra una citadel
+mag 13, 2019 4:28:31 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from f5 to a5
+mag 13, 2019 4:28:31 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa sopra una casella occupata
+mag 13, 2019 4:28:31 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from e6 to e7
+mag 13, 2019 4:28:31 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa sopra una casella occupata
+mag 13, 2019 4:28:31 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from e6 to e8
+mag 13, 2019 4:28:31 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa sopra una casella occupata
+mag 13, 2019 4:28:31 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from e6 to e9
+mag 13, 2019 4:28:31 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa che arriva sopra una citadel
+mag 13, 2019 4:28:31 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from e6 to e5
+mag 13, 2019 4:28:31 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa sul trono
+mag 13, 2019 4:28:31 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from e6 to e4
+mag 13, 2019 4:28:31 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa che scavalca il trono
+mag 13, 2019 4:28:31 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from e6 to e3
+mag 13, 2019 4:28:31 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa sopra una casella occupata
+mag 13, 2019 4:28:31 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from e6 to e2
+mag 13, 2019 4:28:31 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa che arriva sopra una citadel
+mag 13, 2019 4:28:31 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from e6 to e1
+mag 13, 2019 4:28:31 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa che arriva sopra una citadel
+mag 13, 2019 4:28:31 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from e6 to f6
+mag 13, 2019 4:28:31 PM domain.AimaGameAshtonTablut movePawn
+BUONO: Movimento pedina
+mag 13, 2019 4:28:31 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Current draw cache size: 1
+mag 13, 2019 4:28:31 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Stato:
+OOOOOOBOO
+BOOOOOOBO
+OOOOKBBOO
+BOWOOWOOB
+BOWWTWOOO
+OOOOOWWOO
+OOOOWOBOO
+BOOOBOOOO
+BOOBOBOOO
+-
+B
+mag 13, 2019 4:28:31 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from e6 to g6
+mag 13, 2019 4:28:31 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa sopra una casella occupata
+mag 13, 2019 4:28:31 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from e6 to h6
+mag 13, 2019 4:28:31 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa che scavalca una pedina
+mag 13, 2019 4:28:31 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from e6 to i6
+mag 13, 2019 4:28:31 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa che arriva sopra una citadel
+mag 13, 2019 4:28:31 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from e6 to d6
+mag 13, 2019 4:28:31 PM domain.AimaGameAshtonTablut movePawn
+BUONO: Movimento pedina
+mag 13, 2019 4:28:31 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Current draw cache size: 1
+mag 13, 2019 4:28:31 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Stato:
+OOOOOOBOO
+BOOOOOOBO
+OOOOKBBOO
+BOWOOWOOB
+BOWWTWOOO
+OOOWOOWOO
+OOOOWOBOO
+BOOOBOOOO
+BOOBOBOOO
+-
+B
+mag 13, 2019 4:28:31 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from e6 to c6
+mag 13, 2019 4:28:31 PM domain.AimaGameAshtonTablut movePawn
+BUONO: Movimento pedina
+mag 13, 2019 4:28:31 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Current draw cache size: 1
+mag 13, 2019 4:28:31 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Stato:
+OOOOOOBOO
+BOOOOOOBO
+OOOOKBBOO
+BOWOOWOOB
+BOWWTWOOO
+OOWOOOWOO
+OOOOWOBOO
+BOOOBOOOO
+BOOBOBOOO
+-
+B
+mag 13, 2019 4:28:31 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from e6 to b6
+mag 13, 2019 4:28:31 PM domain.AimaGameAshtonTablut movePawn
+BUONO: Movimento pedina
+mag 13, 2019 4:28:31 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Current draw cache size: 1
+mag 13, 2019 4:28:31 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Stato:
+OOOOOOBOO
+BOOOOOOBO
+OOOOKBBOO
+BOWOOWOOB
+BOWWTWOOO
+OWOOOOWOO
+OOOOWOBOO
+BOOOBOOOO
+BOOBOBOOO
+-
+B
+mag 13, 2019 4:28:31 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from e6 to a6
+mag 13, 2019 4:28:31 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa che arriva sopra una citadel
+mag 13, 2019 4:28:31 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from g6 to g7
+mag 13, 2019 4:28:31 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa sopra una casella occupata
+mag 13, 2019 4:28:31 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from g6 to g8
+mag 13, 2019 4:28:31 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa che scavalca una pedina
+mag 13, 2019 4:28:31 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from g6 to g9
+mag 13, 2019 4:28:31 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa che scavalca una pedina
+mag 13, 2019 4:28:31 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from g6 to g5
+mag 13, 2019 4:28:31 PM domain.AimaGameAshtonTablut movePawn
+BUONO: Movimento pedina
+mag 13, 2019 4:28:31 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Current draw cache size: 1
+mag 13, 2019 4:28:31 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Stato:
+OOOOOOBOO
+BOOOOOOBO
+OOOOKBBOO
+BOWOOWOOB
+BOWWTWWOO
+OOOOWOOOO
+OOOOWOBOO
+BOOOBOOOO
+BOOBOBOOO
+-
+B
+mag 13, 2019 4:28:31 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from g6 to g4
+mag 13, 2019 4:28:31 PM domain.AimaGameAshtonTablut movePawn
+BUONO: Movimento pedina
+mag 13, 2019 4:28:31 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Current draw cache size: 1
+mag 13, 2019 4:28:31 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Stato:
+OOOOOOBOO
+BOOOOOOBO
+OOOOKBBOO
+BOWOOWWOB
+BOWWTWOOO
+OOOOWOOOO
+OOOOWOBOO
+BOOOBOOOO
+BOOBOBOOO
+-
+B
+mag 13, 2019 4:28:31 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from g6 to g3
+mag 13, 2019 4:28:31 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa sopra una casella occupata
+mag 13, 2019 4:28:31 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from g6 to g2
+mag 13, 2019 4:28:31 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa che scavalca una pedina
+mag 13, 2019 4:28:31 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from g6 to g1
+mag 13, 2019 4:28:31 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa sopra una casella occupata
+mag 13, 2019 4:28:31 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from g6 to h6
+mag 13, 2019 4:28:31 PM domain.AimaGameAshtonTablut movePawn
+BUONO: Movimento pedina
+mag 13, 2019 4:28:31 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Current draw cache size: 1
+mag 13, 2019 4:28:31 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Stato:
+OOOOOOBOO
+BOOOOOOBO
+OOOOKBBOO
+BOWOOWOOB
+BOWWTWOOO
+OOOOWOOWO
+OOOOWOBOO
+BOOOBOOOO
+BOOBOBOOO
+-
+B
+mag 13, 2019 4:28:31 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from g6 to i6
+mag 13, 2019 4:28:31 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa che arriva sopra una citadel
+mag 13, 2019 4:28:31 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from g6 to f6
+mag 13, 2019 4:28:31 PM domain.AimaGameAshtonTablut movePawn
+BUONO: Movimento pedina
+mag 13, 2019 4:28:31 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Current draw cache size: 1
+mag 13, 2019 4:28:31 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Stato:
+OOOOOOBOO
+BOOOOOOBO
+OOOOKBBOO
+BOWOOWOOB
+BOWWTWOOO
+OOOOWWOOO
+OOOOWOBOO
+BOOOBOOOO
+BOOBOBOOO
+-
+B
+mag 13, 2019 4:28:31 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from g6 to e6
+mag 13, 2019 4:28:31 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa sopra una casella occupata
+mag 13, 2019 4:28:31 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from g6 to d6
+mag 13, 2019 4:28:31 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa che scavalca una pedina
+mag 13, 2019 4:28:31 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from g6 to c6
+mag 13, 2019 4:28:31 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa che scavalca una pedina
+mag 13, 2019 4:28:31 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from g6 to b6
+mag 13, 2019 4:28:31 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa che scavalca una pedina
+mag 13, 2019 4:28:31 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from g6 to a6
+mag 13, 2019 4:28:31 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa che arriva sopra una citadel
+mag 13, 2019 4:28:31 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from e7 to e8
+mag 13, 2019 4:28:31 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa sopra una casella occupata
+mag 13, 2019 4:28:31 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from e7 to e9
+mag 13, 2019 4:28:31 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa che arriva sopra una citadel
+mag 13, 2019 4:28:31 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from e7 to e6
+mag 13, 2019 4:28:31 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa sopra una casella occupata
+mag 13, 2019 4:28:31 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from e7 to e5
+mag 13, 2019 4:28:31 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa sul trono
+mag 13, 2019 4:28:31 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from e7 to e4
+mag 13, 2019 4:28:31 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa che scavalca il trono
+mag 13, 2019 4:28:31 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from e7 to e3
+mag 13, 2019 4:28:31 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa sopra una casella occupata
+mag 13, 2019 4:28:31 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from e7 to e2
+mag 13, 2019 4:28:31 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa che arriva sopra una citadel
+mag 13, 2019 4:28:31 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from e7 to e1
+mag 13, 2019 4:28:31 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa che arriva sopra una citadel
+mag 13, 2019 4:28:31 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from e7 to f7
+mag 13, 2019 4:28:31 PM domain.AimaGameAshtonTablut movePawn
+BUONO: Movimento pedina
+mag 13, 2019 4:28:31 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Current draw cache size: 1
+mag 13, 2019 4:28:31 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Stato:
+OOOOOOBOO
+BOOOOOOBO
+OOOOKBBOO
+BOWOOWOOB
+BOWWTWOOO
+OOOOWOWOO
+OOOOOWBOO
+BOOOBOOOO
+BOOBOBOOO
+-
+B
+mag 13, 2019 4:28:31 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from e7 to g7
+mag 13, 2019 4:28:31 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa sopra una casella occupata
+mag 13, 2019 4:28:31 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from e7 to h7
+mag 13, 2019 4:28:31 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa che scavalca una pedina
+mag 13, 2019 4:28:31 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from e7 to i7
+mag 13, 2019 4:28:31 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa che scavalca una pedina
+mag 13, 2019 4:28:31 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from e7 to d7
+mag 13, 2019 4:28:31 PM domain.AimaGameAshtonTablut movePawn
+BUONO: Movimento pedina
+mag 13, 2019 4:28:31 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Current draw cache size: 1
+mag 13, 2019 4:28:31 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Stato:
+OOOOOOBOO
+BOOOOOOBO
+OOOOKBBOO
+BOWOOWOOB
+BOWWTWOOO
+OOOOWOWOO
+OOOWOOBOO
+BOOOBOOOO
+BOOBOBOOO
+-
+B
+mag 13, 2019 4:28:31 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from e7 to c7
+mag 13, 2019 4:28:31 PM domain.AimaGameAshtonTablut movePawn
+BUONO: Movimento pedina
+mag 13, 2019 4:28:31 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Current draw cache size: 1
+mag 13, 2019 4:28:31 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Stato:
+OOOOOOBOO
+BOOOOOOBO
+OOOOKBBOO
+BOWOOWOOB
+BOWWTWOOO
+OOOOWOWOO
+OOWOOOBOO
+BOOOBOOOO
+BOOBOBOOO
+-
+B
+mag 13, 2019 4:28:31 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from e7 to b7
+mag 13, 2019 4:28:31 PM domain.AimaGameAshtonTablut movePawn
+BUONO: Movimento pedina
+mag 13, 2019 4:28:31 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Current draw cache size: 1
+mag 13, 2019 4:28:31 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Stato:
+OOOOOOBOO
+BOOOOOOBO
+OOOOKBBOO
+BOWOOWOOB
+BOWWTWOOO
+OOOOWOWOO
+OWOOOOBOO
+BOOOBOOOO
+BOOBOBOOO
+-
+B
+mag 13, 2019 4:28:31 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from e7 to a7
+mag 13, 2019 4:28:31 PM domain.AimaGameAshtonTablut movePawn
+BUONO: Movimento pedina
+mag 13, 2019 4:28:31 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Current draw cache size: 1
+mag 13, 2019 4:28:31 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Stato:
+OOOOOOBOO
+BOOOOOOBO
+OOOOKBBOO
+BOWOOWOOB
+BOWWTWOOO
+OOOOWOWOO
+WOOOOOBOO
+BOOOBOOOO
+BOOBOBOOO
+-
+B
+mag 13, 2019 4:28:31 PM domain.AimaGameAshtonTablut movePawn
+BUONO: Movimento pedina
+mag 13, 2019 4:28:31 PM domain.AimaGameAshtonTablut movePawn
+BUONO: Movimento pedina
+mag 13, 2019 4:28:31 PM domain.AimaGameAshtonTablut movePawn
+BUONO: Movimento pedina
+mag 13, 2019 4:28:31 PM domain.AimaGameAshtonTablut movePawn
+BUONO: Movimento pedina
+mag 13, 2019 4:28:31 PM domain.AimaGameAshtonTablut movePawn
+BUONO: Movimento pedina
+mag 13, 2019 4:28:31 PM domain.AimaGameAshtonTablut movePawn
+BUONO: Movimento pedina
+mag 13, 2019 4:28:31 PM domain.AimaGameAshtonTablut movePawn
+BUONO: Movimento pedina
+mag 13, 2019 4:28:31 PM domain.AimaGameAshtonTablut movePawn
+BUONO: Movimento pedina
+mag 13, 2019 4:28:31 PM domain.AimaGameAshtonTablut movePawn
+BUONO: Movimento pedina
+mag 13, 2019 4:28:31 PM domain.AimaGameAshtonTablut movePawn
+BUONO: Movimento pedina
+mag 13, 2019 4:28:31 PM domain.AimaGameAshtonTablut movePawn
+BUONO: Movimento pedina
+mag 13, 2019 4:28:31 PM domain.AimaGameAshtonTablut movePawn
+BUONO: Movimento pedina
+mag 13, 2019 4:28:31 PM domain.AimaGameAshtonTablut movePawn
+BUONO: Movimento pedina
+mag 13, 2019 4:28:31 PM domain.AimaGameAshtonTablut movePawn
+BUONO: Movimento pedina
+mag 13, 2019 4:28:31 PM domain.AimaGameAshtonTablut movePawn
+BUONO: Movimento pedina
+mag 13, 2019 4:28:31 PM domain.AimaGameAshtonTablut movePawn
+BUONO: Movimento pedina
+mag 13, 2019 4:28:31 PM domain.AimaGameAshtonTablut movePawn
+BUONO: Movimento pedina
+mag 13, 2019 4:28:31 PM domain.AimaGameAshtonTablut movePawn
+BUONO: Movimento pedina
+mag 13, 2019 4:28:31 PM domain.AimaGameAshtonTablut movePawn
+BUONO: Movimento pedina
+mag 13, 2019 4:28:31 PM domain.AimaGameAshtonTablut movePawn
+BUONO: Movimento pedina
+mag 13, 2019 4:28:31 PM domain.AimaGameAshtonTablut movePawn
+BUONO: Movimento pedina
+mag 13, 2019 4:28:31 PM domain.AimaGameAshtonTablut movePawn
+BUONO: Movimento pedina
+mag 13, 2019 4:28:31 PM domain.AimaGameAshtonTablut movePawn
+BUONO: Movimento pedina
+mag 13, 2019 4:28:31 PM domain.AimaGameAshtonTablut movePawn
+BUONO: Movimento pedina
+mag 13, 2019 4:28:31 PM domain.AimaGameAshtonTablut movePawn
+BUONO: Movimento pedina
+mag 13, 2019 4:28:31 PM domain.AimaGameAshtonTablut movePawn
+BUONO: Movimento pedina
+mag 13, 2019 4:28:31 PM domain.AimaGameAshtonTablut movePawn
+BUONO: Movimento pedina
+mag 13, 2019 4:28:31 PM domain.AimaGameAshtonTablut movePawn
+BUONO: Movimento pedina
+mag 13, 2019 4:28:31 PM domain.AimaGameAshtonTablut movePawn
+BUONO: Movimento pedina
+mag 13, 2019 4:28:31 PM domain.AimaGameAshtonTablut movePawn
+BUONO: Movimento pedina
+mag 13, 2019 4:28:31 PM domain.AimaGameAshtonTablut movePawn
+BUONO: Movimento pedina
+mag 13, 2019 4:28:31 PM domain.AimaGameAshtonTablut movePawn
+BUONO: Movimento pedina
+mag 13, 2019 4:28:31 PM domain.AimaGameAshtonTablut movePawn
+BUONO: Movimento pedina
+mag 13, 2019 4:28:31 PM domain.AimaGameAshtonTablut movePawn
+BUONO: Movimento pedina
+mag 13, 2019 4:28:31 PM domain.AimaGameAshtonTablut checkCaptureBlackPawnUp
+BUONO: Pedina bianca rimossa in: g4
+mag 13, 2019 4:28:31 PM domain.AimaGameAshtonTablut movePawn
+BUONO: Movimento pedina
+mag 13, 2019 4:28:31 PM domain.AimaGameAshtonTablut movePawn
+BUONO: Movimento pedina
+mag 13, 2019 4:28:31 PM domain.AimaGameAshtonTablut movePawn
+BUONO: Movimento pedina
+mag 13, 2019 4:28:31 PM domain.AimaGameAshtonTablut movePawn
+BUONO: Movimento pedina
+mag 13, 2019 4:28:31 PM domain.AimaGameAshtonTablut movePawn
+BUONO: Movimento pedina
+mag 13, 2019 4:28:31 PM domain.AimaGameAshtonTablut movePawn
+BUONO: Movimento pedina
+mag 13, 2019 4:28:31 PM domain.AimaGameAshtonTablut movePawn
+BUONO: Movimento pedina
+mag 13, 2019 4:28:31 PM domain.AimaGameAshtonTablut movePawn
+BUONO: Movimento pedina
+mag 13, 2019 4:28:34 PM domain.AimaGameAshtonTablut <init>
+BUONO: Players:	White:	fake	vs	fake
+mag 13, 2019 4:28:34 PM domain.AimaGameAshtonTablut <init>
+BUONO: Repeated moves allowed:	99	Cache:	0
+mag 13, 2019 4:28:34 PM domain.AimaGameAshtonTablut <init>
+BUONO: Inizio partita
+mag 13, 2019 4:28:34 PM domain.AimaGameAshtonTablut <init>
+BUONO: Stato:
+OOOBBBOOO
+OOOOBOOOO
+OOOOWOOOO
+BOOOWOOOB
+BBWWKWWBB
+BOOOWOOOB
+OOOOWOOOO
+OOOOBOOOO
+OOOBBBOOO
+-
+B
+mag 13, 2019 4:28:34 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from c4 to c5
+mag 13, 2019 4:28:34 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa sopra una casella occupata
+mag 13, 2019 4:28:34 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from c4 to c6
+mag 13, 2019 4:28:34 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa che scavalca una pedina
+mag 13, 2019 4:28:34 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from c4 to c7
+mag 13, 2019 4:28:34 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa che scavalca una pedina
+mag 13, 2019 4:28:34 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from c4 to c8
+mag 13, 2019 4:28:34 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa che scavalca una pedina
+mag 13, 2019 4:28:34 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from c4 to c9
+mag 13, 2019 4:28:34 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa che scavalca una pedina
+mag 13, 2019 4:28:34 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from c4 to c3
+mag 13, 2019 4:28:34 PM domain.AimaGameAshtonTablut movePawn
+BUONO: Movimento pedina
+mag 13, 2019 4:28:34 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Current draw cache size: 1
+mag 13, 2019 4:28:34 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Stato:
+OOOOOOBOO
+BOOOOOOBO
+OOWOOBBOO
+BOOOKWOOB
+BOWWTWOOO
+OOOOWOWOO
+OOOOWOBOO
+BOOOBOOOO
+BOOOBBOOO
+-
+B
+mag 13, 2019 4:28:34 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from c4 to c2
+mag 13, 2019 4:28:34 PM domain.AimaGameAshtonTablut movePawn
+BUONO: Movimento pedina
+mag 13, 2019 4:28:34 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Current draw cache size: 1
+mag 13, 2019 4:28:34 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Stato:
+OOOOOOBOO
+BOWOOOOBO
+OOOOOBBOO
+BOOOKWOOB
+BOWWTWOOO
+OOOOWOWOO
+OOOOWOBOO
+BOOOBOOOO
+BOOOBBOOO
+-
+B
+mag 13, 2019 4:28:34 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from c4 to c1
+mag 13, 2019 4:28:34 PM domain.AimaGameAshtonTablut movePawn
+BUONO: Movimento pedina
+mag 13, 2019 4:28:34 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Current draw cache size: 1
+mag 13, 2019 4:28:34 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Stato:
+OOWOOOBOO
+BOOOOOOBO
+OOOOOBBOO
+BOOOKWOOB
+BOWWTWOOO
+OOOOWOWOO
+OOOOWOBOO
+BOOOBOOOO
+BOOOBBOOO
+-
+B
+mag 13, 2019 4:28:34 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from c4 to d4
+mag 13, 2019 4:28:34 PM domain.AimaGameAshtonTablut movePawn
+BUONO: Movimento pedina
+mag 13, 2019 4:28:34 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Current draw cache size: 1
+mag 13, 2019 4:28:34 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Stato:
+OOOOOOBOO
+BOOOOOOBO
+OOOOOBBOO
+BOOWKWOOB
+BOWWTWOOO
+OOOOWOWOO
+OOOOWOBOO
+BOOOBOOOO
+BOOOBBOOO
+-
+B
+mag 13, 2019 4:28:34 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from c4 to e4
+mag 13, 2019 4:28:34 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa sopra una casella occupata
+mag 13, 2019 4:28:34 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from c4 to f4
+mag 13, 2019 4:28:34 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa sopra una casella occupata
+mag 13, 2019 4:28:34 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from c4 to g4
+mag 13, 2019 4:28:34 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa che scavalca una pedina
+mag 13, 2019 4:28:34 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from c4 to h4
+mag 13, 2019 4:28:34 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa che scavalca una pedina
+mag 13, 2019 4:28:34 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from c4 to i4
+mag 13, 2019 4:28:34 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa sopra una casella occupata
+mag 13, 2019 4:28:34 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from c4 to b4
+mag 13, 2019 4:28:34 PM domain.AimaGameAshtonTablut movePawn
+BUONO: Movimento pedina
+mag 13, 2019 4:28:34 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Current draw cache size: 1
+mag 13, 2019 4:28:34 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Stato:
+OOOOOOBOO
+BOOOOOOBO
+OOOOOBBOO
+BWOOKWOOB
+BOWWTWOOO
+OOOOWOWOO
+OOOOWOBOO
+BOOOBOOOO
+BOOOBBOOO
+-
+B
+mag 13, 2019 4:28:34 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from c4 to a4
+mag 13, 2019 4:28:34 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa sopra una casella occupata
+mag 13, 2019 4:28:34 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from e4 to e5
+mag 13, 2019 4:28:34 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa sul trono
+mag 13, 2019 4:28:34 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from e4 to e6
+mag 13, 2019 4:28:34 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa sopra una casella occupata
+mag 13, 2019 4:28:34 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from e4 to e7
+mag 13, 2019 4:28:34 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa sopra una casella occupata
+mag 13, 2019 4:28:34 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from e4 to e8
+mag 13, 2019 4:28:34 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa sopra una casella occupata
+mag 13, 2019 4:28:34 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from e4 to e9
+mag 13, 2019 4:28:34 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa sopra una casella occupata
+mag 13, 2019 4:28:34 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from e4 to e3
+mag 13, 2019 4:28:34 PM domain.AimaGameAshtonTablut movePawn
+BUONO: Movimento pedina
+mag 13, 2019 4:28:34 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Current draw cache size: 1
+mag 13, 2019 4:28:34 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Stato:
+OOOOOOBOO
+BOOOOOOBO
+OOOOKBBOO
+BOWOOWOOB
+BOWWTWOOO
+OOOOWOWOO
+OOOOWOBOO
+BOOOBOOOO
+BOOOBBOOO
+-
+B
+mag 13, 2019 4:28:34 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from e4 to e2
+mag 13, 2019 4:28:34 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa che arriva sopra una citadel
+mag 13, 2019 4:28:34 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from e4 to e1
+mag 13, 2019 4:28:34 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa che arriva sopra una citadel
+mag 13, 2019 4:28:34 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from e4 to f4
+mag 13, 2019 4:28:34 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa sopra una casella occupata
+mag 13, 2019 4:28:34 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from e4 to g4
+mag 13, 2019 4:28:34 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa che scavalca una pedina
+mag 13, 2019 4:28:34 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from e4 to h4
+mag 13, 2019 4:28:34 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa che scavalca una pedina
+mag 13, 2019 4:28:34 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from e4 to i4
+mag 13, 2019 4:28:34 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa sopra una casella occupata
+mag 13, 2019 4:28:34 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from e4 to d4
+mag 13, 2019 4:28:34 PM domain.AimaGameAshtonTablut movePawn
+BUONO: Movimento pedina
+mag 13, 2019 4:28:34 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Current draw cache size: 1
+mag 13, 2019 4:28:34 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Stato:
+OOOOOOBOO
+BOOOOOOBO
+OOOOOBBOO
+BOWKOWOOB
+BOWWTWOOO
+OOOOWOWOO
+OOOOWOBOO
+BOOOBOOOO
+BOOOBBOOO
+-
+B
+mag 13, 2019 4:28:34 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from e4 to c4
+mag 13, 2019 4:28:34 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa sopra una casella occupata
+mag 13, 2019 4:28:34 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from e4 to b4
+mag 13, 2019 4:28:34 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa che scavalca una pedina
+mag 13, 2019 4:28:34 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from e4 to a4
+mag 13, 2019 4:28:34 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa sopra una casella occupata
+mag 13, 2019 4:28:34 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from f4 to f5
+mag 13, 2019 4:28:34 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa sopra una casella occupata
+mag 13, 2019 4:28:34 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from f4 to f6
+mag 13, 2019 4:28:34 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa che scavalca una pedina
+mag 13, 2019 4:28:34 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from f4 to f7
+mag 13, 2019 4:28:34 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa che scavalca una pedina
+mag 13, 2019 4:28:34 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from f4 to f8
+mag 13, 2019 4:28:34 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa che scavalca una pedina
+mag 13, 2019 4:28:34 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from f4 to f9
+mag 13, 2019 4:28:34 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa sopra una casella occupata
+mag 13, 2019 4:28:34 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from f4 to f3
+mag 13, 2019 4:28:34 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa sopra una casella occupata
+mag 13, 2019 4:28:34 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from f4 to f2
+mag 13, 2019 4:28:34 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa che scavalca una pedina
+mag 13, 2019 4:28:34 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from f4 to f1
+mag 13, 2019 4:28:34 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa che arriva sopra una citadel
+mag 13, 2019 4:28:34 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from f4 to g4
+mag 13, 2019 4:28:34 PM domain.AimaGameAshtonTablut movePawn
+BUONO: Movimento pedina
+mag 13, 2019 4:28:34 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Current draw cache size: 1
+mag 13, 2019 4:28:34 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Stato:
+OOOOOOBOO
+BOOOOOOBO
+OOOOOBBOO
+BOWOKOWOB
+BOWWTWOOO
+OOOOWOWOO
+OOOOWOBOO
+BOOOBOOOO
+BOOOBBOOO
+-
+B
+mag 13, 2019 4:28:34 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from f4 to h4
+mag 13, 2019 4:28:34 PM domain.AimaGameAshtonTablut movePawn
+BUONO: Movimento pedina
+mag 13, 2019 4:28:34 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Current draw cache size: 1
+mag 13, 2019 4:28:34 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Stato:
+OOOOOOBOO
+BOOOOOOBO
+OOOOOBBOO
+BOWOKOOWB
+BOWWTWOOO
+OOOOWOWOO
+OOOOWOBOO
+BOOOBOOOO
+BOOOBBOOO
+-
+B
+mag 13, 2019 4:28:34 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from f4 to i4
+mag 13, 2019 4:28:34 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa sopra una casella occupata
+mag 13, 2019 4:28:34 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from f4 to e4
+mag 13, 2019 4:28:34 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa sopra una casella occupata
+mag 13, 2019 4:28:34 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from f4 to d4
+mag 13, 2019 4:28:34 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa che scavalca una pedina
+mag 13, 2019 4:28:34 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from f4 to c4
+mag 13, 2019 4:28:34 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa sopra una casella occupata
+mag 13, 2019 4:28:34 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from f4 to b4
+mag 13, 2019 4:28:34 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa che scavalca una pedina
+mag 13, 2019 4:28:34 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from f4 to a4
+mag 13, 2019 4:28:34 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa sopra una casella occupata
+mag 13, 2019 4:28:34 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from c5 to c6
+mag 13, 2019 4:28:34 PM domain.AimaGameAshtonTablut movePawn
+BUONO: Movimento pedina
+mag 13, 2019 4:28:34 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Current draw cache size: 1
+mag 13, 2019 4:28:34 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Stato:
+OOOOOOBOO
+BOOOOOOBO
+OOOOOBBOO
+BOWOKWOOB
+BOOWTWOOO
+OOWOWOWOO
+OOOOWOBOO
+BOOOBOOOO
+BOOOBBOOO
+-
+B
+mag 13, 2019 4:28:34 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from c5 to c7
+mag 13, 2019 4:28:34 PM domain.AimaGameAshtonTablut movePawn
+BUONO: Movimento pedina
+mag 13, 2019 4:28:34 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Current draw cache size: 1
+mag 13, 2019 4:28:34 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Stato:
+OOOOOOBOO
+BOOOOOOBO
+OOOOOBBOO
+BOWOKWOOB
+BOOWTWOOO
+OOOOWOWOO
+OOWOWOBOO
+BOOOBOOOO
+BOOOBBOOO
+-
+B
+mag 13, 2019 4:28:34 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from c5 to c8
+mag 13, 2019 4:28:34 PM domain.AimaGameAshtonTablut movePawn
+BUONO: Movimento pedina
+mag 13, 2019 4:28:34 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Current draw cache size: 1
+mag 13, 2019 4:28:34 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Stato:
+OOOOOOBOO
+BOOOOOOBO
+OOOOOBBOO
+BOWOKWOOB
+BOOWTWOOO
+OOOOWOWOO
+OOOOWOBOO
+BOWOBOOOO
+BOOOBBOOO
+-
+B
+mag 13, 2019 4:28:34 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from c5 to c9
+mag 13, 2019 4:28:34 PM domain.AimaGameAshtonTablut movePawn
+BUONO: Movimento pedina
+mag 13, 2019 4:28:34 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Current draw cache size: 1
+mag 13, 2019 4:28:34 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Stato:
+OOOOOOBOO
+BOOOOOOBO
+OOOOOBBOO
+BOWOKWOOB
+BOOWTWOOO
+OOOOWOWOO
+OOOOWOBOO
+BOOOBOOOO
+BOWOBBOOO
+-
+B
+mag 13, 2019 4:28:34 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from c5 to c4
+mag 13, 2019 4:28:34 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa sopra una casella occupata
+mag 13, 2019 4:28:34 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from c5 to c3
+mag 13, 2019 4:28:34 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa che scavalca una pedina
+mag 13, 2019 4:28:34 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from c5 to c2
+mag 13, 2019 4:28:34 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa che scavalca una pedina
+mag 13, 2019 4:28:34 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from c5 to c1
+mag 13, 2019 4:28:34 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa che scavalca una pedina
+mag 13, 2019 4:28:34 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from c5 to d5
+mag 13, 2019 4:28:34 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa sopra una casella occupata
+mag 13, 2019 4:28:34 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from c5 to e5
+mag 13, 2019 4:28:34 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa sul trono
+mag 13, 2019 4:28:34 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from c5 to f5
+mag 13, 2019 4:28:34 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa sopra una casella occupata
+mag 13, 2019 4:28:34 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from c5 to g5
+mag 13, 2019 4:28:34 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa che scavalca una pedina
+mag 13, 2019 4:28:34 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from c5 to h5
+mag 13, 2019 4:28:34 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa che arriva sopra una citadel
+mag 13, 2019 4:28:34 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from c5 to i5
+mag 13, 2019 4:28:34 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa che arriva sopra una citadel
+mag 13, 2019 4:28:34 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from c5 to b5
+mag 13, 2019 4:28:34 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa che arriva sopra una citadel
+mag 13, 2019 4:28:34 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from c5 to a5
+mag 13, 2019 4:28:34 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa sopra una casella occupata
+mag 13, 2019 4:28:34 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from d5 to d6
+mag 13, 2019 4:28:34 PM domain.AimaGameAshtonTablut movePawn
+BUONO: Movimento pedina
+mag 13, 2019 4:28:34 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Current draw cache size: 1
+mag 13, 2019 4:28:34 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Stato:
+OOOOOOBOO
+BOOOOOOBO
+OOOOOBBOO
+BOWOKWOOB
+BOWOTWOOO
+OOOWWOWOO
+OOOOWOBOO
+BOOOBOOOO
+BOOOBBOOO
+-
+B
+mag 13, 2019 4:28:34 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from d5 to d7
+mag 13, 2019 4:28:34 PM domain.AimaGameAshtonTablut movePawn
+BUONO: Movimento pedina
+mag 13, 2019 4:28:34 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Current draw cache size: 1
+mag 13, 2019 4:28:34 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Stato:
+OOOOOOBOO
+BOOOOOOBO
+OOOOOBBOO
+BOWOKWOOB
+BOWOTWOOO
+OOOOWOWOO
+OOOWWOBOO
+BOOOBOOOO
+BOOOBBOOO
+-
+B
+mag 13, 2019 4:28:34 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from d5 to d8
+mag 13, 2019 4:28:34 PM domain.AimaGameAshtonTablut movePawn
+BUONO: Movimento pedina
+mag 13, 2019 4:28:34 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Current draw cache size: 1
+mag 13, 2019 4:28:34 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Stato:
+OOOOOOBOO
+BOOOOOOBO
+OOOOOBBOO
+BOWOKWOOB
+BOWOTWOOO
+OOOOWOWOO
+OOOOWOBOO
+BOOWBOOOO
+BOOOBBOOO
+-
+B
+mag 13, 2019 4:28:34 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from d5 to d9
+mag 13, 2019 4:28:35 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa che arriva sopra una citadel
+mag 13, 2019 4:28:35 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from d5 to d4
+mag 13, 2019 4:28:35 PM domain.AimaGameAshtonTablut movePawn
+BUONO: Movimento pedina
+mag 13, 2019 4:28:35 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Current draw cache size: 1
+mag 13, 2019 4:28:35 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Stato:
+OOOOOOBOO
+BOOOOOOBO
+OOOOOBBOO
+BOWWKWOOB
+BOWOTWOOO
+OOOOWOWOO
+OOOOWOBOO
+BOOOBOOOO
+BOOOBBOOO
+-
+B
+mag 13, 2019 4:28:35 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from d5 to d3
+mag 13, 2019 4:28:35 PM domain.AimaGameAshtonTablut movePawn
+BUONO: Movimento pedina
+mag 13, 2019 4:28:35 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Current draw cache size: 1
+mag 13, 2019 4:28:35 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Stato:
+OOOOOOBOO
+BOOOOOOBO
+OOOWOBBOO
+BOWOKWOOB
+BOWOTWOOO
+OOOOWOWOO
+OOOOWOBOO
+BOOOBOOOO
+BOOOBBOOO
+-
+B
+mag 13, 2019 4:28:35 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from d5 to d2
+mag 13, 2019 4:28:35 PM domain.AimaGameAshtonTablut movePawn
+BUONO: Movimento pedina
+mag 13, 2019 4:28:35 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Current draw cache size: 1
+mag 13, 2019 4:28:35 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Stato:
+OOOOOOBOO
+BOOWOOOBO
+OOOOOBBOO
+BOWOKWOOB
+BOWOTWOOO
+OOOOWOWOO
+OOOOWOBOO
+BOOOBOOOO
+BOOOBBOOO
+-
+B
+mag 13, 2019 4:28:35 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from d5 to d1
+mag 13, 2019 4:28:35 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa che arriva sopra una citadel
+mag 13, 2019 4:28:35 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from d5 to e5
+mag 13, 2019 4:28:35 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa sul trono
+mag 13, 2019 4:28:35 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from d5 to f5
+mag 13, 2019 4:28:35 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa sopra una casella occupata
+mag 13, 2019 4:28:35 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from d5 to g5
+mag 13, 2019 4:28:35 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa che scavalca il trono
+mag 13, 2019 4:28:35 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from d5 to h5
+mag 13, 2019 4:28:35 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa che arriva sopra una citadel
+mag 13, 2019 4:28:35 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from d5 to i5
+mag 13, 2019 4:28:35 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa che arriva sopra una citadel
+mag 13, 2019 4:28:35 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from d5 to c5
+mag 13, 2019 4:28:35 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa sopra una casella occupata
+mag 13, 2019 4:28:35 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from d5 to b5
+mag 13, 2019 4:28:35 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa che arriva sopra una citadel
+mag 13, 2019 4:28:35 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from d5 to a5
+mag 13, 2019 4:28:35 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa sopra una casella occupata
+mag 13, 2019 4:28:35 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from f5 to f6
+mag 13, 2019 4:28:35 PM domain.AimaGameAshtonTablut movePawn
+BUONO: Movimento pedina
+mag 13, 2019 4:28:35 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Current draw cache size: 1
+mag 13, 2019 4:28:35 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Stato:
+OOOOOOBOO
+BOOOOOOBO
+OOOOOBBOO
+BOWOKWOOB
+BOWWTOOOO
+OOOOWWWOO
+OOOOWOBOO
+BOOOBOOOO
+BOOOBBOOO
+-
+B
+mag 13, 2019 4:28:35 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from f5 to f7
+mag 13, 2019 4:28:35 PM domain.AimaGameAshtonTablut movePawn
+BUONO: Movimento pedina
+mag 13, 2019 4:28:35 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Current draw cache size: 1
+mag 13, 2019 4:28:35 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Stato:
+OOOOOOBOO
+BOOOOOOBO
+OOOOOBBOO
+BOWOKWOOB
+BOWWTOOOO
+OOOOWOWOO
+OOOOWWBOO
+BOOOBOOOO
+BOOOBBOOO
+-
+B
+mag 13, 2019 4:28:35 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from f5 to f8
+mag 13, 2019 4:28:35 PM domain.AimaGameAshtonTablut movePawn
+BUONO: Movimento pedina
+mag 13, 2019 4:28:35 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Current draw cache size: 1
+mag 13, 2019 4:28:35 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Stato:
+OOOOOOBOO
+BOOOOOOBO
+OOOOOBBOO
+BOWOKWOOB
+BOWWTOOOO
+OOOOWOWOO
+OOOOWOBOO
+BOOOBWOOO
+BOOOBBOOO
+-
+B
+mag 13, 2019 4:28:35 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from f5 to f9
+mag 13, 2019 4:28:35 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa sopra una casella occupata
+mag 13, 2019 4:28:35 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from f5 to f4
+mag 13, 2019 4:28:35 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa sopra una casella occupata
+mag 13, 2019 4:28:35 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from f5 to f3
+mag 13, 2019 4:28:35 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa sopra una casella occupata
+mag 13, 2019 4:28:35 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from f5 to f2
+mag 13, 2019 4:28:35 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa che scavalca una pedina
+mag 13, 2019 4:28:35 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from f5 to f1
+mag 13, 2019 4:28:35 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa che arriva sopra una citadel
+mag 13, 2019 4:28:35 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from f5 to g5
+mag 13, 2019 4:28:35 PM domain.AimaGameAshtonTablut movePawn
+BUONO: Movimento pedina
+mag 13, 2019 4:28:35 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Current draw cache size: 1
+mag 13, 2019 4:28:35 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Stato:
+OOOOOOBOO
+BOOOOOOBO
+OOOOOBBOO
+BOWOKWOOB
+BOWWTOWOO
+OOOOWOWOO
+OOOOWOBOO
+BOOOBOOOO
+BOOOBBOOO
+-
+B
+mag 13, 2019 4:28:35 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from f5 to h5
+mag 13, 2019 4:28:35 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa che arriva sopra una citadel
+mag 13, 2019 4:28:35 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from f5 to i5
+mag 13, 2019 4:28:35 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa che arriva sopra una citadel
+mag 13, 2019 4:28:35 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from f5 to e5
+mag 13, 2019 4:28:35 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa sul trono
+mag 13, 2019 4:28:35 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from f5 to d5
+mag 13, 2019 4:28:35 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa sopra una casella occupata
+mag 13, 2019 4:28:35 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from f5 to c5
+mag 13, 2019 4:28:35 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa sopra una casella occupata
+mag 13, 2019 4:28:35 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from f5 to b5
+mag 13, 2019 4:28:35 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa che arriva sopra una citadel
+mag 13, 2019 4:28:35 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from f5 to a5
+mag 13, 2019 4:28:35 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa sopra una casella occupata
+mag 13, 2019 4:28:35 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from e6 to e7
+mag 13, 2019 4:28:35 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa sopra una casella occupata
+mag 13, 2019 4:28:35 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from e6 to e8
+mag 13, 2019 4:28:35 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa sopra una casella occupata
+mag 13, 2019 4:28:35 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from e6 to e9
+mag 13, 2019 4:28:35 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa sopra una casella occupata
+mag 13, 2019 4:28:35 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from e6 to e5
+mag 13, 2019 4:28:35 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa sul trono
+mag 13, 2019 4:28:35 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from e6 to e4
+mag 13, 2019 4:28:35 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa sopra una casella occupata
+mag 13, 2019 4:28:35 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from e6 to e3
+mag 13, 2019 4:28:35 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa che scavalca una pedina
+mag 13, 2019 4:28:35 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from e6 to e2
+mag 13, 2019 4:28:35 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa che arriva sopra una citadel
+mag 13, 2019 4:28:35 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from e6 to e1
+mag 13, 2019 4:28:35 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa che arriva sopra una citadel
+mag 13, 2019 4:28:35 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from e6 to f6
+mag 13, 2019 4:28:35 PM domain.AimaGameAshtonTablut movePawn
+BUONO: Movimento pedina
+mag 13, 2019 4:28:35 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Current draw cache size: 1
+mag 13, 2019 4:28:35 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Stato:
+OOOOOOBOO
+BOOOOOOBO
+OOOOOBBOO
+BOWOKWOOB
+BOWWTWOOO
+OOOOOWWOO
+OOOOWOBOO
+BOOOBOOOO
+BOOOBBOOO
+-
+B
+mag 13, 2019 4:28:35 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from e6 to g6
+mag 13, 2019 4:28:35 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa sopra una casella occupata
+mag 13, 2019 4:28:35 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from e6 to h6
+mag 13, 2019 4:28:35 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa che scavalca una pedina
+mag 13, 2019 4:28:35 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from e6 to i6
+mag 13, 2019 4:28:35 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa che arriva sopra una citadel
+mag 13, 2019 4:28:35 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from e6 to d6
+mag 13, 2019 4:28:35 PM domain.AimaGameAshtonTablut movePawn
+BUONO: Movimento pedina
+mag 13, 2019 4:28:35 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Current draw cache size: 1
+mag 13, 2019 4:28:35 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Stato:
+OOOOOOBOO
+BOOOOOOBO
+OOOOOBBOO
+BOWOKWOOB
+BOWWTWOOO
+OOOWOOWOO
+OOOOWOBOO
+BOOOBOOOO
+BOOOBBOOO
+-
+B
+mag 13, 2019 4:28:35 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from e6 to c6
+mag 13, 2019 4:28:35 PM domain.AimaGameAshtonTablut movePawn
+BUONO: Movimento pedina
+mag 13, 2019 4:28:35 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Current draw cache size: 1
+mag 13, 2019 4:28:35 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Stato:
+OOOOOOBOO
+BOOOOOOBO
+OOOOOBBOO
+BOWOKWOOB
+BOWWTWOOO
+OOWOOOWOO
+OOOOWOBOO
+BOOOBOOOO
+BOOOBBOOO
+-
+B
+mag 13, 2019 4:28:35 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from e6 to b6
+mag 13, 2019 4:28:35 PM domain.AimaGameAshtonTablut movePawn
+BUONO: Movimento pedina
+mag 13, 2019 4:28:35 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Current draw cache size: 1
+mag 13, 2019 4:28:35 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Stato:
+OOOOOOBOO
+BOOOOOOBO
+OOOOOBBOO
+BOWOKWOOB
+BOWWTWOOO
+OWOOOOWOO
+OOOOWOBOO
+BOOOBOOOO
+BOOOBBOOO
+-
+B
+mag 13, 2019 4:28:35 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from e6 to a6
+mag 13, 2019 4:28:35 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa che arriva sopra una citadel
+mag 13, 2019 4:28:35 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from g6 to g7
+mag 13, 2019 4:28:35 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa sopra una casella occupata
+mag 13, 2019 4:28:35 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from g6 to g8
+mag 13, 2019 4:28:35 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa che scavalca una pedina
+mag 13, 2019 4:28:35 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from g6 to g9
+mag 13, 2019 4:28:35 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa che scavalca una pedina
+mag 13, 2019 4:28:35 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from g6 to g5
+mag 13, 2019 4:28:35 PM domain.AimaGameAshtonTablut movePawn
+BUONO: Movimento pedina
+mag 13, 2019 4:28:35 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Current draw cache size: 1
+mag 13, 2019 4:28:35 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Stato:
+OOOOOOBOO
+BOOOOOOBO
+OOOOOBBOO
+BOWOKWOOB
+BOWWTWWOO
+OOOOWOOOO
+OOOOWOBOO
+BOOOBOOOO
+BOOOBBOOO
+-
+B
+mag 13, 2019 4:28:35 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from g6 to g4
+mag 13, 2019 4:28:35 PM domain.AimaGameAshtonTablut movePawn
+BUONO: Movimento pedina
+mag 13, 2019 4:28:35 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Current draw cache size: 1
+mag 13, 2019 4:28:35 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Stato:
+OOOOOOBOO
+BOOOOOOBO
+OOOOOBBOO
+BOWOKWWOB
+BOWWTWOOO
+OOOOWOOOO
+OOOOWOBOO
+BOOOBOOOO
+BOOOBBOOO
+-
+B
+mag 13, 2019 4:28:35 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from g6 to g3
+mag 13, 2019 4:28:35 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa sopra una casella occupata
+mag 13, 2019 4:28:35 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from g6 to g2
+mag 13, 2019 4:28:35 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa che scavalca una pedina
+mag 13, 2019 4:28:35 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from g6 to g1
+mag 13, 2019 4:28:35 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa sopra una casella occupata
+mag 13, 2019 4:28:35 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from g6 to h6
+mag 13, 2019 4:28:35 PM domain.AimaGameAshtonTablut movePawn
+BUONO: Movimento pedina
+mag 13, 2019 4:28:35 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Current draw cache size: 1
+mag 13, 2019 4:28:35 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Stato:
+OOOOOOBOO
+BOOOOOOBO
+OOOOOBBOO
+BOWOKWOOB
+BOWWTWOOO
+OOOOWOOWO
+OOOOWOBOO
+BOOOBOOOO
+BOOOBBOOO
+-
+B
+mag 13, 2019 4:28:35 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from g6 to i6
+mag 13, 2019 4:28:35 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa che arriva sopra una citadel
+mag 13, 2019 4:28:35 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from g6 to f6
+mag 13, 2019 4:28:35 PM domain.AimaGameAshtonTablut movePawn
+BUONO: Movimento pedina
+mag 13, 2019 4:28:35 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Current draw cache size: 1
+mag 13, 2019 4:28:35 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Stato:
+OOOOOOBOO
+BOOOOOOBO
+OOOOOBBOO
+BOWOKWOOB
+BOWWTWOOO
+OOOOWWOOO
+OOOOWOBOO
+BOOOBOOOO
+BOOOBBOOO
+-
+B
+mag 13, 2019 4:28:35 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from g6 to e6
+mag 13, 2019 4:28:35 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa sopra una casella occupata
+mag 13, 2019 4:28:35 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from g6 to d6
+mag 13, 2019 4:28:35 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa che scavalca una pedina
+mag 13, 2019 4:28:35 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from g6 to c6
+mag 13, 2019 4:28:35 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa che scavalca una pedina
+mag 13, 2019 4:28:35 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from g6 to b6
+mag 13, 2019 4:28:35 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa che scavalca una pedina
+mag 13, 2019 4:28:35 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from g6 to a6
+mag 13, 2019 4:28:35 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa che arriva sopra una citadel
+mag 13, 2019 4:28:35 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from e7 to e8
+mag 13, 2019 4:28:35 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa sopra una casella occupata
+mag 13, 2019 4:28:35 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from e7 to e9
+mag 13, 2019 4:28:35 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa sopra una casella occupata
+mag 13, 2019 4:28:35 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from e7 to e6
+mag 13, 2019 4:28:35 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa sopra una casella occupata
+mag 13, 2019 4:28:35 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from e7 to e5
+mag 13, 2019 4:28:35 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa sul trono
+mag 13, 2019 4:28:35 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from e7 to e4
+mag 13, 2019 4:28:35 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa sopra una casella occupata
+mag 13, 2019 4:28:35 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from e7 to e3
+mag 13, 2019 4:28:35 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa che scavalca una pedina
+mag 13, 2019 4:28:35 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from e7 to e2
+mag 13, 2019 4:28:35 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa che arriva sopra una citadel
+mag 13, 2019 4:28:35 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from e7 to e1
+mag 13, 2019 4:28:35 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa che arriva sopra una citadel
+mag 13, 2019 4:28:35 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from e7 to f7
+mag 13, 2019 4:28:35 PM domain.AimaGameAshtonTablut movePawn
+BUONO: Movimento pedina
+mag 13, 2019 4:28:35 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Current draw cache size: 1
+mag 13, 2019 4:28:35 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Stato:
+OOOOOOBOO
+BOOOOOOBO
+OOOOOBBOO
+BOWOKWOOB
+BOWWTWOOO
+OOOOWOWOO
+OOOOOWBOO
+BOOOBOOOO
+BOOOBBOOO
+-
+B
+mag 13, 2019 4:28:35 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from e7 to g7
+mag 13, 2019 4:28:35 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa sopra una casella occupata
+mag 13, 2019 4:28:35 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from e7 to h7
+mag 13, 2019 4:28:35 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa che scavalca una pedina
+mag 13, 2019 4:28:35 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from e7 to i7
+mag 13, 2019 4:28:35 PM domain.AimaGameAshtonTablut checkMove
+AVVERTENZA: Mossa che scavalca una pedina
+mag 13, 2019 4:28:35 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from e7 to d7
+mag 13, 2019 4:28:35 PM domain.AimaGameAshtonTablut movePawn
+BUONO: Movimento pedina
+mag 13, 2019 4:28:35 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Current draw cache size: 1
+mag 13, 2019 4:28:35 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Stato:
+OOOOOOBOO
+BOOOOOOBO
+OOOOOBBOO
+BOWOKWOOB
+BOWWTWOOO
+OOOOWOWOO
+OOOWOOBOO
+BOOOBOOOO
+BOOOBBOOO
+-
+B
+mag 13, 2019 4:28:35 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from e7 to c7
+mag 13, 2019 4:28:35 PM domain.AimaGameAshtonTablut movePawn
+BUONO: Movimento pedina
+mag 13, 2019 4:28:35 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Current draw cache size: 1
+mag 13, 2019 4:28:35 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Stato:
+OOOOOOBOO
+BOOOOOOBO
+OOOOOBBOO
+BOWOKWOOB
+BOWWTWOOO
+OOOOWOWOO
+OOWOOOBOO
+BOOOBOOOO
+BOOOBBOOO
+-
+B
+mag 13, 2019 4:28:35 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from e7 to b7
+mag 13, 2019 4:28:35 PM domain.AimaGameAshtonTablut movePawn
+BUONO: Movimento pedina
+mag 13, 2019 4:28:35 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Current draw cache size: 1
+mag 13, 2019 4:28:35 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Stato:
+OOOOOOBOO
+BOOOOOOBO
+OOOOOBBOO
+BOWOKWOOB
+BOWWTWOOO
+OOOOWOWOO
+OWOOOOBOO
+BOOOBOOOO
+BOOOBBOOO
+-
+B
+mag 13, 2019 4:28:35 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Turn: W Pawn from e7 to a7
+mag 13, 2019 4:28:35 PM domain.AimaGameAshtonTablut movePawn
+BUONO: Movimento pedina
+mag 13, 2019 4:28:35 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Current draw cache size: 1
+mag 13, 2019 4:28:35 PM domain.AimaGameAshtonTablut checkMove
+BUONO: Stato:
+OOOOOOBOO
+BOOOOOOBO
+OOOOOBBOO
+BOWOKWOOB
+BOWWTWOOO
+OOOOWOWOO
+WOOOOOBOO
+BOOOBOOOO
+BOOOBBOOO
+-
+B
+mag 13, 2019 4:28:35 PM domain.AimaGameAshtonTablut movePawn
+BUONO: Movimento pedina
+mag 13, 2019 4:28:35 PM domain.AimaGameAshtonTablut movePawn
+BUONO: Movimento pedina
+mag 13, 2019 4:28:35 PM domain.AimaGameAshtonTablut movePawn
+BUONO: Movimento pedina
+mag 13, 2019 4:28:35 PM domain.AimaGameAshtonTablut movePawn
+BUONO: Movimento pedina
+mag 13, 2019 4:28:35 PM domain.AimaGameAshtonTablut movePawn
+BUONO: Movimento pedina
+mag 13, 2019 4:28:35 PM domain.AimaGameAshtonTablut movePawn
+BUONO: Movimento pedina
+mag 13, 2019 4:28:35 PM domain.AimaGameAshtonTablut movePawn
+BUONO: Movimento pedina
+mag 13, 2019 4:28:35 PM domain.AimaGameAshtonTablut movePawn
+BUONO: Movimento pedina
+mag 13, 2019 4:28:35 PM domain.AimaGameAshtonTablut movePawn
+BUONO: Movimento pedina
+mag 13, 2019 4:28:35 PM domain.AimaGameAshtonTablut movePawn
+BUONO: Movimento pedina
+mag 13, 2019 4:28:35 PM domain.AimaGameAshtonTablut movePawn
+BUONO: Movimento pedina
+mag 13, 2019 4:28:35 PM domain.AimaGameAshtonTablut movePawn
+BUONO: Movimento pedina
+mag 13, 2019 4:28:35 PM domain.AimaGameAshtonTablut movePawn
+BUONO: Movimento pedina
+mag 13, 2019 4:28:35 PM domain.AimaGameAshtonTablut movePawn
+BUONO: Movimento pedina
+mag 13, 2019 4:28:35 PM domain.AimaGameAshtonTablut movePawn
+BUONO: Movimento pedina
+mag 13, 2019 4:28:35 PM domain.AimaGameAshtonTablut movePawn
+BUONO: Movimento pedina
+mag 13, 2019 4:28:35 PM domain.AimaGameAshtonTablut movePawn
+BUONO: Movimento pedina
+mag 13, 2019 4:28:35 PM domain.AimaGameAshtonTablut movePawn
+BUONO: Movimento pedina
+mag 13, 2019 4:28:35 PM domain.AimaGameAshtonTablut checkCaptureBlackKingRight
+BUONO: Nero vince con re catturato in: e3
+mag 13, 2019 4:28:35 PM domain.AimaGameAshtonTablut movePawn
+BUONO: Movimento pedina
+mag 13, 2019 4:28:35 PM domain.AimaGameAshtonTablut movePawn
+BUONO: Movimento pedina
+mag 13, 2019 4:28:35 PM domain.AimaGameAshtonTablut movePawn
+BUONO: Movimento pedina
+mag 13, 2019 4:28:35 PM domain.AimaGameAshtonTablut movePawn
+BUONO: Movimento pedina
+mag 13, 2019 4:28:35 PM domain.AimaGameAshtonTablut movePawn
+BUONO: Movimento pedina
+mag 13, 2019 4:28:35 PM domain.AimaGameAshtonTablut checkCaptureBlackPawnUp
+BUONO: Pedina bianca rimossa in: g4
+mag 13, 2019 4:28:35 PM domain.AimaGameAshtonTablut checkCaptureBlackPawnDown
+BUONO: Pedina bianca rimossa in: g6
+mag 13, 2019 4:28:35 PM domain.AimaGameAshtonTablut movePawn
+BUONO: Movimento pedina
+mag 13, 2019 4:28:35 PM domain.AimaGameAshtonTablut movePawn
+BUONO: Movimento pedina
+mag 13, 2019 4:28:35 PM domain.AimaGameAshtonTablut movePawn
+BUONO: Movimento pedina
+mag 13, 2019 4:28:35 PM domain.AimaGameAshtonTablut movePawn
+BUONO: Movimento pedina
+mag 13, 2019 4:28:35 PM domain.AimaGameAshtonTablut movePawn
+BUONO: Movimento pedina
+mag 13, 2019 4:28:35 PM domain.AimaGameAshtonTablut movePawn
+BUONO: Movimento pedina
+mag 13, 2019 4:28:35 PM domain.AimaGameAshtonTablut movePawn
+BUONO: Movimento pedina
+mag 13, 2019 4:28:35 PM domain.AimaGameAshtonTablut movePawn
+BUONO: Movimento pedina
+mag 13, 2019 4:28:35 PM domain.AimaGameAshtonTablut movePawn
+BUONO: Movimento pedina
+mag 13, 2019 4:28:35 PM domain.AimaGameAshtonTablut movePawn
+BUONO: Movimento pedina
+mag 13, 2019 4:28:35 PM domain.AimaGameAshtonTablut movePawn
+BUONO: Movimento pedina
+mag 13, 2019 4:28:35 PM domain.AimaGameAshtonTablut movePawn
+BUONO: Movimento pedina
+mag 13, 2019 4:28:35 PM domain.AimaGameAshtonTablut movePawn
+BUONO: Movimento pedina

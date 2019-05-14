@@ -62,7 +62,7 @@ public class AimaClient extends TablutClient {
 		State state = new StateTablut();
 		state.setTurn(State.Turn.WHITE);
 		System.out.println("Ashton Tablut game");
-
+		AimaGameAshtonTablut rules = new AimaGameAshtonTablut(99, 0, "garbage", "fake", "fake");
 		System.out.println("You are player " + this.getPlayer().toString() + "!");
 
 		while (true) {
@@ -76,17 +76,17 @@ public class AimaClient extends TablutClient {
 			System.out.println("Current state:");
 			state = this.getCurrentState();
 			System.out.println(state.toString());
-			try { // DA RIVEDERE!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+			/*try { // DA RIVEDERE!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 				Thread.sleep(1000);
 			} catch (InterruptedException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
-			}
+			}*/
 			
 			if (this.getPlayer().equals(Turn.WHITE)) {
 				// è il mio turno
 				if (this.getCurrentState().getTurn().equals(StateTablut.Turn.WHITE)) {
-					this.makeDecisionAndSend(state);
+					this.makeDecisionAndSend(state,rules);
 				}
 				// è il turno dell'avversario
 				else if (state.getTurn().equals(StateTablut.Turn.BLACK)) {
@@ -112,7 +112,7 @@ public class AimaClient extends TablutClient {
 
 				// è il mio turno
 				if (this.getCurrentState().getTurn().equals(StateTablut.Turn.BLACK)) {
-					this.makeDecisionAndSend(state);
+					this.makeDecisionAndSend(state,rules);
 				}
 
 				else if (state.getTurn().equals(StateTablut.Turn.WHITE)) {
@@ -132,8 +132,7 @@ public class AimaClient extends TablutClient {
 
 		}
 	}
-	private void makeDecisionAndSend(State state) {
-		AimaGameAshtonTablut rules = new AimaGameAshtonTablut(99, 0, "garbage", "fake", "fake");
+	private void makeDecisionAndSend(State state, AimaGameAshtonTablut rules) {
 		AlphaBetaSearch<State, Action, State.Turn> abS = new AlphaBetaSearch<State, Action, State.Turn>(rules);
 		try {
 			this.write(abS.makeDecision(state));

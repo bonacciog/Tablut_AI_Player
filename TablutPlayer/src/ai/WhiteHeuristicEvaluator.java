@@ -18,8 +18,9 @@ public class WhiteHeuristicEvaluator extends HeuristicEvaluator{
 		for(int i=0; i<9;i++) {
 			for(int j=0; j<9; j++) {
 
-				if(state.getPawn(i, j).equalsPawn("K")) 
+				if(state.getPawn(i, j).equalsPawn("K")) { 
 					stateValue= stateValue + getKingDistanceValue(i,j,state);
+				}
 				if(state.getPawn(i, j).equalsPawn("W"))
 					whiteCaptured--;
 				if(state.getPawn(i, j).equalsPawn("B"))

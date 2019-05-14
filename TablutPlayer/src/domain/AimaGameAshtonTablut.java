@@ -763,13 +763,13 @@ public class AimaGameAshtonTablut implements Game, aima.core.search.adversarial.
 				// WHITE TURN
 				if(currentState.getTurn().equals(Turn.WHITE)) {
 					if(board[i][j].equals(Pawn.KING) || board[i][j].equals(Pawn.WHITE)) {
-						result.addAll(this.selectAllActionsForThisPawn(currentState, i, j));
+						result.addAll(this.selectAllActionsForThisPawn(currentState.clone(), i, j));
 					}
 				}
 				else if(currentState.getTurn().equals(Turn.BLACK))// BLACK TURN - ALTRI TURNI NON VERRANNO MAI CHIAMATI -> GUARDA CLIENT
 				{
 					if(board[i][j].equals(Pawn.BLACK)) {
-						result.addAll(this.selectAllActionsForThisPawn(currentState, i, j));
+						result.addAll(this.selectAllActionsForThisPawn(currentState.clone(), i, j));
 					}
 				}
 				else
@@ -824,7 +824,8 @@ public class AimaGameAshtonTablut implements Game, aima.core.search.adversarial.
 				// TODO Auto-generated catch block
 				continue; 
 			}
-			result.add(a);	
+	//		if(!this.drawConditions.contains(tempState))
+				result.add(a);	
 		}
 		for(int currentRow=row-1; currentRow>=0; currentRow--) {
 			State tempState=currentState.clone();
@@ -870,7 +871,8 @@ public class AimaGameAshtonTablut implements Game, aima.core.search.adversarial.
 				// TODO Auto-generated catch block
 				continue; 
 			}
-			result.add(a);	
+//			if(!this.drawConditions.contains(tempState))
+				result.add(a);	
 		}
 		for(int currentColumn=column+1; currentColumn<9; currentColumn++) {
 			State tempState=currentState.clone();
@@ -916,7 +918,8 @@ public class AimaGameAshtonTablut implements Game, aima.core.search.adversarial.
 				// TODO Auto-generated catch block
 				continue;
 			}
-			result.add(a);	
+//			if(!this.drawConditions.contains(tempState))
+				result.add(a);	
 		}
 		for(int currentColumn=column-1; currentColumn>=0; currentColumn--) {
 			State tempState=currentState.clone();
@@ -962,7 +965,8 @@ public class AimaGameAshtonTablut implements Game, aima.core.search.adversarial.
 				// TODO Auto-generated catch block
 				continue; 
 			}
-			result.add(a);	
+//			if(!this.drawConditions.contains(tempState))
+				result.add(a);	
 			}
 		
 		return result;
@@ -989,15 +993,16 @@ public class AimaGameAshtonTablut implements Game, aima.core.search.adversarial.
 	}
 	
 	private State toNewState(State state, Action a) {
-		state = this.movePawn(state, a);
+		State result = state.clone();
+		result = this.movePawn(result, a);
 
 		// a questo punto controllo lo stato per eventuali catture
-		if (state.getTurn().equalsTurn("W")) {
-			state = this.checkCaptureBlack(state, a);
-		} else if (state.getTurn().equalsTurn("B")) {
-			state = this.checkCaptureWhite(state, a);
+		if (result.getTurn().equalsTurn("W")) {
+			result = this.checkCaptureBlack(result, a);
+		} else if (result.getTurn().equalsTurn("B")) {
+			result = this.checkCaptureWhite(result, a);
 		}
-		return state;
+		return result;
 	}
 	@Override
 	public double getUtility(State arg0, Turn arg1) {
