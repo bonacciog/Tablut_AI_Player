@@ -1,0 +1,19 @@
+mag 14, 2019 11:45:46 AM domain.AimaGameAshtonTablut <init>
+BUONO: Players:	White:	fake	vs	fake
+mag 14, 2019 11:45:46 AM domain.AimaGameAshtonTablut <init>
+BUONO: Repeated moves allowed:	99	Cache:	0
+mag 14, 2019 11:45:46 AM domain.AimaGameAshtonTablut <init>
+BUONO: Inizio partita
+mag 14, 2019 11:45:46 AM domain.AimaGameAshtonTablut <init>
+BUONO: Stato:
+OOOBBBOOO
+OOOOBOOOO
+OOOOWOOOO
+BOOOWOOOB
+BBWWKWWBB
+BOOOWOOOB
+OOOOWOOOO
+OOOOBOOOO
+OOOBBBOOO
+-
+B
