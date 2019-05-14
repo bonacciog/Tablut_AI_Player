@@ -25,7 +25,7 @@ Or **double click **on AimaTablutBlackPlayer.jar
 
   - To run the white client execute from line command:
  ```
-    $ java -jar LordKesaniIlDioDellaDistruzione.jar WHITE 
+$ java -jar LordKesaniIlDioDellaDistruzione.jar WHITE 
  ```
 Or:
 ``` 
@@ -44,10 +44,11 @@ Aima library:
   - https://github.com/aimacode/aima-java
 
 
+
 GSON library:
   - https://github.com/google/gson
 
-particularly:
+...particularly:
 
   - https://github.com/google/gson/releases/tag/gson-2.2.2
 
