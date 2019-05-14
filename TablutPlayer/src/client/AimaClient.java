@@ -76,12 +76,6 @@ public class AimaClient extends TablutClient {
 			System.out.println("Current state:");
 			state = this.getCurrentState();
 			System.out.println(state.toString());
-			/*try { // DA RIVEDERE!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-				Thread.sleep(1000);
-			} catch (InterruptedException e) {
-				// TODO Auto-generated catch block
-				e.printStackTrace();
-			}*/
 			
 			if (this.getPlayer().equals(Turn.WHITE)) {
 				// è il mio turno
