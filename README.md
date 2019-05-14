@@ -56,5 +56,5 @@ GSON library:
 
 - - -
 
-_Developed by team composed by [bonacciog](https://github.com/bonacciog), [PaoloCaligiana](https://github.com/PaoloCaligiana), [allefossa9663](https://github.com/allefossa9663), [Bananito96](https://github.com/Bananito96) _
+_Developed by team composed by [bonacciog](https://github.com/bonacciog), [PaoloCaligiana](https://github.com/PaoloCaligiana), [allefossa9663](https://github.com/allefossa9663), [Bananito96](https://github.com/Bananito96)_
 
