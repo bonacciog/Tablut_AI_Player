@@ -23,8 +23,13 @@ public class BlackHeuristicEvaluator extends HeuristicEvaluator{
 				}
 				if(state.getPawn(i, j).equalsPawn("W"))
 					whiteCaptured--;
-				if(state.getPawn(i, j).equalsPawn("B"))
+				if(state.getPawn(i, j).equalsPawn("B")) {
 					blackCaptured--;
+					if(this.BIsNearKing(state, i, j)) {
+						stateValue= stateValue + 100;
+					}
+				}
+					
 				//aumento il valore per le pedine nere sulle diagonali
 				if( (i==1 && (j==3 || j==5) ) ||  (i==3 && (j==1|| j==7))|| (i==5 && (j==1|| j==7))|| (i==7 && (j==3|| j==5)) ){			
 					if(state.getPawn(i, j).equalsPawn("B"))
@@ -42,6 +47,16 @@ public class BlackHeuristicEvaluator extends HeuristicEvaluator{
 			stateValue= stateValue +1000;
 		
 		return stateValue;
+	}
+	
+	private boolean BIsNearKing(State state, int i, int j) {
+		if(i>0 && i<8 && j>0 && j<8)
+			return state.getBoard()[i+1][j].equalsPawn("K") 
+					|| state.getBoard()[i-1][j].equalsPawn("K") 
+					|| state.getBoard()[i][j+1].equalsPawn("K")
+					|| state.getBoard()[i][j-1].equalsPawn("K");
+		else
+			return false;
 	}
 
 }

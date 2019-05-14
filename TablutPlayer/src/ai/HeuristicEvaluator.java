@@ -3,12 +3,12 @@ package ai;
 import domain.State;
 
 public abstract class HeuristicEvaluator {
-	public static final int TOTWHITE=8;
-	public static final int TOTBLACK=12;
-	public static final int STATEINITIALVALUE=1000;
+	protected static final int TOTWHITE=8;
+	protected static final int TOTBLACK=12;
+	protected static final int STATEINITIALVALUE=1000;
 	
 	public abstract int getEvaluation(State state);
-	public int getKingDistanceValue(int i,int j,State state) {
+	protected int getKingDistanceValue(int i,int j,State state) {
 		
 		int kingDistanceValue=0;
 		// 1° il King è nel trono.(valore del re vivo, alto).
@@ -34,9 +34,9 @@ public abstract class HeuristicEvaluator {
 		return kingDistanceValue;
 	}
 	
-	public boolean emptyLine(int i,int j,String line, State state) {
+	protected boolean emptyLine(int i,int j,String line, State state) {
 		boolean empty = true;
-		if(line.equalsIgnoreCase("row")) {//controllo la riga
+		if(line.equalsIgnoreCase("row")) {
 			for(int k=0; k<9; k++) {
 				if(k!=j) {
 					if(state.getPawn(i,k).equalsPawn("W") || state.getPawn(i,k).equalsPawn("B"))
