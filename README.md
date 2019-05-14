@@ -19,7 +19,7 @@ Or:
       
     $ java -jar AimaTablutBlackPlayer.jar 
       
-Or **double click** on AimaTablutBlackPlayer.jar
+Or **double click** on ***AimaTablutBlackPlayer.jar***
 
 - - -
 
@@ -31,7 +31,7 @@ Or:
 ``` 
 $ java -jar AimaTabluWhitePlayer.jar 
 ```
-Or **double click** on AimaTablutWhitePlayer.jar
+Or **double click** on ***AimaTablutWhitePlayer.jar***
 
 - - -
 
