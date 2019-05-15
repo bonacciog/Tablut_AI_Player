@@ -66,7 +66,7 @@ public class AimaClient extends TablutClient {
 		this.openingMoves = new HashMap<StartMove, List<Action>>();
 		StateTablut tmpState = new StateTablut();
 		
-		// Inizializzo tutte le possibili mosse di apertura
+		// Inizializzo mosse di apertura
 		{
 			List<Action> tmpList = new ArrayList<Action>();
 			// DOWN
