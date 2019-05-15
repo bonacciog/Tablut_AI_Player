@@ -30,10 +30,10 @@ public class WhiteHeuristicEvaluator extends HeuristicEvaluator{
 					whiteCaptured--;
 				if(state.getPawn(i, j).equalsPawn("B"))
 					blackCaptured--;
-				//aumento il valore per le pedine bianche attorno al trono
+				//aumento il valore per le pedine bianche attorno al tronos
 				if( (i==4 && j==3) || (i==3 && j==4) || (i==4 && j==5) || (i==5 && j==4)){			
 					if(state.getPawn(i, j).equalsPawn("W"))
-						stateValue= stateValue + 5;
+						stateValue= stateValue + 25;
 				}
 			}
 		}
