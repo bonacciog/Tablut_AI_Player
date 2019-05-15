@@ -29,7 +29,7 @@ $ java -jar LordKesaniIlDioDellaDistruzione.jar WHITE
  ```
 Or:
 ``` 
-$ java -jar AimaTabluWhitePlayer.jar 
+$ java -jar AimaTablutWhitePlayer.jar 
 ```
 Or **double click** on ***AimaTablutWhitePlayer.jar***
 
