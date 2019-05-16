@@ -163,7 +163,7 @@ public class AimaClient extends TablutClient {
 		AimaGameAshtonTablut rules = new AimaGameAshtonTablut(99, 0, "garbage", "fake", "fake");
 		System.out.println("You are player " + this.getPlayer().toString() + "!");
 		List<Action> openingList = this.openingMoves.get(StartMove.values()[new Random().nextInt(StartMove.values().length)]);
-		
+		AlphaBetaSearch<State, Action, State.Turn> abS = new AlphaBetaSearch<State, Action, State.Turn>(rules);
 		while (true) {
 			try {
 				this.read();
@@ -179,7 +179,7 @@ public class AimaClient extends TablutClient {
 			if (this.getPlayer().equals(Turn.WHITE)) {
 				// è il mio turno
 				if (this.getCurrentState().getTurn().equals(StateTablut.Turn.WHITE)) {
-					this.makeDecisionAndSend(state,rules, openingList);
+					this.makeDecisionAndSend(abS, state,rules, openingList);
 				}
 				// è il turno dell'avversario
 				else if (state.getTurn().equals(StateTablut.Turn.BLACK)) {
@@ -205,7 +205,7 @@ public class AimaClient extends TablutClient {
 
 				// è il mio turno
 				if (this.getCurrentState().getTurn().equals(StateTablut.Turn.BLACK)) {
-					this.makeDecisionAndSend(state,rules, null);
+					this.makeDecisionAndSend(abS, state,rules, null);
 				}
 
 				else if (state.getTurn().equals(StateTablut.Turn.WHITE)) {
@@ -225,8 +225,8 @@ public class AimaClient extends TablutClient {
 
 		}
 	}
-	private void makeDecisionAndSend(State state, AimaGameAshtonTablut rules, List<Action> openingList) {
-		AlphaBetaSearch<State, Action, State.Turn> abS = new AlphaBetaSearch<State, Action, State.Turn>(rules);
+	private void makeDecisionAndSend(AlphaBetaSearch<State, Action, State.Turn> abS, State state, AimaGameAshtonTablut rules, List<Action> openingList) {
+		
 		Action a = null;
 		// mosse apertura per bianco
 		if(state.getTurn().equals(State.Turn.WHITE)) {
