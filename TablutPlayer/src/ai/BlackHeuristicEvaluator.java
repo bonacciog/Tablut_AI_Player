@@ -25,14 +25,16 @@ public class BlackHeuristicEvaluator extends HeuristicEvaluator{
 				if(state.getPawn(i, j).equalsPawn("K")) { 
 					kingCaptured=false;
 					stateValue= stateValue - (getKingDistanceValue(i,j,state)-490);
+					if(this.IsNear(state,i,j, "B")) {
+						stateValue= stateValue + 100;
+					}
+					
 				}
 				if(state.getPawn(i, j).equalsPawn("W"))
 					whiteCaptured--;
 				if(state.getPawn(i, j).equalsPawn("B")) {
 					blackCaptured--;
-					if(this.BIsNearKing(state, i, j)) {
-						stateValue= stateValue + 100;
-					}
+
 				}
 					
 				//aumento il valore per le pedine nere sulle diagonali
@@ -54,12 +56,12 @@ public class BlackHeuristicEvaluator extends HeuristicEvaluator{
 		return stateValue;
 	}
 	
-	private boolean BIsNearKing(State state, int i, int j) {
+	private boolean IsNear(State state,int i,int j, String pawn) {
 		if(i>0 && i<8 && j>0 && j<8)
-			return state.getBoard()[i+1][j].equalsPawn("K") 
-					|| state.getBoard()[i-1][j].equalsPawn("K") 
-					|| state.getBoard()[i][j+1].equalsPawn("K")
-					|| state.getBoard()[i][j-1].equalsPawn("K");
+			return state.getBoard()[i+1][j].equalsPawn(pawn) 
+					|| state.getBoard()[i-1][j].equalsPawn(pawn) 
+					|| state.getBoard()[i][j+1].equalsPawn(pawn)
+					|| state.getBoard()[i][j-1].equalsPawn(pawn);
 		else
 			return false;
 	}
