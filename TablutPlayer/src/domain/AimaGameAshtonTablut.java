@@ -1039,10 +1039,7 @@ public class AimaGameAshtonTablut implements Game, aima.core.search.adversarial.
 	@Override
 	public double getUtility(State arg0, Turn arg1) {
 		HeuristicEvaluator herEval = HeuristicEvaluatorFactory.getHeuristicEvaluator(arg1);
-		if(!arg0.getTurn().equals(arg1))
-			return herEval.getEvaluation(arg0);
-		else
-			return (0 - herEval.getEvaluation(arg0));
+		return herEval.getEvaluation(arg0);
 	}
 
 	@Override
