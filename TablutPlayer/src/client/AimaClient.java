@@ -35,7 +35,7 @@ import exceptions.ThroneException;
  */
 public class AimaClient extends TablutClient {
 
-	private static final int DEFAULTTIMEINSECONDS = 30;
+	private static final int DEFAULTTIMEINSECONDS = 10;
 	
 	private int openingCount;
 	
