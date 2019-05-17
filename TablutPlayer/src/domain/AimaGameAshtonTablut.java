@@ -4,6 +4,7 @@ import java.io.File;
 import java.io.IOException;
 import java.nio.file.Path;
 import java.nio.file.Paths;
+import java.time.LocalTime;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
@@ -28,6 +29,9 @@ import exceptions.*;
  */
 public class AimaGameAshtonTablut implements Game, aima.core.search.adversarial.Game<State, Action, State.Turn> {
 
+	private LocalTime currentTime;
+	
+	private int maxTimeInSeconds;
 	/**
 	 * Number of repeated states that can occur before a draw
 	 */
@@ -49,6 +53,13 @@ public class AimaGameAshtonTablut implements Game, aima.core.search.adversarial.
 	// private List<String> strangeCitadels;
 	private List<State> drawConditions;
 
+	
+	public AimaGameAshtonTablut(int repeated_moves_allowed, int cache_size, String logs_folder, String whiteName,
+			String blackName, int maxTimeInSeconds) {
+		this(new StateTablut(), repeated_moves_allowed, cache_size, logs_folder, whiteName, blackName);
+		this.maxTimeInSeconds = maxTimeInSeconds;
+	}
+	
 	public AimaGameAshtonTablut(int repeated_moves_allowed, int cache_size, String logs_folder, String whiteName,
 			String blackName) {
 		this(new StateTablut(), repeated_moves_allowed, cache_size, logs_folder, whiteName, blackName);
@@ -110,7 +121,15 @@ public class AimaGameAshtonTablut implements Game, aima.core.search.adversarial.
 		// this.strangeCitadels.add("a5");
 		// this.strangeCitadels.add("i5");
 		// this.strangeCitadels.add("e9");
+		
+		currentTime = null;
 	}
+	
+
+	public void setCurrentTime(LocalTime currentTime) {
+		this.currentTime = currentTime;
+	}
+
 
 	@Override
 	public State checkMove(State state, Action a)
@@ -1007,23 +1026,28 @@ public class AimaGameAshtonTablut implements Game, aima.core.search.adversarial.
 	@Override
 	public double getUtility(State arg0, Turn arg1) {
 		HeuristicEvaluator herEval = HeuristicEvaluatorFactory.getHeuristicEvaluator(arg1);
-		return herEval.getEvaluation(arg0);
+		if(arg0.getTurn().equals(arg1))
+			return herEval.getEvaluation(arg0);
+		else
+			return (0 - herEval.getEvaluation(arg0));
 	}
 
 	@Override
 	public boolean isTerminal(State arg0) {
+		if((LocalTime.now().getSecond()-currentTime.getSecond())>=maxTimeInSeconds) 
+			return true;
 		if(isKingOnTheEdge(arg0))
 			return true;
 		else if(!arg0.boardString().contains("K"))
 			return true;
 		// Non terminale, ma di successo per i neri
-		else if(arg0.getTurn().equals(Turn.BLACK)) {
+	/*	else if(arg0.getTurn().equals(Turn.BLACK)) {
 			
 		}
 		// Non terminale, ma di successo per i bianchi
 		else if(arg0.getTurn().equals(Turn.WHITE)) {
 			
-		}
+		}*/
 		else return false;
 	}
 	

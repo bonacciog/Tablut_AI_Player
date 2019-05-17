@@ -77,6 +77,30 @@ public class StateTablut extends State implements Serializable {
 		return result;
 	}
 	
+	public boolean emptyLine(int i,int j,String line) {
+		boolean empty = true;
+		if(line.equalsIgnoreCase("row")) {
+			for(int k=0; k<9; k++) {
+				if(k!=j) {
+					if(this.getPawn(i,k).equalsPawn("W") || this.getPawn(i,k).equalsPawn("B"))
+						empty=false;
+				}
+			}
+		}
+		else if(line.equalsIgnoreCase("column")) {//controllo la colonna
+			for(int k=0; k<9; k++) {
+				if(k!=i) {
+					if(this.getPawn(k,j).equalsPawn("W") || this.getPawn(k,j).equalsPawn("B"))
+						empty=false;
+				}
+			}
+		}
+		else {
+			System.err.println("expected 'row' or 'column' in the third field");
+		}
+		return empty;
+	}
+	
 	@Override
 	public boolean equals(Object obj) {
 		if (this == obj)

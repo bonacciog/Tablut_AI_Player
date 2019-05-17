@@ -1,6 +1,7 @@
 package ai;
 
 import domain.State;
+import domain.StateTablut;
 /**
  * This class implements a function which return a black heuristic evaluation
  * 
@@ -13,8 +14,10 @@ public abstract class HeuristicEvaluator {
 	protected static final int STATEINITIALVALUE=1000;
 	
 	public abstract int getEvaluation(State state);
-	protected int getKingDistanceValue(int i,int j,State state) {
-		
+	protected int getKingDistanceValue(int i,int j,State arg0) {
+		if(!(arg0 instanceof StateTablut))
+			throw new IllegalArgumentException();
+		StateTablut state = (StateTablut) arg0;
 		int kingDistanceValue=0;
 		// 1° il King è nel trono.(valore del re vivo, alto).
 		if(i==4 && j==4)
@@ -29,7 +32,7 @@ public abstract class HeuristicEvaluator {
 		if( (i==1 && j>=1 && j<=7) || (i==7 && j>=1 && j<=7) || (j==1 && i>= 1 && i<=7) || (j==7 && i>=1 && i<=7)) 			
 			kingDistanceValue= 560;
 		//il king è prossimo alla vittoria.
-		if( emptyLine(i,j,"row",state) && (i==2 || i==6) || emptyLine(i,j,"column",state) && (j==2 || j==6) )
+		if( state.emptyLine(i,j,"row") && (i==2 || i==6) || state.emptyLine(i,j,"column") && (j==2 || j==6) )
 			kingDistanceValue=800; 
 		// il king ha raggiungo il bordo e ha vinto .
 		if(i==0 || i==8 || j==0 || j==8)
@@ -39,27 +42,5 @@ public abstract class HeuristicEvaluator {
 		return kingDistanceValue;
 	}
 	
-	protected boolean emptyLine(int i,int j,String line, State state) {
-		boolean empty = true;
-		if(line.equalsIgnoreCase("row")) {
-			for(int k=0; k<9; k++) {
-				if(k!=j) {
-					if(state.getPawn(i,k).equalsPawn("W") || state.getPawn(i,k).equalsPawn("B"))
-						empty=false;
-				}
-			}
-		}
-		else if(line.equalsIgnoreCase("column")) {//controllo la colonna
-			for(int k=0; k<9; k++) {
-				if(k!=i) {
-					if(state.getPawn(k,j).equalsPawn("W") || state.getPawn(k,j).equalsPawn("B"))
-						empty=false;
-				}
-			}
-		}
-		else {
-			System.err.println("expected 'row' or 'column' in the third field");
-		}
-		return empty;
-	}
+	
 }
