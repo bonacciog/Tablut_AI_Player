@@ -988,7 +988,7 @@ public class AimaGameAshtonTablut implements Game, aima.core.search.adversarial.
 	}
 
 	@Override
-	public State getResult(State arg0, Action arg1) {		
+	public State getResult(State arg0, Action arg1) {	
 		return toNewState(arg0, arg1);
 	}
 	
@@ -1012,7 +1012,7 @@ public class AimaGameAshtonTablut implements Game, aima.core.search.adversarial.
 
 	@Override
 	public boolean isTerminal(State arg0) {
-		return (!arg0.getBoard().toString().contains("K") || isKingOnTheEdge(arg0));
+		return !(arg0.boardString().contains("K")) || isKingOnTheEdge(arg0);
 			
 	}
 	

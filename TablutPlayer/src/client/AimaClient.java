@@ -10,7 +10,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.Random;
 
-import aima.core.search.adversarial.AlphaBetaSearch;
+
 import domain.Action;
 import domain.AimaGameAshtonTablut;
 import domain.State;
@@ -44,7 +44,7 @@ public class AimaClient extends TablutClient {
 		* Define enum for some possible opening actions for white
 		*
 		*/
-		UP("U"), DOWN("D"), RIGHT("R"), LEFT("L");
+		GARLICKCANNON_UP("U"), GARLICKCANNON_DOWN("D"), GARLICKCANNON_RIGHT("R"), GARLICKCANNON_LEFT("L");
 		private final String startMove;
 
 		private StartMove(String s) {
@@ -77,7 +77,7 @@ public class AimaClient extends TablutClient {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
-			openingMoves.put(StartMove.DOWN, tmpList);
+			openingMoves.put(StartMove.GARLICKCANNON_DOWN, tmpList);
 
 		}
 
@@ -92,7 +92,7 @@ public class AimaClient extends TablutClient {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
-			openingMoves.put(StartMove.RIGHT, tmpList);
+			openingMoves.put(StartMove.GARLICKCANNON_RIGHT, tmpList);
 
 		}
 
@@ -106,7 +106,7 @@ public class AimaClient extends TablutClient {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
-			openingMoves.put(StartMove.UP, tmpList);
+			openingMoves.put(StartMove.GARLICKCANNON_UP, tmpList);
 		}
 
 		{
@@ -119,7 +119,7 @@ public class AimaClient extends TablutClient {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
-			openingMoves.put(StartMove.LEFT, tmpList);
+			openingMoves.put(StartMove.GARLICKCANNON_LEFT, tmpList);
 		}
 	}
 	
@@ -164,6 +164,8 @@ public class AimaClient extends TablutClient {
 		System.out.println("You are player " + this.getPlayer().toString() + "!");
 		List<Action> openingList = this.openingMoves.get(StartMove.values()[new Random().nextInt(StartMove.values().length)]);
 		AlphaBetaSearch<State, Action, State.Turn> abS = new AlphaBetaSearch<State, Action, State.Turn>(rules);
+		
+		
 		while (true) {
 			try {
 				this.read();
