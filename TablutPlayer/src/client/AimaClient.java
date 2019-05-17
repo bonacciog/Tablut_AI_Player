@@ -35,13 +35,17 @@ import exceptions.ThroneException;
  */
 public class AimaClient extends TablutClient {
 
-	private static final int DEFAULTTIMEINSECONDS = 10;
+	private static final int DEFAULTTIMEINSECONDS = 50;
+	
+	private static final int DEFAULTDEPTH = 50;
 	
 	private int openingCount;
 	
 	private Map<StartMove, List<Action>> openingMoves;
 
 	private int maxTimeInSeconds;
+	
+	private int maxDepth;
 	
 	public 	enum StartMove {
 		/**
@@ -66,9 +70,10 @@ public class AimaClient extends TablutClient {
 		}
 	}
 	
-	public AimaClient(String player, String name, int maxTimeInSeconds) throws UnknownHostException, IOException {
+	public AimaClient(String player, String name, int maxTimeInSeconds, int maxDepth) throws UnknownHostException, IOException {
 		super(player, name);
 		this.maxTimeInSeconds = maxTimeInSeconds;
+		this.maxDepth=maxDepth;
 	}
 
 	public AimaClient(String player, String name) throws UnknownHostException, IOException {
@@ -77,6 +82,7 @@ public class AimaClient extends TablutClient {
 		this.openingMoves = new HashMap<StartMove, List<Action>>();
 		StateTablut tmpState = new StateTablut();
 		this.maxTimeInSeconds = DEFAULTTIMEINSECONDS;
+		this.maxDepth = DEFAULTDEPTH;
 		// Inizializzo mosse di apertura
 		{
 			List<Action> tmpList = new ArrayList<Action>();
@@ -171,11 +177,10 @@ public class AimaClient extends TablutClient {
 		State state = new StateTablut();
 		state.setTurn(State.Turn.WHITE);
 		System.out.println("Ashton Tablut game");
-		AimaGameAshtonTablut game = new AimaGameAshtonTablut(99, 0, "garbage", "fake", "fake", this.maxTimeInSeconds);
+
 		System.out.println("You are player " + this.getPlayer().toString() + "!");
 		List<Action> openingList = this.openingMoves.get(StartMove.values()[new Random().nextInt(StartMove.values().length)]);
-		AlphaBetaSearch<State, Action, State.Turn> abS = new AlphaBetaSearch<State, Action, State.Turn>(game);
-		
+
 		
 		while (true) {
 			try {
@@ -185,15 +190,18 @@ public class AimaClient extends TablutClient {
 				e1.printStackTrace();
 				System.exit(1);
 			}
+			AimaGameAshtonTablut game = new AimaGameAshtonTablut(99, 0, "garbage", "fake", "fake", this.maxTimeInSeconds, this.maxDepth);
 			game.setCurrentTime(LocalTime.now());
 			System.out.println("Current state:");
 			state = this.getCurrentState();
 			System.out.println(state.toString());
+			game.setCurrentTurn(this.getPlayer());
+			game.setCurrentDepth(0);
 			
 			if (this.getPlayer().equals(Turn.WHITE)) {
 				// è il mio turno
 				if (this.getCurrentState().getTurn().equals(StateTablut.Turn.WHITE)) {
-					this.makeDecisionAndSend(abS, state,game, openingList);
+					this.makeDecisionAndSend(state,game, openingList);
 				}
 				// è il turno dell'avversario
 				else if (state.getTurn().equals(StateTablut.Turn.BLACK)) {
@@ -219,7 +227,7 @@ public class AimaClient extends TablutClient {
 
 				// è il mio turno
 				if (this.getCurrentState().getTurn().equals(StateTablut.Turn.BLACK)) {
-					this.makeDecisionAndSend(abS, state,game, null);
+					this.makeDecisionAndSend(state,game, null);
 				}
 
 				else if (state.getTurn().equals(StateTablut.Turn.WHITE)) {
@@ -239,8 +247,8 @@ public class AimaClient extends TablutClient {
 
 		}
 	}
-	private void makeDecisionAndSend(AlphaBetaSearch<State, Action, State.Turn> abS, State state, AimaGameAshtonTablut game, List<Action> openingList) {
-		
+	private void makeDecisionAndSend(State state, AimaGameAshtonTablut game, List<Action> openingList) {
+		AlphaBetaSearch<State, Action, State.Turn> abS = new AlphaBetaSearch<State, Action, State.Turn>(game);
 		Action a = null;
 		// mosse apertura per bianco
 		if(state.getTurn().equals(State.Turn.WHITE)) {

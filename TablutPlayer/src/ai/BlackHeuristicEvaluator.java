@@ -24,17 +24,15 @@ public class BlackHeuristicEvaluator extends HeuristicEvaluator{
 
 				if(state.getPawn(i, j).equalsPawn("K")) { 
 					kingCaptured=false;
-					stateValue= stateValue - (getKingDistanceValue(i,j,state)-490);
-					if(this.IsNear(state,i,j, "B")) {
-						stateValue= stateValue + 100;
-					}
-					
+					stateValue= stateValue - (getKingDistanceValue(i,j,state)-490);					
 				}
 				if(state.getPawn(i, j).equalsPawn("W"))
 					whiteCaptured--;
 				if(state.getPawn(i, j).equalsPawn("B")) {
 					blackCaptured--;
-
+					if(this.IsNear(state,i,j, "K")) {
+						stateValue= stateValue + 100;
+					}
 				}
 					
 				//aumento il valore per le pedine nere sulle diagonali
