@@ -1012,8 +1012,19 @@ public class AimaGameAshtonTablut implements Game, aima.core.search.adversarial.
 
 	@Override
 	public boolean isTerminal(State arg0) {
-		return !(arg0.boardString().contains("K")) || isKingOnTheEdge(arg0);
+		if(isKingOnTheEdge(arg0))
+			return true;
+		else if(!arg0.boardString().contains("K"))
+			return true;
+		// Non terminale, ma di successo per i neri
+		else if(arg0.getTurn().equals(Turn.BLACK)) {
 			
+		}
+		// Non terminale, ma di successo per i bianchi
+		else if(arg0.getTurn().equals(Turn.WHITE)) {
+			
+		}
+		else return false;
 	}
 	
 	private boolean isKingOnTheEdge(State state) {
