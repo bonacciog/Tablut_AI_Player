@@ -8,7 +8,7 @@ import domain.State;
 /**
  * Factory class for HeuristicEvaluator
  * 
- * @author Alessandro Fossa
+ * @author Giovanni Bonaccio
  *
  */
 public class HeuristicEvaluatorFactory {

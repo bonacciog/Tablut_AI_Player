@@ -30,16 +30,34 @@ import exceptions.*;
  */
 public class AimaGameAshtonTablut implements Game, aima.core.search.adversarial.Game<State, Action, State.Turn> {
 	
+	/**
+	* Current time for timeout
+	*/
 	private LocalTime currentTime;
 	
+	/**
+	* Max depth for tree-search  
+	*/
 	private int maxDepth;
 
+	/**
+	* Current depth in the tree  
+	*/
 	private int currentDepth;
 	
+	/**
+	* Max time for timeout
+	*/
 	private int maxTimeInSeconds;
 	
+	/**
+	* Current turn to calculate the current depth
+	*/
 	private Turn currentTurn;
 
+	/**
+	* Useful variable  to calculate the current depth
+	*/
 	private int numberOfConsecutiveEqualsTurn;
 	/**
 	 * Number of repeated states that can occur before a draw
@@ -856,8 +874,7 @@ public class AimaGameAshtonTablut implements Game, aima.core.search.adversarial.
 				// TODO Auto-generated catch block
 				continue; 
 			}
-	//		if(!this.drawConditions.contains(tempState))
-				result.add(a);	
+			result.add(a);	
 		}
 		for(int currentRow=row-1; currentRow>=0; currentRow--) {
 			State tempState=currentState.clone();
@@ -903,8 +920,7 @@ public class AimaGameAshtonTablut implements Game, aima.core.search.adversarial.
 				// TODO Auto-generated catch block
 				continue; 
 			}
-//			if(!this.drawConditions.contains(tempState))
-				result.add(a);	
+			result.add(a);	
 		}
 		for(int currentColumn=column+1; currentColumn<9; currentColumn++) {
 			State tempState=currentState.clone();
@@ -950,8 +966,7 @@ public class AimaGameAshtonTablut implements Game, aima.core.search.adversarial.
 				// TODO Auto-generated catch block
 				continue;
 			}
-//			if(!this.drawConditions.contains(tempState))
-				result.add(a);	
+			result.add(a);	
 		}
 		for(int currentColumn=column-1; currentColumn>=0; currentColumn--) {
 			State tempState=currentState.clone();
@@ -997,8 +1012,7 @@ public class AimaGameAshtonTablut implements Game, aima.core.search.adversarial.
 				// TODO Auto-generated catch block
 				continue; 
 			}
-//			if(!this.drawConditions.contains(tempState))
-				result.add(a);	
+			result.add(a);	
 			}
 		
 		return result;
@@ -1028,7 +1042,6 @@ public class AimaGameAshtonTablut implements Game, aima.core.search.adversarial.
 		State result = state.clone();
 		result = this.movePawn(result, a);
 
-		// a questo punto controllo lo stato per eventuali catture
 		if (result.getTurn().equalsTurn("W")) {
 			result = this.checkCaptureBlack(result, a);
 		} else if (result.getTurn().equalsTurn("B")) {
@@ -1060,6 +1073,11 @@ public class AimaGameAshtonTablut implements Game, aima.core.search.adversarial.
 		return (currentDepth>=maxDepth);
 	}
 	
+	/**
+	 * Keeps track of the current depth
+	 *  
+	 * @param arg0
+	 */
 	private void updateDepth(State arg0) {
 		if(!arg0.getTurn().equals(this.currentTurn) && this.numberOfConsecutiveEqualsTurn==0) {
 			this.currentTurn=arg0.getTurn();

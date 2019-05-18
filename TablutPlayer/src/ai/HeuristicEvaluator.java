@@ -57,54 +57,127 @@ public abstract class HeuristicEvaluator {
 	
 	
 	protected boolean RightNear(State state,int i,int j, String pawn) {
-		if(i>0 && i<8 && j>0 && j<8) {
-			if (state.getBoard()[i][j+1].equalsPawn(pawn)|| isCamp(i,j) || isThrone(i,j))
-				return true;
-		}
-		return false;
+		return (i>0 && i<8 && j>0 && j<8) &&
+			(state.getBoard()[i][j+1].equalsPawn(pawn)|| isCamp(i,j) || isThrone(i,j));
 	}
 	
 	protected boolean LeftNear(State state,int i,int j, String pawn) {
-		if(i>0 && i<8 && j>0 && j<8) {
-			if (state.getBoard()[i][j-1].equalsPawn(pawn)|| isCamp(i,j) || isThrone(i,j))
-				return true;
-		}
-		return false;
+		return (i>0 && i<8 && j>0 && j<8) &&
+				(state.getBoard()[i][j-1].equalsPawn(pawn)|| isCamp(i,j) || isThrone(i,j));
 	}
 	
 	protected boolean UpNear(State state,int i,int j, String pawn) {
-		if(i>0 && i<8 && j>0 && j<8) {
-			if (state.getBoard()[i+1][j].equalsPawn(pawn)|| isCamp(i,j) || isThrone(i,j))
-				return true;
-		}
-		return false;
+		return(i>0 && i<8 && j>0 && j<8) &&
+				(state.getBoard()[i+1][j].equalsPawn(pawn)|| isCamp(i,j) || isThrone(i,j));
 	}
 	
 	protected boolean DownNear(State state,int i,int j, String pawn) {
-		if(i>0 && i<8 && j>0 && j<8) {
-			if (state.getBoard()[i-1][j].equalsPawn(pawn)|| isCamp(i,j) || isThrone(i,j))
-				return true;
-		}
-		return false;
+		return((i>0 && i<8 && j>0 && j<8) &&
+			 (state.getBoard()[i-1][j].equalsPawn(pawn)|| isCamp(i,j) || isThrone(i,j)));
 	}
 	
 	protected boolean isCamp(int i, int j){
-		if( (i==0 && (j>=3 && j<=5)) || (i==1 && j==4) || 
+		return( (i==0 && (j>=3 && j<=5)) || (i==1 && j==4) || 
 		    (i==8 && (j>=3 && j<=5)) || (i==7 && j==4) ||
 		    (j==0 && (i>=3 && i<=5)) || (j==1 && i==4) ||
-		    (j==8 && (i>=3 && i<=5)) || (j==7 && i==4)  )
-			return true;
-		else
-			return false;
+		    (j==8 && (i>=3 && i<=5)) || (j==7 && i==4)  );
 	}
 	
 	protected boolean isThrone(int i,int j) {
-		if (i==4 && j==4)
-			return true;
-		else
-			return false;
-
+		return (i==4 && j==4);
 	}
 	
+	protected boolean emptyLine(int i,int j,String line,State state) {
+		boolean empty = true;
+		if(line.equalsIgnoreCase("row")) {
+			for(int k=0; k<9; k++) {
+				if(k!=j) {
+					if(state.getPawn(i,k).equalsPawn("W") || state.getPawn(i,k).equalsPawn("B"))
+						empty=false;
+				}
+			}
+		}
+		else if(line.equalsIgnoreCase("column")) {//controllo la colonna
+			for(int k=0; k<9; k++) {
+				if(k!=i) {
+					if(state.getPawn(k,j).equalsPawn("W") || state.getPawn(k,j).equalsPawn("B"))
+						empty=false;
+				}
+			}
+		}
+		else {
+			System.err.println("expected 'row' or 'column' in the third field");
+		}
+		return empty;
+	}
 	
+	protected boolean isInLine(int i,int j,String line,String pawn, State state) {
+		boolean result = false;
+		if(line.equalsIgnoreCase("row")) {
+			for(int k=0; k<9; k++) {
+				if(k!=j) {
+					if(state.getPawn(i,k).equalsPawn(pawn))
+						result=true;
+				}
+			}
+		}
+		else if(line.equalsIgnoreCase("column")) {//controllo la colonna
+			for(int k=0; k<9; k++) {
+				if(k!=i) {
+					if(state.getPawn(k,j).equalsPawn(pawn))
+						result=true;
+				}
+			}
+		}
+		else {
+			System.err.println("expected 'row' or 'column' in the third field");
+		}
+		return result;
+	}
+	
+	protected boolean SecureWhiteLine(int i, int j,String line, State state) { //è prettamente per l'euristica Bianca
+		if(this.emptyLine(i, j, line, state) || !this.isInLine(i, j, line, "B", state))
+			return true;
+		else {
+
+			if(line.equals("column")) {
+				for(int k=i+1; k<9;k++) {
+					if(state.getBoard()[k][j].equalsPawn("W")){
+						k=8;
+					}
+					if(state.getBoard()[k][j].equalsPawn("B")){
+						return false;
+					}	
+				}
+				for(int k=i-1; k>=0;k--) {
+					if(state.getBoard()[k][j].equalsPawn("W")){
+						k=0;
+					}
+					if(state.getBoard()[k][j].equalsPawn("B")){
+						return false;
+					}	
+				}
+				
+			}
+			else {
+				for(int k=j+1; k<9;k++) {
+					if(state.getBoard()[k][j].equalsPawn("W")){
+						k=8;
+					}
+					if(state.getBoard()[k][j].equalsPawn("B")){
+						return false;
+					}	
+				}
+				for(int k=j-1; k>=0;k--) {
+					if(state.getBoard()[k][j].equalsPawn("W")){
+						k=0;
+					}
+					if(state.getBoard()[k][j].equalsPawn("B")){
+						return false;
+					}	
+				}
+			}
+			return true;
+		}
+	}
 }

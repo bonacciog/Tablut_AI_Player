@@ -28,7 +28,7 @@ import exceptions.PawnException;
 import exceptions.StopException;
 import exceptions.ThroneException;
 /**
- * Tablut Client Player which uses Aima library
+ * Tablut Client Player which uses Aima library and can use some opening moves
  * 
  * @author Giovanni Bonaccio
  *
@@ -36,12 +36,18 @@ import exceptions.ThroneException;
 public class AimaClient extends TablutClient {
 
 	private static final int DEFAULTTIMEOUTINSECONDS = 50;
-	
+	/**
+	 * Useful variable for opening moves
+	 */
 	private int openingCount;
-	
+	/**
+	 * Mapping between opening move name and related actions
+	 */
 	private Map<StartMove, List<Action>> openingMoves;
 
 	private int maxTimeInSeconds;
+	
+	boolean startWithOpeningMoves;
 	
 	public 	enum StartMove {
 		/**
@@ -66,8 +72,13 @@ public class AimaClient extends TablutClient {
 		}
 	}
 	
+	public AimaClient(String player, String name, int maxTimeInSeconds, boolean startWithOpeningMoves) throws UnknownHostException, IOException {
+		this(player, name, maxTimeInSeconds);
+		this.startWithOpeningMoves = startWithOpeningMoves;
+	}
+	
 	public AimaClient(String player, String name, int maxTimeInSeconds) throws UnknownHostException, IOException {
-		super(player, name);
+		this(player, name);
 		this.maxTimeInSeconds = maxTimeInSeconds;
 	}
 
@@ -76,7 +87,6 @@ public class AimaClient extends TablutClient {
 		openingCount = 0;
 		this.openingMoves = new HashMap<StartMove, List<Action>>();
 		StateTablut tmpState = new StateTablut();
-		this.maxTimeInSeconds = DEFAULTTIMEOUTINSECONDS;
 		// Inizializzo mosse di apertura
 		{
 			List<Action> tmpList = new ArrayList<Action>();
@@ -133,14 +143,20 @@ public class AimaClient extends TablutClient {
 			openingMoves.put(StartMove.GARLICKCANNON_LEFT, tmpList);
 		}
 	}
-	
+	/**
+	 * Allows to go deep into the tree as a function of time
+	 * @param maxTime
+	 * @return
+	 */
 	private int getMaxDepthForTime(int maxTime) {
 		return Math.round(89+(60*maxTime))/119;
 	}
 	
 	public static void main(String[] args) throws UnknownHostException, IOException, ClassNotFoundException {
 		String role = "";
-		String name = "Aima";
+		String name = "LordKesani";
+		int maxTime = DEFAULTTIMEOUTINSECONDS;
+		boolean startWithOpeningMoves = true;
 		AimaClient client = null;
 		if (args.length < 1) {
 			System.out.println("You must specify which player you are (WHITE or BLACK)");
@@ -148,14 +164,36 @@ public class AimaClient extends TablutClient {
 		} else {
 			System.out.println(args[0]);
 			role = (args[0]);
-		}
-		if (args.length == 2) {
-			name = args[1];
+			if (args.length >= 2){ 
+				name = args[1];
+				if(args.length >= 3) {
+					try {
+					maxTime = Integer.parseInt(args[2]);
+					}
+					catch(NumberFormatException e) {
+						System.out.println("You must specify an integer value for max time");
+						System.exit(-1);
+					}
+					if(args.length==4) {
+						if(args[3].equals("NOOP"))
+							startWithOpeningMoves = false;
+						else {
+							System.out.println("Error: NOOP to not use opening moves.");
+							System.exit(-1);
+						}	
+					}
+					else if (args.length>4)
+					{
+						System.out.println("Too argument");
+						System.exit(-1);
+					}
+				}
+			}
 		}
 
 		System.out.println("Selected client: " + args[0]);
 
-		client = new AimaClient(role, name);
+		client = new AimaClient(role, name, maxTime, startWithOpeningMoves);
 		client.run();
 	}
 	
@@ -250,19 +288,23 @@ public class AimaClient extends TablutClient {
 		Action a = null;
 		// mosse apertura per bianco
 		if(state.getTurn().equals(State.Turn.WHITE)) {
-			if(this.openingCount<2) {
-				a = openingList.get(openingCount);
-				openingCount++;
-				try {
-					game.checkMove(state,a);
-				} catch (BoardException | ActionException | StopException | PawnException | DiagonalException
-						| ClimbingException | ThroneException | OccupitedException | ClimbingCitadelException
-						| CitadelException e) {
-					// non puoi eseguire le mosse di apertura per violazione di regole
-					a = abS.makeDecision(state);
+			if(startWithOpeningMoves) {
+				if(this.openingCount<2) {
+					a = openingList.get(openingCount);
+					openingCount++;
+					try {
+						game.checkMove(state,a);
+					} catch (BoardException | ActionException | StopException | PawnException | DiagonalException
+							| ClimbingException | ThroneException | OccupitedException | ClimbingCitadelException
+							| CitadelException e) {
+						// non puoi eseguire le mosse di apertura per violazione di regole
+						a = abS.makeDecision(state);
+					}
 				}
+				// finite le due mosse di apertura
+				else
+					a = abS.makeDecision(state);
 			}
-			// finite le due mosse di apertura
 			else
 				a = abS.makeDecision(state);
 		}
