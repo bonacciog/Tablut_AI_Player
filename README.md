@@ -9,16 +9,16 @@ Ashton Tablut game and challange rules:
 - - -
 - To run the black client execute from line command **with params**:
 
-  specifying a name:
+    specifying a name:
   
 ```
     $ java -jar LordKesaniIlDioDellaDistruzione.jar BLACK name
 ```
-  specifying a maximum response time:
+   specifying a maximum response time:
 
     $ java -jar LordKesaniIlDioDellaDistruzione.jar BLACK name [INT_NUMBER]
 
-  without opening moves:
+   without opening moves:
   
     $ java -jar LordKesaniIlDioDellaDistruzione.jar BLACK name [INT_NUMBER] NOOP
 
@@ -39,16 +39,15 @@ Or **double click** on ***AimaTablutBlackPlayer.jar***
 - - -
 - To run the white client execute from line command **with params**:
 
-  specifying a name:
+   specifying a name:
 ```
-
     $ java -jar LordKesaniIlDioDellaDistruzione.jar WHITE name
 ```
-  specifying a maximum response time:
+   specifying a maximum response time:
 
     $ java -jar LordKesaniIlDioDellaDistruzione.jar WHITE name [INT_NUMBER]
 
-  without opening moves:
+   without opening moves:
   
     $ java -jar LordKesaniIlDioDellaDistruzione.jar WHITE name [INT_NUMBER] NOOP
 - - -
