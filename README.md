@@ -11,9 +11,9 @@ Ashton Tablut game and challange rules:
 
   specifying a name:
   
-
+```
     $ java -jar LordKesaniIlDioDellaDistruzione.jar BLACK name
-
+```
   specifying a maximum response time:
 
     $ java -jar LordKesaniIlDioDellaDistruzione.jar BLACK name [INT_NUMBER]
@@ -40,10 +40,10 @@ Or **double click** on ***AimaTablutBlackPlayer.jar***
 - To run the white client execute from line command **with params**:
 
   specifying a name:
-  
+```
 
     $ java -jar LordKesaniIlDioDellaDistruzione.jar WHITE name
-
+```
   specifying a maximum response time:
 
     $ java -jar LordKesaniIlDioDellaDistruzione.jar WHITE name [INT_NUMBER]
