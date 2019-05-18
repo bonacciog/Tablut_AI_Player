@@ -9,7 +9,7 @@ Ashton Tablut game and challange rules:
 - - -
 - To run the black client execute from line command **with params**:
 
-    specifying a name:
+specifying a name:
   
 ```
     $ java -jar LordKesaniIlDioDellaDistruzione.jar BLACK name
