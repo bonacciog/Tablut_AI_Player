@@ -39,7 +39,7 @@ Or **double click** on ***AimaTablutBlackPlayer.jar***
 - - -
 - To run the white client execute from line command **with params**:
 
-   specifying a name:
+specifying a name:
 ```
     $ java -jar LordKesaniIlDioDellaDistruzione.jar WHITE name
 ```
