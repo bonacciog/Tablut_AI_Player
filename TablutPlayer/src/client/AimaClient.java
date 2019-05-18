@@ -4,6 +4,7 @@ package client;
 
 import java.io.IOException;
 import java.net.UnknownHostException;
+import java.time.LocalTime;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -34,8 +35,17 @@ import exceptions.ThroneException;
  */
 public class AimaClient extends TablutClient {
 
+	private static final int DEFAULTTIMEINSECONDS = 50;
+	
+	private static final int DEFAULTDEPTH = 50;
+	
 	private int openingCount;
+	
 	private Map<StartMove, List<Action>> openingMoves;
+
+	private int maxTimeInSeconds;
+	
+	private int maxDepth;
 	
 	public 	enum StartMove {
 		/**
@@ -44,7 +54,7 @@ public class AimaClient extends TablutClient {
 		* Define enum for some possible opening actions for white
 		*
 		*/
-		UP("U"), DOWN("D"), RIGHT("R"), LEFT("L");
+		GARLICKCANNON_UP("U"), GARLICKCANNON_DOWN("D"), GARLICKCANNON_RIGHT("R"), GARLICKCANNON_LEFT("L");
 		private final String startMove;
 
 		private StartMove(String s) {
@@ -59,13 +69,20 @@ public class AimaClient extends TablutClient {
 			return startMove;
 		}
 	}
+	
+	public AimaClient(String player, String name, int maxTimeInSeconds, int maxDepth) throws UnknownHostException, IOException {
+		super(player, name);
+		this.maxTimeInSeconds = maxTimeInSeconds;
+		this.maxDepth=maxDepth;
+	}
 
 	public AimaClient(String player, String name) throws UnknownHostException, IOException {
 		super(player, name);
 		openingCount = 0;
 		this.openingMoves = new HashMap<StartMove, List<Action>>();
 		StateTablut tmpState = new StateTablut();
-		
+		this.maxTimeInSeconds = DEFAULTTIMEINSECONDS;
+		this.maxDepth = DEFAULTDEPTH;
 		// Inizializzo mosse di apertura
 		{
 			List<Action> tmpList = new ArrayList<Action>();
@@ -77,7 +94,7 @@ public class AimaClient extends TablutClient {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
-			openingMoves.put(StartMove.DOWN, tmpList);
+			openingMoves.put(StartMove.GARLICKCANNON_DOWN, tmpList);
 
 		}
 
@@ -92,7 +109,7 @@ public class AimaClient extends TablutClient {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
-			openingMoves.put(StartMove.RIGHT, tmpList);
+			openingMoves.put(StartMove.GARLICKCANNON_RIGHT, tmpList);
 
 		}
 
@@ -106,7 +123,7 @@ public class AimaClient extends TablutClient {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
-			openingMoves.put(StartMove.UP, tmpList);
+			openingMoves.put(StartMove.GARLICKCANNON_UP, tmpList);
 		}
 
 		{
@@ -119,7 +136,7 @@ public class AimaClient extends TablutClient {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
-			openingMoves.put(StartMove.LEFT, tmpList);
+			openingMoves.put(StartMove.GARLICKCANNON_LEFT, tmpList);
 		}
 	}
 	
@@ -160,10 +177,11 @@ public class AimaClient extends TablutClient {
 		State state = new StateTablut();
 		state.setTurn(State.Turn.WHITE);
 		System.out.println("Ashton Tablut game");
-		AimaGameAshtonTablut rules = new AimaGameAshtonTablut(99, 0, "garbage", "fake", "fake");
+
 		System.out.println("You are player " + this.getPlayer().toString() + "!");
 		List<Action> openingList = this.openingMoves.get(StartMove.values()[new Random().nextInt(StartMove.values().length)]);
-		AlphaBetaSearch<State, Action, State.Turn> abS = new AlphaBetaSearch<State, Action, State.Turn>(rules);
+
+		
 		while (true) {
 			try {
 				this.read();
@@ -172,14 +190,18 @@ public class AimaClient extends TablutClient {
 				e1.printStackTrace();
 				System.exit(1);
 			}
+			AimaGameAshtonTablut game = new AimaGameAshtonTablut(99, 0, "garbage", "fake", "fake", this.maxTimeInSeconds, this.maxDepth);
+			game.setCurrentTime(LocalTime.now());
 			System.out.println("Current state:");
 			state = this.getCurrentState();
 			System.out.println(state.toString());
+			game.setCurrentTurn(this.getPlayer());
+			game.setCurrentDepth(0);
 			
 			if (this.getPlayer().equals(Turn.WHITE)) {
 				// è il mio turno
 				if (this.getCurrentState().getTurn().equals(StateTablut.Turn.WHITE)) {
-					this.makeDecisionAndSend(abS, state,rules, openingList);
+					this.makeDecisionAndSend(state,game, openingList);
 				}
 				// è il turno dell'avversario
 				else if (state.getTurn().equals(StateTablut.Turn.BLACK)) {
@@ -205,7 +227,7 @@ public class AimaClient extends TablutClient {
 
 				// è il mio turno
 				if (this.getCurrentState().getTurn().equals(StateTablut.Turn.BLACK)) {
-					this.makeDecisionAndSend(abS, state,rules, null);
+					this.makeDecisionAndSend(state,game, null);
 				}
 
 				else if (state.getTurn().equals(StateTablut.Turn.WHITE)) {
@@ -225,8 +247,8 @@ public class AimaClient extends TablutClient {
 
 		}
 	}
-	private void makeDecisionAndSend(AlphaBetaSearch<State, Action, State.Turn> abS, State state, AimaGameAshtonTablut rules, List<Action> openingList) {
-		
+	private void makeDecisionAndSend(State state, AimaGameAshtonTablut game, List<Action> openingList) {
+		AlphaBetaSearch<State, Action, State.Turn> abS = new AlphaBetaSearch<State, Action, State.Turn>(game);
 		Action a = null;
 		// mosse apertura per bianco
 		if(state.getTurn().equals(State.Turn.WHITE)) {
@@ -234,7 +256,7 @@ public class AimaClient extends TablutClient {
 				a = openingList.get(openingCount);
 				openingCount++;
 				try {
-					rules.checkMove(state,a);
+					game.checkMove(state,a);
 				} catch (BoardException | ActionException | StopException | PawnException | DiagonalException
 						| ClimbingException | ThroneException | OccupitedException | ClimbingCitadelException
 						| CitadelException e) {

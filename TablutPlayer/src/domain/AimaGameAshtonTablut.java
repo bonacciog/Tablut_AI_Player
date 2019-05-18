@@ -4,6 +4,8 @@ import java.io.File;
 import java.io.IOException;
 import java.nio.file.Path;
 import java.nio.file.Paths;
+import java.time.Duration;
+import java.time.LocalTime;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
@@ -27,12 +29,24 @@ import exceptions.*;
  *
  */
 public class AimaGameAshtonTablut implements Game, aima.core.search.adversarial.Game<State, Action, State.Turn> {
+	
+	private LocalTime currentTime;
+	
+	private int maxDepth;
 
+	private int currentDepth;
+	
+	private int maxTimeInSeconds;
+	
+	private Turn currentTurn;
+
+	private int numberOfConsecutiveEqualsTurn;
 	/**
 	 * Number of repeated states that can occur before a draw
 	 */
 	private int repeated_moves_allowed;
 
+	
 	/**
 	 * Number of states kept in memory. negative value means infinite.
 	 */
@@ -49,12 +63,22 @@ public class AimaGameAshtonTablut implements Game, aima.core.search.adversarial.
 	// private List<String> strangeCitadels;
 	private List<State> drawConditions;
 
+	
+	public void setCurrentTurn(Turn currentTurn) {
+		this.currentTurn = currentTurn;
+	}
+	public void setCurrentDepth(int currentDepth) {
+		this.currentDepth = currentDepth;
+	}
+	
 	public AimaGameAshtonTablut(int repeated_moves_allowed, int cache_size, String logs_folder, String whiteName,
-			String blackName) {
+			String blackName, int maxTimeInSeconds, int maxDepth) {
 		this(new StateTablut(), repeated_moves_allowed, cache_size, logs_folder, whiteName, blackName);
+		this.maxTimeInSeconds = maxTimeInSeconds;
+		this.maxDepth = maxDepth;
 	}
 
-	public AimaGameAshtonTablut(State state, int repeated_moves_allowed, int cache_size, String logs_folder,
+	private AimaGameAshtonTablut(State state, int repeated_moves_allowed, int cache_size, String logs_folder,
 			String whiteName, String blackName) {
 		super();
 		this.repeated_moves_allowed = repeated_moves_allowed;
@@ -110,7 +134,17 @@ public class AimaGameAshtonTablut implements Game, aima.core.search.adversarial.
 		// this.strangeCitadels.add("a5");
 		// this.strangeCitadels.add("i5");
 		// this.strangeCitadels.add("e9");
+		
+		currentTime = null;
+		numberOfConsecutiveEqualsTurn=0;
+		currentDepth=0;
 	}
+	
+
+	public void setCurrentTime(LocalTime currentTime) {
+		this.currentTime = currentTime;
+	}
+
 
 	@Override
 	public State checkMove(State state, Action a)
@@ -772,8 +806,6 @@ public class AimaGameAshtonTablut implements Game, aima.core.search.adversarial.
 						result.addAll(this.selectAllActionsForThisPawn(currentState.clone(), i, j));
 					}
 				}
-				else
-					throw new IllegalArgumentException();
 			}
 		}
 		return result;
@@ -988,7 +1020,7 @@ public class AimaGameAshtonTablut implements Game, aima.core.search.adversarial.
 	}
 
 	@Override
-	public State getResult(State arg0, Action arg1) {		
+	public State getResult(State arg0, Action arg1) {	
 		return toNewState(arg0, arg1);
 	}
 	
@@ -1012,8 +1044,34 @@ public class AimaGameAshtonTablut implements Game, aima.core.search.adversarial.
 
 	@Override
 	public boolean isTerminal(State arg0) {
-		return (!arg0.getBoard().toString().contains("K") || isKingOnTheEdge(arg0));
-			
+		if((Duration.between(currentTime, LocalTime.now())).getSeconds()>=maxTimeInSeconds) // SOLO PER DEBUG
+			return true;
+		 if(isMaxDepth(arg0))
+			return true;
+		else if(isKingOnTheEdge(arg0))
+			return true;
+		else if(!arg0.boardString().contains("K"))
+			return true;
+		else return false;
+	}
+
+	private boolean isMaxDepth(State arg0){
+		updateDepth(arg0);
+		return (currentDepth>=maxDepth);
+	}
+	
+	private void updateDepth(State arg0) {
+		if(!arg0.getTurn().equals(this.currentTurn) && this.numberOfConsecutiveEqualsTurn==0) {
+			this.currentTurn=arg0.getTurn();
+			this.currentDepth++;
+		}
+		else if(arg0.getTurn().equals(this.currentTurn))
+			this.numberOfConsecutiveEqualsTurn++;
+		else if(!arg0.getTurn().equals(this.currentTurn) && this.numberOfConsecutiveEqualsTurn>0) {
+			this.currentTurn=arg0.getTurn();
+			this.currentDepth--;
+			this.numberOfConsecutiveEqualsTurn=0;
+		}
 	}
 	
 	private boolean isKingOnTheEdge(State state) {

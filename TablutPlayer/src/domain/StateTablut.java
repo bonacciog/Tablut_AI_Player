@@ -77,6 +77,99 @@ public class StateTablut extends State implements Serializable {
 		return result;
 	}
 	
+	public boolean emptyLine(int i,int j,String line) {
+		boolean empty = true;
+		if(line.equalsIgnoreCase("row")) {
+			for(int k=0; k<9; k++) {
+				if(k!=j) {
+					if(this.getPawn(i,k).equalsPawn("W") || this.getPawn(i,k).equalsPawn("B"))
+						empty=false;
+				}
+			}
+		}
+		else if(line.equalsIgnoreCase("column")) {//controllo la colonna
+			for(int k=0; k<9; k++) {
+				if(k!=i) {
+					if(this.getPawn(k,j).equalsPawn("W") || this.getPawn(k,j).equalsPawn("B"))
+						empty=false;
+				}
+			}
+		}
+		else {
+			System.err.println("expected 'row' or 'column' in the third field");
+		}
+		return empty;
+	}
+	
+	public boolean isInLine(int i,int j,String line,String pawn) {
+		boolean empty = true;
+		if(line.equalsIgnoreCase("row")) {
+			for(int k=0; k<9; k++) {
+				if(k!=j) {
+					if(this.getPawn(i,k).equalsPawn(pawn))
+						empty=false;
+				}
+			}
+		}
+		else if(line.equalsIgnoreCase("column")) {//controllo la colonna
+			for(int k=0; k<9; k++) {
+				if(k!=i) {
+					if(this.getPawn(k,j).equalsPawn(pawn))
+						empty=false;
+				}
+			}
+		}
+		else {
+			System.err.println("expected 'row' or 'column' in the third field");
+		}
+		return empty;
+	}
+	
+	public boolean SecureLine(int i, int j,String line) {
+		if(this.emptyLine(i, j, line) || !this.isInLine(i, j, line, "B"))
+			return true;
+		else {
+
+			if(line.equals("column")) {
+				for(int k=i+1; k<9;k++) {
+					if(getBoard()[k][j].equalsPawn("W")){
+						k=8;
+					}
+					if(getBoard()[k][j].equalsPawn("B")){
+						return false;
+					}	
+				}
+				for(int k=i-1; k>=0;k--) {
+					if(getBoard()[k][j].equalsPawn("W")){
+						k=0;
+					}
+					if(getBoard()[k][j].equalsPawn("B")){
+						return false;
+					}	
+				}
+				
+			}
+			else {
+				for(int k=j+1; k<9;k++) {
+					if(getBoard()[k][j].equalsPawn("W")){
+						k=8;
+					}
+					if(getBoard()[k][j].equalsPawn("B")){
+						return false;
+					}	
+				}
+				for(int k=j-1; k>=0;k--) {
+					if(getBoard()[k][j].equalsPawn("W")){
+						k=0;
+					}
+					if(getBoard()[k][j].equalsPawn("B")){
+						return false;
+					}	
+				}
+			}
+			return true;
+		}
+	}
 	@Override
 	public boolean equals(Object obj) {
 		if (this == obj)
