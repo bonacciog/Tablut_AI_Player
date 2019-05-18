@@ -24,15 +24,19 @@ public class BlackHeuristicEvaluator extends HeuristicEvaluator{
 
 				if(state.getPawn(i, j).equalsPawn("K")) { 
 					kingCaptured=false;
-					stateValue= stateValue - (getKingDistanceValue(i,j,state)-490);					
+					switch(getKingDistance(i,j,state)){
+					case 1: stateValue= stateValue -20; //King a distanza 1
+					case 2: stateValue= stateValue -40;
+					case 3: stateValue= stateValue -60;
+					case 4: stateValue= 0; //King ha vinto.
+					}
+					stateValue= stateValue + 100 * (countNear(state,i,j,"B"));
 				}
 				if(state.getPawn(i, j).equalsPawn("W"))
 					whiteCaptured--;
 				if(state.getPawn(i, j).equalsPawn("B")) {
 					blackCaptured--;
-					if(this.IsNear(state,i,j, "K")) {
-						stateValue= stateValue + 100;
-					}
+					
 				}
 					
 				//aumento il valore per le pedine nere sulle diagonali
@@ -54,14 +58,5 @@ public class BlackHeuristicEvaluator extends HeuristicEvaluator{
 		return stateValue;
 	}
 	
-	private boolean IsNear(State state,int i,int j, String pawn) {
-		if(i>0 && i<8 && j>0 && j<8)
-			return state.getBoard()[i+1][j].equalsPawn(pawn) 
-					|| state.getBoard()[i-1][j].equalsPawn(pawn) 
-					|| state.getBoard()[i][j+1].equalsPawn(pawn)
-					|| state.getBoard()[i][j-1].equalsPawn(pawn);
-		else
-			return false;
-	}
 
 }

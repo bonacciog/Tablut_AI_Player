@@ -14,32 +14,96 @@ public abstract class HeuristicEvaluator {
 	protected static final int STATEINITIALVALUE=1000;
 	
 	public abstract int getEvaluation(State state);
-	protected int getKingDistanceValue(int i,int j,State arg0) {
+	
+
+	protected int getKingDistance(int i,int j,State arg0) {
 		if(!(arg0 instanceof StateTablut))
 			throw new IllegalArgumentException();
-		StateTablut state = (StateTablut) arg0;
-		int kingDistanceValue=0;
-		// 1° il King è nel trono.(valore del re vivo, alto).
+		int kingDistance=0;
+		// 0° il King è nel trono.(valore del re vivo, alto).
 		if(i==4 && j==4)
-			kingDistanceValue= 500; 
-		//2° il king è a distanza 1 dal trono.
-		if( (i==3 && j>=3 && j<=5) || (i==5 && j>=3 && j<=5) || (j==3 && i>= 3 && i<=5) || (j==5 && i>=3 && i<=5))
-			kingDistanceValue= 520;	
-		//3° il king è a distanza 2 dal trono.
-		if( (i==2 && j>=2 && j<=6) || (i==6 && j>=2 && j<=6) || (j==2 && i>= 2 && i<=6) || (j==6 && i>=2 && i<=6))			
-			kingDistanceValue= 540;
-		//4° il king è a distanza 3 dal trono.
-		if( (i==1 && j>=1 && j<=7) || (i==7 && j>=1 && j<=7) || (j==1 && i>= 1 && i<=7) || (j==7 && i>=1 && i<=7)) 			
-			kingDistanceValue= 560;
-		//il king è prossimo alla vittoria.
-		if( state.emptyLine(i,j,"row") && (i==2 || i==6) || state.emptyLine(i,j,"column") && (j==2 || j==6) )
-			kingDistanceValue=800; 
-		// il king ha raggiungo il bordo e ha vinto .
+			kingDistance= 0; 
+		//1° il king è a distanza 1 dal trono.
+		if( (i==3 || i==5) && j==4 || (i==4 && (j==3 || j==5)))
+			kingDistance= 1;	
+		//2° il king è a distanza 2 dal trono.
+		if((i==5 && (j==3 || j==5)) || (i==3 && (j==3 || j==5)) || (i==2 && j>=3 && j<=5) || (i==6 && j>=3 && j<=5) || (j==2 && i>= 3 && i<=5) || (j==6 && i>=3 && i<=5))
+			kingDistance= 2;
+		//3° il king è a distanza 3 dal trono.
+		if((i==6 && (j==2 || j==6)) ||(i==2 && (j==2 || j==6)) || (i==1 && j>=1 && j<=7) || (i==7 && j>=1 && j<=7) || (j==1 && i>= 1 && i<=7) || (j==7 && i>=1 && i<=7)) 			
+			kingDistance= 3;
+		//4° il king ha raggiungo il bordo e ha vinto .
 		if(i==0 || i==8 || j==0 || j==8)
-			kingDistanceValue= 1000;
+			kingDistance= 4;
 
-		
-		return kingDistanceValue;
+		return kingDistance;
+	}
+	
+	protected int countNear(State state,int i,int j, String pawn) {
+		int totNear=0;
+		if(i>0 && i<8 && j>0 && j<8) {
+			if (RightNear(state, i, j, pawn))
+				totNear++;
+			if (LeftNear(state, i, j, pawn))
+				totNear++;
+			if (UpNear(state, i, j, pawn))
+				totNear++;
+			if (DownNear(state, i, j, pawn))
+				totNear++;
+		}
+		return totNear;
+	}
+	
+	
+	
+	protected boolean RightNear(State state,int i,int j, String pawn) {
+		if(i>0 && i<8 && j>0 && j<8) {
+			if (state.getBoard()[i][j+1].equalsPawn(pawn)|| isCamp(i,j) || isThrone(i,j))
+				return true;
+		}
+		return false;
+	}
+	
+	protected boolean LeftNear(State state,int i,int j, String pawn) {
+		if(i>0 && i<8 && j>0 && j<8) {
+			if (state.getBoard()[i][j-1].equalsPawn(pawn)|| isCamp(i,j) || isThrone(i,j))
+				return true;
+		}
+		return false;
+	}
+	
+	protected boolean UpNear(State state,int i,int j, String pawn) {
+		if(i>0 && i<8 && j>0 && j<8) {
+			if (state.getBoard()[i+1][j].equalsPawn(pawn)|| isCamp(i,j) || isThrone(i,j))
+				return true;
+		}
+		return false;
+	}
+	
+	protected boolean DownNear(State state,int i,int j, String pawn) {
+		if(i>0 && i<8 && j>0 && j<8) {
+			if (state.getBoard()[i-1][j].equalsPawn(pawn)|| isCamp(i,j) || isThrone(i,j))
+				return true;
+		}
+		return false;
+	}
+	
+	protected boolean isCamp(int i, int j){
+		if( (i==0 && (j>=3 && j<=5)) || (i==1 && j==4) || 
+		    (i==8 && (j>=3 && j<=5)) || (i==7 && j==4) ||
+		    (j==0 && (i>=3 && i<=5)) || (j==1 && i==4) ||
+		    (j==8 && (i>=3 && i<=5)) || (j==7 && i==4)  )
+			return true;
+		else
+			return false;
+	}
+	
+	protected boolean isThrone(int i,int j) {
+		if (i==4 && j==4)
+			return true;
+		else
+			return false;
+
 	}
 	
 	

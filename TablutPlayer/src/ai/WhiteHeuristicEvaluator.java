@@ -1,6 +1,7 @@
 package ai;
 
 import domain.State;
+import domain.StateTablut;
 
 /**
  * This class implements a function which return a white heuristic evaluation
@@ -19,26 +20,68 @@ public class WhiteHeuristicEvaluator extends HeuristicEvaluator{
 		int whiteCaptured=HeuristicEvaluator.TOTWHITE;
 		int blackCaptured=HeuristicEvaluator.TOTBLACK;
 		int stateValue=HeuristicEvaluator.STATEINITIALVALUE;
+		StateTablut stateT= (StateTablut)state;
 
 		for(int i=0; i<9;i++) {
 			for(int j=0; j<9; j++) {
 
 				if(state.getPawn(i, j).equalsPawn("K")) { 
-					stateValue= stateValue + getKingDistanceValue(i,j,state);
+					switch(getKingDistance(i,j,state)){
+					case 0: //King  nel trono
+						if(countNear(state, i, j, "B")<=3)
+							stateValue= stateValue + 500;
+						break;
+					case 1: //King a distanza 1.
+						if(countNear(state, i, j, "B")<=2)
+							stateValue= stateValue + 520;
+						break;
+					case 2:
+						if(countNear(state, i, j, "B")<=1)
+							if( (RightNear(state, i, j, "B") && stateT.SecureLine(i, j-1, "column")) ||
+								(LeftNear(state, i, j, "B") && stateT.SecureLine(i, j+1, "column"))  ||
+								(UpNear(state, i, j, "B") && stateT.SecureLine(i-1, j, "row")) ||
+								(DownNear(state, i, j, "B") && stateT.SecureLine(i+1, j, "row")) )									
+								stateValue= stateValue - 100; //alla prossima perdo (anche senza decrementare andava bene)
+							else
+								stateValue= stateValue +540;
+						break;
+					case 3: 
+						if(countNear(state, i, j, "B")<=1)
+							if( (RightNear(state, i, j, "B") && stateT.isInLine(i, j-1, "column", "B")) ||
+								(LeftNear(state, i, j, "B") && stateT.isInLine(i, j+1, "column", "B")) ||
+								(UpNear(state, i, j, "B") && stateT.isInLine(i-1, j, "column", "B")) ||
+								(DownNear(state, i, j, "B") && stateT.isInLine(i+1, j, "column", "B")) )									
+								stateValue= stateValue - 10000; //alla prossima perdo (anche senza decrementare andava bene)
+							else
+								stateValue= stateValue + 560;
+						break;
+					case 4: 
+						stateValue= stateValue + 1000; //ha vinto.
+						break;
+					default:
+						break;
+					}
 				}
 				if(state.getPawn(i, j).equalsPawn("W"))
 					whiteCaptured--;
 				if(state.getPawn(i, j).equalsPawn("B"))
 					blackCaptured--;
-				//aumento il valore per le pedine bianche attorno al tronos
+				//aumento il valore per le pedine bianche attorno al trono
 				if( (i==4 && j==3) || (i==3 && j==4) || (i==4 && j==5) || (i==5 && j==4)){			
-					if(state.getPawn(i, j).equalsPawn("W"))
-						stateValue= stateValue + 5;
+						stateValue= stateValue + 5*(this.countNear(state, i, j, "W"));
 				}
 			}
 		}
 		
 		stateValue= stateValue + 10*(blackCaptured - whiteCaptured); 
+		
+		//il king è prossimo alla vittoria. (SUPERFLUO	)
+		/*if( state.emptyLine(i,j,"row") && (i==2 || i==6) || state.emptyLine(i,j,"column") && (j==2 || j==6) )
+			kingDistance=800; 
+		*/
+		
+		
+/*	
 		
 		//NB: QUESTI NON MI CONVINCONO TROPPO-> TESTARE IL GIOCO E NEL CASO RIVEDERLI
 	//1° quadrante: pedina bianca sulla diagonale che blocca una delle due nere.
@@ -90,6 +133,7 @@ public class WhiteHeuristicEvaluator extends HeuristicEvaluator{
 			if(state.getPawn(6, 4).equalsPawn("O"))
 				stateValue= stateValue + 5;//posizione ancora più favorevole -> +1
 		}
+		*/
 	
 		return stateValue;
 	}
