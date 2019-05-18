@@ -79,7 +79,7 @@ public class AimaClient extends TablutClient {
 	
 	public AimaClient(String player, String name, int maxTimeInSeconds) throws UnknownHostException, IOException {
 		this(player, name);
-		this.maxTimeInSeconds = maxTimeInSeconds;
+		this.maxTimeInSeconds = maxTimeInSeconds-10;
 	}
 
 	public AimaClient(String player, String name) throws UnknownHostException, IOException {
