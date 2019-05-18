@@ -68,7 +68,7 @@ Some part of this project has been taken from:
 
   - https://github.com/AGalassi/TablutCompetition
 
-Aima library:
+Aima library (3.0.0):
 
   - https://github.com/aimacode/aima-java
 
