@@ -41,20 +41,20 @@ public class WhiteHeuristicEvaluator extends HeuristicEvaluator{
 						break;
 					case 2:
 						if(countNear(state, i, j, "B")<=1)
-							if( (RightNear(state, i, j, "B") && !stateT.SecureLine(i, j-1, "column")) ||
-								(LeftNear(state, i, j, "B") && !stateT.SecureLine(i, j+1, "column"))  ||
-								(UpNear(state, i, j, "B") && !stateT.SecureLine(i-1, j, "row")) ||
-								(DownNear(state, i, j, "B") && !stateT.SecureLine(i+1, j, "row")) )									
+							if( (RightNear(state, i, j, "B") && !stateT.SecureWhiteLine(i, j-1, "column")) ||
+								(LeftNear(state, i, j, "B") && !stateT.SecureWhiteLine(i, j+1, "column"))  ||
+								(UpNear(state, i, j, "B") && !stateT.SecureWhiteLine(i-1, j, "row")) ||
+								(DownNear(state, i, j, "B") && !stateT.SecureWhiteLine(i+1, j, "row")) )									
 								stateValue= stateValue - 100; //alla prossima perdo (anche senza decrementare andava bene)
 							else
 								stateValue= stateValue +540;
 						break;
 					case 3: 
 						if(countNear(state, i, j, "B")<=1)
-							if( (RightNear(state, i, j, "B") && !stateT.SecureLine(i, j-1, "column")) ||
-									(LeftNear(state, i, j, "B") && !stateT.SecureLine(i, j+1, "column"))  ||
-									(UpNear(state, i, j, "B") && !stateT.SecureLine(i-1, j, "row")) ||
-									(DownNear(state, i, j, "B") && !stateT.SecureLine(i+1, j, "row")) )									
+							if( (RightNear(state, i, j, "B") && !stateT.SecureWhiteLine(i, j-1, "column")) ||
+									(LeftNear(state, i, j, "B") && !stateT.SecureWhiteLine(i, j+1, "column"))  ||
+									(UpNear(state, i, j, "B") && !stateT.SecureWhiteLine(i-1, j, "row")) ||
+									(DownNear(state, i, j, "B") && !stateT.SecureWhiteLine(i+1, j, "row")) )									
 								stateValue= stateValue - 100; //alla prossima perdo (anche senza decrementare andava bene)
 							else
 								stateValue= stateValue + 560;

@@ -27,7 +27,7 @@ public class BlackHeuristicEvaluator extends HeuristicEvaluator{
 					switch(getKingDistance(i,j,state)){
 					case 1: stateValue= stateValue -20; //King a distanza 1
 					case 2: stateValue= stateValue -40;
-					case 3: stateValue= stateValue -60;
+					case 3: stateValue= stateValue -80;
 					case 4: stateValue= 0; //King ha vinto.
 					}
 					stateValue= stateValue + 100 * (countNear(state,i,j,"B"));
@@ -42,7 +42,7 @@ public class BlackHeuristicEvaluator extends HeuristicEvaluator{
 				//aumento il valore per le pedine nere sulle diagonali
 				if( (i==1 && (j==3 || j==5) ) ||  (i==3 && (j==1|| j==7))|| (i==5 && (j==1|| j==7))|| (i==7 && (j==3|| j==5)) ){			
 					if(state.getPawn(i, j).equalsPawn("B"))
-						stateValue= stateValue + 30;
+						stateValue= stateValue + 20;
 				}
 				//aumento il valore per le pedine nere sulle caselle più importanti.
 				if( (i==2 && (j==2 || j==6) ) ||  (i==6 && (j==2|| j==6))){			
