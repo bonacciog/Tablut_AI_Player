@@ -126,7 +126,7 @@ public class StateTablut extends State implements Serializable {
 	}
 	
 	public boolean SecureLine(int i, int j,String line) {
-		if(this.emptyLine(i, j, line) || this.isInLine(i, j, line, "B"))
+		if(this.emptyLine(i, j, line) || !this.isInLine(i, j, line, "B"))
 			return true;
 		else {
 

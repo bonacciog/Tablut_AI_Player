@@ -4,5 +4,7 @@
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="lib" path="/home/paolo/Desktop/Tablut_AI_Player/TablutPlayer/lib/aima-core-3.0.0.jar"/>
 	<classpathentry kind="lib" path="/home/paolo/Desktop/Tablut_AI_Player/TablutPlayer/lib/gson-2.2.2.jar"/>
+	<classpathentry kind="lib" path="/home/giovannni/Scrivania/Tablut_AI_Player/TablutPlayer/lib/gson-2.2.2.jar"/>
+	<classpathentry kind="lib" path="/home/giovannni/Scrivania/Tablut_AI_Player/TablutPlayer/lib/aima-core-3.0.0.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
