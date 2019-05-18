@@ -6,10 +6,25 @@ Ashton Tablut game and challange rules:
 
   - https://github.com/bonacciog/Tablut_AI_Player/blob/docs-ita/Challenge2019.pdf
 
+- - -
+- To run the black client execute from line command **with params**:
+
+  specifying a name:
+  
+
+    $ java -jar LordKesaniIlDioDellaDistruzione.jar BLACK name
+
+  specifying a maximum response time:
+
+    $ java -jar LordKesaniIlDioDellaDistruzione.jar BLACK name [INT_NUMBER]
+
+  without opening moves:
+  
+    $ java -jar LordKesaniIlDioDellaDistruzione.jar BLACK name [INT_NUMBER] NOOP
 
 - - -
 
-  - To run the black client execute from line command:
+  - To run the black client execute from line command **with default setting**:
   
 ```
 $ java -jar LordKesaniIlDioDellaDistruzione.jar BLACK
@@ -22,8 +37,23 @@ Or:
 Or **double click** on ***AimaTablutBlackPlayer.jar***
 
 - - -
+- To run the white client execute from line command **with params**:
 
-  - To run the white client execute from line command:
+  specifying a name:
+  
+
+    $ java -jar LordKesaniIlDioDellaDistruzione.jar WHITE name
+
+  specifying a maximum response time:
+
+    $ java -jar LordKesaniIlDioDellaDistruzione.jar WHITE name [INT_NUMBER]
+
+  without opening moves:
+  
+    $ java -jar LordKesaniIlDioDellaDistruzione.jar WHITE name [INT_NUMBER] NOOP
+- - -
+
+  - To run the white client execute from line command **with default setting**:
  ```
 $ java -jar LordKesaniIlDioDellaDistruzione.jar WHITE 
  ```
