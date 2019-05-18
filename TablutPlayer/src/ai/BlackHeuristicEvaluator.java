@@ -25,9 +25,28 @@ public class BlackHeuristicEvaluator extends HeuristicEvaluator{
 				if(state.getPawn(i, j).equalsPawn("K")) { 
 					kingCaptured=false;
 					switch(getKingDistance(i,j,state)){
-					case 1: stateValue= stateValue -20; //King a distanza 1
-					case 2: stateValue= stateValue -40;
-					case 3: stateValue= stateValue -80;
+					case 0: 
+						if(this.countNear(state, i, j, "B")==4)
+							stateValue= stateValue +1000;
+						break;
+					case 1: 
+						if(this.countNear(state, i, j, "B")==4)
+							stateValue= stateValue +1000;
+						else
+							stateValue= stateValue -20; //King a distanza 1
+						break;
+					case 2: 
+						if( (this.RightNear(state, i, j, "B") && this.LeftNear(state, i, j, "B"))  || (this.UpNear(state, i, j, "B") && this.DownNear(state, i, j, "B")) )
+							stateValue= stateValue +1000;
+						else
+							stateValue= stateValue -40;
+						break;
+					case 3: 
+						if( (this.RightNear(state, i, j, "B") && this.LeftNear(state, i, j, "B"))  || (this.UpNear(state, i, j, "B") && this.DownNear(state, i, j, "B")) )
+							stateValue= stateValue +1000;
+						else
+							stateValue= stateValue -80;
+						break;
 					case 4: stateValue= 0; //King ha vinto.
 					}
 					stateValue= stateValue + 100 * (countNear(state,i,j,"B"));

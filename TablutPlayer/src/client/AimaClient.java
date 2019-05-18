@@ -35,17 +35,13 @@ import exceptions.ThroneException;
  */
 public class AimaClient extends TablutClient {
 
-	private static final int DEFAULTTIMEINSECONDS = 50;
-	
-	private static final int DEFAULTDEPTH = 50;
+	private static final int DEFAULTTIMEOUTINSECONDS = 50;
 	
 	private int openingCount;
 	
 	private Map<StartMove, List<Action>> openingMoves;
 
 	private int maxTimeInSeconds;
-	
-	private int maxDepth;
 	
 	public 	enum StartMove {
 		/**
@@ -70,10 +66,9 @@ public class AimaClient extends TablutClient {
 		}
 	}
 	
-	public AimaClient(String player, String name, int maxTimeInSeconds, int maxDepth) throws UnknownHostException, IOException {
+	public AimaClient(String player, String name, int maxTimeInSeconds) throws UnknownHostException, IOException {
 		super(player, name);
 		this.maxTimeInSeconds = maxTimeInSeconds;
-		this.maxDepth=maxDepth;
 	}
 
 	public AimaClient(String player, String name) throws UnknownHostException, IOException {
@@ -81,8 +76,7 @@ public class AimaClient extends TablutClient {
 		openingCount = 0;
 		this.openingMoves = new HashMap<StartMove, List<Action>>();
 		StateTablut tmpState = new StateTablut();
-		this.maxTimeInSeconds = DEFAULTTIMEINSECONDS;
-		this.maxDepth = DEFAULTDEPTH;
+		this.maxTimeInSeconds = DEFAULTTIMEOUTINSECONDS;
 		// Inizializzo mosse di apertura
 		{
 			List<Action> tmpList = new ArrayList<Action>();
@@ -140,6 +134,10 @@ public class AimaClient extends TablutClient {
 		}
 	}
 	
+	private int getMaxDepthForTime(int maxTime) {
+		return Math.round(89+(60*maxTime))/119;
+	}
+	
 	public static void main(String[] args) throws UnknownHostException, IOException, ClassNotFoundException {
 		String role = "";
 		String name = "Aima";
@@ -190,7 +188,7 @@ public class AimaClient extends TablutClient {
 				e1.printStackTrace();
 				System.exit(1);
 			}
-			AimaGameAshtonTablut game = new AimaGameAshtonTablut(99, 0, "garbage", "fake", "fake", this.maxTimeInSeconds, this.maxDepth);
+			AimaGameAshtonTablut game = new AimaGameAshtonTablut(99, 0, "garbage", "fake", "fake", this.maxTimeInSeconds, this.getMaxDepthForTime(maxTimeInSeconds));
 			game.setCurrentTime(LocalTime.now());
 			System.out.println("Current state:");
 			state = this.getCurrentState();
