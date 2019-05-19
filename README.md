@@ -30,7 +30,7 @@ $ java -jar AimaTablutWhitePlayer.jar
 ```
 Or **double click** on ***AimaTablutWhitePlayer.jar***
 - - -
-- To run the client **with params** execute  ***LordKesaniIlDioDellaDistruzione.jar*** from line command and add to the previous command:
+- To run the client **without default setting** execute  ***LordKesaniIlDioDellaDistruzione.jar*** with the previous command with:
 
 specifying a name:
 ```
