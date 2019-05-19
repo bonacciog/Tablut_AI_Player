@@ -27,7 +27,7 @@ $ java -jar LordKesaniIlDioDellaDistruzione.jar BLACK name
   - To run the black client execute from line command **with default setting**:
   
 ```
-$ java -jar LordKesaniIlDioDellaDistruzione.jar BLACK
+$ java -jar LordKesaniIlDioDellaDistruzione.jar -P=BLACK
 ```
 
 Or:
@@ -54,7 +54,7 @@ $ java -jar LordKesaniIlDioDellaDistruzione.jar WHITE name
 
   - To run the white client execute from line command **with default setting**:
  ```
-$ java -jar LordKesaniIlDioDellaDistruzione.jar WHITE 
+$ java -jar LordKesaniIlDioDellaDistruzione.jar -P=WHITE 
  ```
 Or:
 ``` 
