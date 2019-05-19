@@ -5,23 +5,6 @@ Java implementation of an Ashton Tablut AI Player using the Aima Library. This p
 Ashton Tablut game and challange rules:
 
   - https://github.com/bonacciog/Tablut_AI_Player/blob/docs-ita/Challenge2019.pdf
-
-- - -
-- To run the black client execute from line command **with params**:
-
-specifying a name:
-  
-```
-$ java -jar LordKesaniIlDioDellaDistruzione.jar BLACK name
-```
-   specifying a maximum response time:
-
-    $ java -jar LordKesaniIlDioDellaDistruzione.jar BLACK name [INT_NUMBER]
-
-   without opening moves:
-  
-    $ java -jar LordKesaniIlDioDellaDistruzione.jar BLACK name [INT_NUMBER] NOOP
-
 - - -
 
   - To run the black client execute from line command **with default setting**:
@@ -61,7 +44,21 @@ Or:
 $ java -jar AimaTablutWhitePlayer.jar 
 ```
 Or **double click** on ***AimaTablutWhitePlayer.jar***
+- - -
+- To run the client execute  ***LordKesaniIlDioDellaDistruzione.jar*** from line command **with params** add to the previous command:
 
+  specifying a name:
+```
+-N=name
+```  
+  specifying a maximum response time (example with 60 seconds):
+```
+-t=60 
+```
+without opening moves:
+```
+-OM=NOOP
+```
 - - -
 
 Some part of this project has been taken from:
@@ -86,4 +83,5 @@ GSON library:
 - - -
 
 _Developed by team composed by [bonacciog](https://github.com/bonacciog), [PaoloCaligiana](https://github.com/PaoloCaligiana), [allefossa9663](https://github.com/allefossa9663), [Bananito96](https://github.com/Bananito96)_
+
 
