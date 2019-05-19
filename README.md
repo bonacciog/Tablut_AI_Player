@@ -18,21 +18,6 @@ Or:
     $ java -jar AimaTablutBlackPlayer.jar 
       
 Or **double click** on ***AimaTablutBlackPlayer.jar***
-
-- - -
-- To run the white client execute from line command **with params**:
-
-specifying a name:
-```
-$ java -jar LordKesaniIlDioDellaDistruzione.jar WHITE name
-```
-   specifying a maximum response time:
-
-    $ java -jar LordKesaniIlDioDellaDistruzione.jar WHITE name [INT_NUMBER]
-
-   without opening moves:
-  
-    $ java -jar LordKesaniIlDioDellaDistruzione.jar WHITE name [INT_NUMBER] NOOP
 - - -
 
   - To run the white client execute from line command **with default setting**:
@@ -47,11 +32,11 @@ Or **double click** on ***AimaTablutWhitePlayer.jar***
 - - -
 - To run the client execute  ***LordKesaniIlDioDellaDistruzione.jar*** from line command **with params** add to the previous command:
 
-  specifying a name:
+specifying a name:
 ```
 -N=name
 ```  
-  specifying a maximum response time (example with 60 seconds):
+specifying a maximum response time (example with 60 seconds):
 ```
 -t=60 
 ```
