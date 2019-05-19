@@ -79,7 +79,10 @@ public class AimaClient extends TablutClient {
 	
 	public AimaClient(String player, String name, int maxTimeInSeconds) throws UnknownHostException, IOException {
 		this(player, name);
-		this.maxTimeInSeconds = maxTimeInSeconds-10;
+		if(maxTimeInSeconds>=10)
+			this.maxTimeInSeconds = maxTimeInSeconds-10;
+		else
+			this.maxTimeInSeconds = maxTimeInSeconds;
 	}
 
 	public AimaClient(String player, String name) throws UnknownHostException, IOException {
@@ -146,54 +149,83 @@ public class AimaClient extends TablutClient {
 	/**
 	 * Allows to go deep into the tree as a function of time
 	 * @param maxTime
-	 * @return
+	 * @return ottimal depth
 	 */
 	private int getMaxDepthForTime(int maxTime) {
-		return Math.round(89+(60*maxTime))/119;
+			return Math.round(89+(60*(maxTime)))/119;
 	}
 	
-	public static void main(String[] args) throws UnknownHostException, IOException, ClassNotFoundException {
+	public static void main(String[] args){
 		String role = "";
 		String name = "LordKesani";
 		int maxTime = DEFAULTTIMEOUTINSECONDS;
 		boolean startWithOpeningMoves = true;
 		AimaClient client = null;
 		if (args.length < 1) {
-			System.out.println("You must specify which player you are (WHITE or BLACK)");
+			System.out.println("Parameters error");
 			System.exit(-1);
 		} else {
-			System.out.println(args[0]);
-			role = (args[0]);
-			if (args.length >= 2){ 
-				name = args[1];
-				if(args.length >= 3) {
+			for(String param : args) {
+				if(!param.contains("=")) {
+					System.out.println("Parameters error");
+					System.exit(-1);
+				}
+				String option = param.substring(0, param.indexOf("=")+1);
+				switch(option) {
+				case "-P=":{
+					role = param.substring(param.indexOf("=")+1);
+					if(!role.equals("WHITE") && !role.equals("BLACK")){
+						System.out.println("Error: WHITE or BLACK player");
+						System.exit(-1);
+					}
+					break;
+				}
+				case "-N=":{
+					name = param.substring(param.indexOf("=")+1);
+					break;
+				}
+				case "-t=":{
+					String time = param.substring(param.indexOf("=")+1);
 					try {
-					maxTime = Integer.parseInt(args[2]);
+						maxTime = Integer.parseInt(time);
+						if(maxTime<=0) {
+							throw new NumberFormatException();
+						}
 					}
 					catch(NumberFormatException e) {
-						System.out.println("You must specify an integer value for max time");
+						System.out.println("You must specify an integer positive value for max time");
 						System.exit(-1);
 					}
-					if(args.length==4) {
-						if(args[3].equals("NOOP"))
-							startWithOpeningMoves = false;
-						else {
-							System.out.println("Error: NOOP to not use opening moves.");
-							System.exit(-1);
-						}	
-					}
-					else if (args.length>4)
-					{
-						System.out.println("Too argument");
+					break;
+				}
+				case "-OM=":{
+					if(param.substring(param.indexOf("=")+1).equals("NOOP"))
+						startWithOpeningMoves = false;
+					else {
+						System.out.println("NOOP to not use opening moves.");
 						System.exit(-1);
 					}
+					break;
+				}
+				default:{
+					System.out.println("Parameters error");
+					System.exit(-1);
+				}					
 				}
 			}
 		}
+		if(role.isEmpty()) {
+			System.out.println("You must specify which player you are (WHITE or BLACK)");
+			System.exit(-1);
+		}
+		System.out.println("Selected client: " + role);
 
-		System.out.println("Selected client: " + args[0]);
-
-		client = new AimaClient(role, name, maxTime, startWithOpeningMoves);
+		try {
+			client = new AimaClient(role, name, maxTime, startWithOpeningMoves);
+		} catch (IOException e) {
+			System.err.println("Errore: non riesco a raggiungere il server");
+			System.exit(-1);
+		}
 		client.run();
 	}
 	
@@ -205,7 +237,8 @@ public class AimaClient extends TablutClient {
 		try {
 			this.declareName();
 		} catch (Exception e) {
-			e.printStackTrace();
+			System.err.println("Errore: connessione col server persa");
+			System.exit(-1);
 		}
 
 		// Inizializzazione partita
@@ -223,8 +256,8 @@ public class AimaClient extends TablutClient {
 				this.read();
 			} catch (ClassNotFoundException | IOException e1) {
 				// TODO Auto-generated catch block
-				e1.printStackTrace();
-				System.exit(1);
+				System.err.println("Errore: connessione col server persa");
+				System.exit(-1);
 			}
 			AimaGameAshtonTablut game = new AimaGameAshtonTablut(99, 0, "garbage", "fake", "fake", this.maxTimeInSeconds, this.getMaxDepthForTime(maxTimeInSeconds));
 			game.setCurrentTime(LocalTime.now());
@@ -317,10 +350,12 @@ public class AimaClient extends TablutClient {
 
 		} catch (ClassNotFoundException e) {
 			// TODO Auto-generated catch block
-			e.printStackTrace();
+			System.err.println("Errore: connessione col server persa");
+			System.exit(-1);
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
-			e.printStackTrace();
+			System.err.println("Errore: connessione col server persa");
+			System.exit(-1);
 		}
 	}
 }
