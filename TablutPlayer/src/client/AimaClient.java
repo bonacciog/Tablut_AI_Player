@@ -79,7 +79,9 @@ public class AimaClient extends TablutClient {
 	
 	public AimaClient(String player, String name, int maxTimeInSeconds) throws UnknownHostException, IOException {
 		this(player, name);
-		if(maxTimeInSeconds>=10)
+		/* tolgo un po di tempo per essere sicuro che riesca a valutare tutto l'albero
+		   (relativamente alla profondita) prima del timeout*/
+		if(maxTimeInSeconds>=15)
 			this.maxTimeInSeconds = maxTimeInSeconds-10;
 		else
 			this.maxTimeInSeconds = maxTimeInSeconds;
@@ -147,7 +149,9 @@ public class AimaClient extends TablutClient {
 		}
 	}
 	/**
-	 * Allows to go deep into the tree as a function of time
+	 * Allows to go deep into the tree as a function of time.
+	 * It was calculated after a series of tests, 
+	 * through the formula of straight line passing through two points (maximum and minimum time)
 	 * @param maxTime
 	 * @return ottimal depth
 	 */
